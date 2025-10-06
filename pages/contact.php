@@ -5,20 +5,20 @@
 
       <!-- Header -->
       <div class="text-center">
-        <h2 class="text-4xl md:text-5xl font-extrabold text-red-800 tracking-wide uppercase">
+        <h2 class="text-4xl md:text-5xl font-extrabold text-red-800 tracking-wide uppercase fade-in">
           Contact Us
         </h2>
-        <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto">
-          Let’s collaborate, discuss your project, or answer any of your inquiries.
-          We’re here to provide solutions tailored for your needs.
+        <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto slide-in-right animate-up animate-delay-1">
+          Let's collaborate, discuss your project, or answer any of your inquiries.
+          We're here to provide solutions tailored for your needs.
         </p>
       </div>
 
       <!-- Content -->
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 scale-in">
 
         <!-- Contact Info -->
-        <div class="bg-white p-10 rounded-2xl shadow-md border border-gray-200 text-center space-y-8">
+        <div class="bg-white p-10 rounded-2xl shadow-md border border-gray-200 text-center space-y-8 animate-up animate-delay-2">
 
           <!-- Heading -->
           <h3 class="text-2xl font-bold text-red-800 border-b border-gray-200 pb-4">
@@ -76,7 +76,7 @@
 
 
         <!-- Google Map -->
-        <div class="rounded-2xl overflow-hidden shadow-md border border-gray-200">
+        <div class="rounded-2xl overflow-hidden shadow-md border border-gray-200 animate-up animate-delay-3">
           <iframe class="w-full h-full min-h-[400px]"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.7366398461687!2d120.97524377510493!3d14.616287185872792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9d6bb4cbe73%3A0x56dd0a1e85cdb51f!2sBF%20Resort%20Village%2C%20Las%20Pi%C3%B1as%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1726721434567!5m2!1sen!2sph"
             style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">

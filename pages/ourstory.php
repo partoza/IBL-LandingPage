@@ -1,269 +1,643 @@
 <section id="ourstory" class="bg-white flex flex-col items-center justify-center">
   <!-- Our Story -->
-  <div class="bg-white px-6 md:px-20 rounded-lg pb-10 w-full">
-    <h1 class="text-3xl md:text-4xl font-bold text-center mb-8">This is Our Story</h1>
+  <div class="bg-whi w-full">
 
-    <div class="space-y-6 text-base md:text-lg leading-relaxed text-gray-800">
-      <p>
-        What began as <span class="italic">Creative Systems and Options</span> in 2000, founded by husband and wife
-        <span class="font-semibold">Joseph Dexter Ocampo</span> and
-        <span class="font-semibold">Ma. Socorro Ocampo</span>,
-        was born out of a shared vision: to bring world-class printing and marketing solutions to the Philippines.
-        They pioneered early services such as printing and collapsibles, personally sourcing top-of-the-line machines
-        from abroad to ensure their clients received nothing but the best.
-      </p>
+    <!-- Our History -->
+    <div class="w-full bg-white p-8 relative overflow-hidden">
+      <!-- Background with image and gradient overlay -->
+      <div class="absolute inset-0 z-0">
+        <!-- Background image with better contrast -->
+        <div class="absolute inset-0 bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center bg-no-repeat opacity-20"></div>
 
-      <p>
-        Through the years, the business grew steadily and embraced a bigger mission.
-        In March 2004, it was formally incorporated as
-        <span class="font-semibold">Ideas Beyond Limits Enterprises Inc.</span>
-      </p>
+        <!-- Stronger red gradient overlay (red dominant now) -->
+        <div class="absolute inset-0 bg-gradient-to-br from-red-900/80 via-white/60 to-red-900/80"></div>
 
-      <p>
-        The early years were experimental— full of learning, challenges, and victories— but what mattered most was that
-        the company kept moving forward.
-      </p>
+        <!-- Subtle pattern overlay with red highlights -->
+        <div
+          class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-white/30 to-red-800/80">
+        </div>
+      </div>
 
-      <p>
-        Then came the unexpected. Like many others, the company faced its toughest challenge during the pandemic.
-        Finances dwindled, operations slowed, and closure seemed inevitable. Yet the founders’ children,
-        <span class="font-semibold">Stephen Dwaine Ocampo</span> and
-        <span class="font-semibold">Stephanie Dawne Ocampo</span>— together with Board of Directors member
-        <span class="font-semibold">Jeffrey Manhilot</span>— believed deeply in the company’s greater purpose:
-        <span class="italic font-semibold">to be God’s channel of blessings that change people’s lives for the
-          better.</span>
-        With faith and resilience, they stepped up to lead the business and carry it forward.
-      </p>
 
-      <p>
-        Today, by God’s grace, Ideas Beyond Limits continues to thrive and expand— now fully operated by its second
-        generation while still supported by its founders. Staying true to its mission, the company provides innovative,
-        non-traditional, and outdoor advertising solutions— from custom exhibit booths for conventions and trade shows,
-        to creative promotional products, printing, fabrication, and a wide range of marketing support services.
-      </p>
+      <div class="relative z-10">
+        <h2 class="text-8xl md:text-7xl font-black text-center mb-16 ps-10 scroll-animate 
+ bg-gradient-to-r from-black via-red-600 to-red-500 bg-clip-text text-transparent leading-tight">
+          Our Journey
+        </h2>
 
-      <p>
-        <span class="font-semibold">Ideas Beyond Limits</span> remain committed to turning ideas into reality and being
-        every partner’s trusted, world-class marketing solutions provider.
-      </p>
+        <div
+          class="max-w-4xl relative flex flex-col items-center scroll-animate animate-delay-1 justify-content-center mx-auto">
+          <!-- Vertical timeline line -->
+          <div
+            class="absolute w-1.5 top-6 bottom-6 bg-gradient-to-b from-red-700 via-red-500 to-red-700 top-8 bottom-8 left-1/2 transform -translate-x-1/2 rounded-full shadow-lg">
+          </div>
+
+          <!-- Timeline Items -->
+          <!-- 2004 -->
+          <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-2">
+            <div class="w-5/12 text-right pr-8"></div>
+            <div class="w-2/12 flex justify-center relative">
+              <div
+                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
+                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+              </div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-red-500 top-1/2 left-1/2"></div>
+            </div>
+            <div class="w-5/12 text-left pl-8">
+              <div
+                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
+                <time class="font-black text-xl text-red-700 block mb-2">2004</time>
+                <p class="text-gray-700 italic">Incorporated as Ideas Beyond Limits Enterprises Inc.</p>
+                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
+                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                  The Beginning
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2006 -->
+          <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-3">
+            <div class="w-5/12 text-right pr-8">
+              <div
+                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
+                <time class="font-black text-xl text-red-700 block mb-2">2006</time>
+                <p class="text-gray-700">Completed fabrication for 10 SM Cinema branches</p>
+                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
+                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd"
+                      d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                  Major Client
+                </div>
+              </div>
+            </div>
+            <div class="w-2/12 flex justify-center relative">
+              <div
+                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
+                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+              </div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-l from-transparent to-red-500 top-1/2 right-1/2"></div>
+            </div>
+            <div class="w-5/12"></div>
+          </div>
+
+          <!-- 2016 -->
+          <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-4">
+            <div class="w-5/12 text-right pr-8"></div>
+            <div class="w-2/12 flex justify-center relative">
+              <div
+                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
+                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+              </div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-red-500 top-1/2 left-1/2"></div>
+            </div>
+            <div class="w-5/12 text-left pl-8">
+              <div
+                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
+                <time class="font-black text-xl text-red-700 block mb-2">2016</time>
+                <p class="text-gray-700">
+                  Secured first nationwide project: fabrication and installation of AXA booths in 1,000+ banks
+                </p>
+                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
+                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                    <path fill-rule="evenodd"
+                      d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                  National Expansion
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2018 -->
+          <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-1">
+            <div class="w-5/12 text-right pr-8">
+              <div
+                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
+                <time class="font-black text-xl text-red-700 block mb-2">2018</time>
+                <p class="text-gray-700">
+                  Handled 2 major automotive brands at PIMS 2018 – <span class="font-semibold text-red-700">Isuzu and
+                    Volkswagen</span>
+                </p>
+                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
+                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path
+                      d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z">
+                    </path>
+                    <path fill-rule="evenodd"
+                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                  Automotive Focus
+                </div>
+              </div>
+            </div>
+            <div class="w-2/12 flex justify-center relative">
+              <div
+                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
+                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+              </div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-l from-transparent to-red-500 top-1/2 right-1/2"></div>
+            </div>
+            <div class="w-5/12"></div>
+          </div>
+
+          <!-- 2019 -->
+          <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-2">
+            <div class="w-5/12 text-right pr-8"></div>
+            <div class="w-2/12 flex justify-center relative">
+              <div
+                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
+                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+              </div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-red-500 top-1/2 left-1/2"></div>
+            </div>
+            <div class="w-5/12 text-left pl-8">
+              <div
+                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
+                <time class="font-black text-xl text-red-700 block mb-2">2019</time>
+                <p class="text-gray-700">
+                  Managed KIA Philippines exhibit and launched KIA Stinger at MIAS 2019
+                </p>
+                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
+                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd"
+                      d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                  Product Launch
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2020 -->
+          <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-3">
+            <div class="w-5/12 text-right pr-8">
+              <div
+                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
+                <time class="font-black text-xl text-red-700 block mb-2">2020</time>
+                <p class="text-gray-700">
+                  Overcame the challenges of the pandemic, adapting and thriving while continuing to grow.
+                </p>
+                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
+                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd"
+                      d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                  Resilience
+                </div>
+              </div>
+            </div>
+            <div class="w-2/12 flex justify-center relative">
+              <div
+                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
+                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+              </div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-l from-transparent to-red-500 top-1/2 right-1/2"></div>
+            </div>
+            <div class="w-5/12"></div>
+          </div>
+
+          <!-- 2025 -->
+          <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-4">
+            <div class="w-5/12 text-right pr-8"></div>
+            <div class="w-2/12 flex justify-center relative">
+              <div
+                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
+                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+              </div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-red-500 top-1/2 left-1/2"></div>
+            </div>
+            <div class="w-5/12 text-left pl-8">
+              <div
+                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
+                <time class="font-black text-xl text-red-700 block mb-2">2025</time>
+                <p class="text-gray-700">
+                  Expanded services to include digital solutions alongside fabrication, printing, and events.
+                </p>
+                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
+                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd"
+                      d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                  Digital Expansion
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <!-- Our History -->
-  <div class="max-w-4xl w-full bg-white p-8">
-    <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">Our History</h2>
+    <!-- Purpose-->
+    <div class="w-full min-h-[60vh] bg-gray-900 text-white px-4 py-12 md:py-20 relative overflow-hidden">
+      <div class="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
-    <div class="relative flex flex-col items-center">
-      <!-- Vertical red line -->
-      <!-- Vertical red line -->
-      <div class="absolute w-1 bg-red-700 top-8 bottom-8 left-1/2 transform -translate-x-1/2"></div>
+        <div class="space-y-6 order-2 lg:order-1">
+          <div
+            class="group relative rounded-2xl overflow-hidden bg-gray-800/30 backdrop-blur-md border border-white/10 shadow-2xl hover:shadow-2xl transition-all duration-700 hover:scale-[1.02]">
+            <img src="./assets/bg/bg1.jpg" alt="Community coming together in faith and support"
+              class="w-full h-[300px] md:h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
+              width="600" height="400" loading="lazy" />
 
-      <!-- Timeline Item -->
-      <!-- 2004 -->
-      <div class="mb-12 flex justify-between items-center w-full relative">
-        <div class="w-5/12 text-right"></div>
-        <div class="w-2/12 flex justify-center relative">
-          <div class="w-5 h-5 bg-red-700 rounded-full z-10"></div>
-          <div class="absolute w-1/2 h-1 bg-red-700 top-1/2 left-1/2"></div>
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent opacity-60 group-hover:opacity-30 transition-opacity duration-500">
+            </div>
+
+            <div
+              class="absolute inset-0 grain-texture opacity-0 group-hover:opacity-10 transition-opacity duration-500">
+            </div>
+          </div>
         </div>
-        <div class="w-5/12 text-left">
-          <time class="font-bold block">2004</time>
-          <p class="text-gray-700 italic">Incorporated as Ideas Beyond Limits Enterprises Inc.</p>
+
+        <div class="space-y-6 lg:space-y-8 order-1 lg:order-2">
+          <h2
+            class="text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-tight scroll-animate opacity-0 translate-y-8 transition duration-700 ease-out">
+            PURPOSE
+          </h2>
+           <div class="h-1 w-24 bg-blue-300 mt-4 rounded-full scroll-animate animate-delay-1"></div>
+
+          <div class="space-y-4">
+            <p
+              class="text-2xl leading-relaxed font-medium scroll-animate animate-delay-1 opacity-0 translate-y-8 transition duration-700 ease-out">
+              We want to be <span class="text-red-400 font-semibold">God's channel</span> of blessings that change
+              people's lives for the better.
+            </p>
+
+            <div class="pt-4 scroll-animate animate-delay-2 opacity-0 translate-y-8 transition duration-700 ease-out">
+              <button
+                class="group relative px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-1">
+                <span class="relative z-10">Join Our Mission</span>
+
+                <div
+                  class="absolute inset-0 bg-gradient-to-r from-red-600 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                </div>
+
+                <div class="absolute inset-0 ripple-effect opacity-0 group-hover:opacity-100"></div>
+              </button>
+            </div>
+          </div>
         </div>
       </div>
 
-      <!-- 2006 -->
-      <div class="mb-12 flex justify-between items-center w-full relative">
-        <div class="w-5/12 text-right">
-          <time class="font-bold block">2006</time>
-          <p class="text-gray-700">Completed fabrication for 10 SM Cinema branches</p>
-        </div>
-        <div class="w-2/12 flex justify-center relative">
-          <div class="w-5 h-5 bg-red-700 rounded-full z-10"></div>
-          <div class="absolute w-1/2 h-1 bg-red-700 top-1/2 right-1/2"></div>
-        </div>
-        <div class="w-5/12"></div>
-      </div>
+      <!-- Background Elements -->
+      <div class="absolute inset-0 bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center opacity-20"></div>
+      <div class="absolute inset-0 bg-red-600/70"></div>
+    </div>
 
-      <!-- 2016 -->
-      <div class="mb-12 flex justify-between items-center w-full relative">
-        <div class="w-5/12"></div>
-        <div class="w-2/12 flex justify-center relative">
-          <div class="w-5 h-5 bg-red-700 rounded-full z-10"></div>
-          <div class="absolute w-1/2 h-1 bg-red-700 top-1/2 left-1/2"></div>
+    <!-- Mission -->
+    <div
+      class="w-full min-h-screen flex items-center justify-center px-4 py-12 md:py-20 relative overflow-hidden gradient-bg">
+      <!-- Floating decorative elements -->
+      <div class="absolute top-1/4 left-1/4 w-20 h-20 rounded-full bg-blue-400/30 blur-xl floating"></div>
+      <div class="absolute bottom-1/4 right-1/4 w-16 h-16 rounded-full bg-white/20 blur-lg floating"
+        style="animation-delay: 1.5s;"></div>
+      <div class="absolute top-1/2 right-1/3 w-12 h-12 rounded-full bg-blue-300/40 blur-md floating"
+        style="animation-delay: 2s;"></div>
+
+      <!-- Main content container -->
+      <div class="relative z-10 max-w-6xl mx-auto w-full">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <!-- Text content section -->
+          <div class="space-y-8 order-1">
+            <!-- Section title with animated underline -->
+            <div class="relative">
+              <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tight text-white scroll-animate">
+                M<span class="text-blue-300">I</span>SSION
+              </h2>
+              <div class="h-1 w-24 bg-blue-300 mt-4 rounded-full scroll-animate animate-delay-1"></div>
+            </div>
+
+            <!-- Main description -->
+            <div class="space-y-6">
+              <p class="text-xl md:text-2xl leading-relaxed font-medium text-white scroll-animate animate-delay-2">
+                We strive to provide <span class="text-blue-300 font-semibold relative">
+                  world-class marketing solutions
+                  <span
+                    class="absolute bottom-0 left-0 w-full h-1 bg-blue-300/40 transform scale-x-0 transition-transform duration-500 origin-left"></span>
+                </span> that enrich the lives of every partner we serve.
+              </p>
+
+              <!-- Additional info cards -->
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+                <div
+                  class="bg-white/10 backdrop-blur-sm p-4 rounded-xl timeline-card hover-lift border border-white/20">
+                  <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
+                      <i class="fas fa-chart-line text-white"></i>
+                    </div>
+                    <div>
+                      <h3 class="font-bold text-white">Growth Focused</h3>
+                      <p class="text-sm text-blue-100">Driving measurable results</p>
+                    </div>
+                  </div>
+                </div>
+
+                <div
+                  class="bg-white/10 backdrop-blur-sm p-4 rounded-xl timeline-card hover-lift border border-white/20">
+                  <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
+                      <i class="fas fa-handshake text-white"></i>
+                    </div>
+                    <div>
+                      <h3 class="font-bold text-white">Partnership Driven</h3>
+                      <p class="text-sm text-blue-100">Collaborative approach</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interactive CTA button -->
+              <div class="pt-6 scroll-animate animate-delay-4">
+                <button
+                  class="group relative px-8 py-4 bg-white text-blue-600 font-bold rounded-xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-1">
+                  <span class="relative z-10 flex items-center space-x-2">
+                    <span>Explore Our Solutions</span>
+                    <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
+                  </span>
+
+                  <!-- Animated background effect -->
+                  <div
+                    class="absolute inset-0 bg-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                  </div>
+
+                  <!-- Button shine effect -->
+                  <div
+                    class="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine">
+                  </div>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Image section -->
+          <div class="space-y-6 order-2">
+            <div class="relative group">
+              <!-- Main image with glass effect frame -->
+              <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover-lift border border-white/20">
+                <img
+                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
+                  alt="Marketing team collaboration" class="w-full h-auto rounded-xl shadow-2xl object-cover">
+              </div>
+
+              <!-- Decorative elements -->
+              <div
+                class="absolute -top-4 -right-4 w-24 h-24 bg-blue-400 rounded-full opacity-70 blur-md group-hover:scale-110 transition-transform duration-500">
+              </div>
+              <div
+                class="absolute -bottom-4 -left-4 w-20 h-20 bg-white/30 rounded-full opacity-50 blur-md group-hover:scale-110 transition-transform duration-500">
+              </div>
+
+              <!-- Floating badge -->
+              <div
+                class="absolute -bottom-6 right-10 bg-white text-blue-600 px-6 py-3 rounded-full shadow-lg timeline-card">
+                <div class="flex items-center space-x-2">
+                  <i class="fas fa-bullseye text-blue-600"></i>
+                  <span class="font-bold">Our Vision</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Stats section -->
+            <div class="grid grid-cols-3 gap-4 mt-8">
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl text-center border border-white/20">
+                <div class="text-2xl font-bold text-white">150+</div>
+                <div class="text-sm text-blue-100">Partners</div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl text-center border border-white/20">
+                <div class="text-2xl font-bold text-white">98%</div>
+                <div class="text-sm text-blue-100">Satisfaction</div>
+              </div>
+              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl text-center border border-white/20">
+                <div class="text-2xl font-bold text-white">15+</div>
+                <div class="text-sm text-blue-100">Years</div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="w-5/12 text-left">
-          <time class="font-bold block">2016</time>
-          <p class="text-gray-700">
-            Secured first nationwide project: fabrication and installation of AXA booths in 1,000+ banks
+      </div>
+</div>
+
+    <div class="w-full bg-red-800 text-white py-12 px-6">
+      <!-- Title -->
+      <h2 class="text-3xl md:text-4xl font-bold mb-8 uppercase text-center scroll-animate">VISION</h2>
+
+      <!-- Vision Items -->
+      <div
+        class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-10 md:gap-16 text-center scroll-animate animate-delay-1">
+
+        <!-- Employees -->
+        <div class="scroll-animate animate-delay-2">
+          <h3 class="text-xl font-bold mb-2">Employees</h3>
+          <p class="text-base md:text-lg leading-relaxed">
+            To uplift the lives of our employees—mind, body, heart, and soul.
           </p>
         </div>
-      </div>
 
-      <!-- 2018 -->
-      <div class="mb-12 flex justify-between items-center w-full relative">
-        <div class="w-5/12 text-right">
-          <time class="font-bold block">2018</time>
-          <p class="text-gray-700">
-            Handled 2 major automotive brands at PIMS 2018 – <span class="italic">Isuzu and Volkswagen</span>
+        <!-- Customers -->
+        <div class="scroll-animate animate-delay-3">
+          <h3 class="text-xl font-bold mb-2">Customers</h3>
+          <p class="text-base md:text-lg leading-relaxed">
+            To turn every marketing idea into a reality that helps grow our customers' businesses.
           </p>
         </div>
-        <div class="w-2/12 flex justify-center relative">
-          <div class="w-5 h-5 bg-red-700 rounded-full z-10"></div>
-          <div class="absolute w-1/2 h-1 bg-red-700 top-1/2 right-1/2"></div>
-        </div>
-        <div class="w-5/12"></div>
-      </div>
 
-      <!-- 2019 -->
-      <div class="mb-12 flex justify-between items-center w-full relative">
-        <div class="w-5/12"></div>
-        <div class="w-2/12 flex justify-center relative">
-          <div class="w-5 h-5 bg-red-700 rounded-full z-10"></div>
-          <div class="absolute w-1/2 h-1 bg-red-700 top-1/2 left-1/2"></div>
-        </div>
-        <div class="w-5/12 text-left">
-          <time class="font-bold block">2019</time>
-          <p class="text-gray-700">
-            Managed KIA Philippines exhibit and launched KIA Stinger at MIAS 2019
+        <!-- Suppliers -->
+        <div class="scroll-animate animate-delay-4">
+          <h3 class="text-xl font-bold mb-2">Suppliers</h3>
+          <p class="text-base md:text-lg leading-relaxed">
+            To be the preferred partner for every supplier we work with.
           </p>
         </div>
-      </div>
 
-      <!-- 2020 -->
-      <div class="mb-12 flex justify-between items-center w-full relative">
-        <div class="w-5/12 text-right">
-          <time class="font-bold block">2020</time>
-          <p class="text-gray-700">
-            Overcame the challenges of the pandemic, adapting and thriving while continuing to grow.
+        <!-- Community -->
+        <div class="scroll-animate animate-delay-1">
+          <h3 class="text-xl font-bold mb-2">Community</h3>
+          <p class="text-base md:text-lg leading-relaxed">
+            To promote sustainable livelihoods and implement environmentally friendly practices within the communities
+            we
+            serve.
           </p>
         </div>
-        <div class="w-2/12 flex justify-center relative">
-          <div class="w-5 h-5 bg-red-700 rounded-full z-10"></div>
-          <div class="absolute w-1/2 h-1 bg-red-700 top-1/2 right-1/2"></div>
-        </div>
-        <div class="w-5/12"></div>
-      </div>
 
-      <!-- 2025 -->
-      <div class="mb-4 flex justify-between items-center w-full relative">
-        <div class="w-5/12"></div>
-        <div class="w-2/12 flex justify-center relative">
-          <div class="w-5 h-5 bg-red-700 rounded-full z-10"></div>
-          <div class="absolute w-1/2 h-1 bg-red-700 top-1/2 left-1/2"></div>
-        </div>
-        <div class="w-5/12 text-left">
-          <time class="font-bold block">2025</time>
-          <p class="text-gray-700">
-            Expanded services to include digital solutions alongside fabrication, printing, and events.
-          </p>
-        </div>
       </div>
     </div>
-  </div>
+
+    <div class="w-full bg-white py-12 px-6 text-center">
+      <!-- Title -->
+      <h2 class="text-3xl md:text-4xl font-bold mb-10 uppercase scroll-animate">Core Values</h2>
+
+      <!-- Values Grid -->
+      <div class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8 scale-in">
+
+        <!-- God God-Centered -->
+        <div class="flex flex-col items-center animate-up animate-delay-1">
+          <img src="./assets/coreValues/godcenter.png" alt="God-Centered" class="w-24 h-24 mb-4 rounded-full">
+          <p class="font-semibold text-lg">God-Centered</p>
+        </div>
+
+        <!-- Excellent Service -->
+        <div class="flex flex-col items-center animate-up animate-delay-2">
+          <img src="./assets/coreValues/excellentservice.png" alt="Excellent Service"
+            class="w-24 h-24 mb-4 rounded-full">
+          <p class="font-semibold text-lg">Excellent Service</p>
+        </div>
+
+        <!-- Teamwork -->
+        <div class="flex flex-col items-center animate-up animate-delay-3">
+          <img src="./assets/coreValues/teamwork.png" alt="Teamwork" class="w-24 h-24 mb-4 rounded-full">
+          <p class="font-semibold text-lg">Teamwork</p>
+        </div>
+
+        <!-- Creativity -->
+        <div class="flex flex-col items-center animate-up animate-delay-1">
+          <img src="./assets/coreValues/creativity.png" alt="Creativity" class="w-24 h-24 mb-4 rounded-full">
+          <p class="font-semibold text-lg">Creativity</p>
+        </div>
+
+        <!-- Joy -->
+        <div class="flex flex-col items-center animate-up animate-delay-2">
+          <img src="./assets/coreValues/joy.png" alt="Joy" class="w-24 h-24 mb-4 rounded-full">
+          <p class="font-semibold text-lg">Joy</p>
+        </div>
 
 
-  <!-- Purpose -->
-  <div
-    class="w-full bg-red-800 text-white flex flex-col justify-center items-center text-center px-4 sm:px-8 md:px-16 lg:px-24 py-12 md:py-20">
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 uppercase">PURPOSE</h2>
-    <p class="max-w-3xl text-lg md:text-xl leading-relaxed">
-      We want to be God’s channel of blessings that change <br>
-      people’s lives for the better
-    </p>
-  </div>
-
-  <!-- Mission -->
-  <div
-    class="w-full bg-white text-gray-900 flex flex-col justify-center items-center text-center px-4 sm:px-8 md:px-16 lg:px-24 py-12 md:py-20">
-    <h2 class="text-2xl md:text-3xl font-bold mb-4 uppercase">MISSION</h2>
-    <p class="max-w-3xl text-lg md:text-xl leading-relaxed">
-      We strive to provide world-class marketing solutions that <br>
-      enrich the lives of every partner we serve
-    </p>
-  </div>
-
-  <div class="w-full bg-red-800 text-white py-12 px-6">
-    <!-- Title -->
-    <h2 class="text-3xl md:text-4xl font-bold mb-8 uppercase text-center">VISION</h2>
-
-    <!-- Vision Items -->
-    <div class="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 gap-10 md:gap-16 text-center">
-
-      <!-- Employees -->
-      <div>
-        <h3 class="text-xl font-bold mb-2">Employees</h3>
-        <p class="text-base md:text-lg leading-relaxed">
-          To uplift the lives of our employees—mind, body, heart, and soul.
-        </p>
       </div>
-
-      <!-- Customers -->
-      <div>
-        <h3 class="text-xl font-bold mb-2">Customers</h3>
-        <p class="text-base md:text-lg leading-relaxed">
-          To turn every marketing idea into a reality that helps grow our customers’ businesses.
-        </p>
-      </div>
-
-      <!-- Suppliers -->
-      <div>
-        <h3 class="text-xl font-bold mb-2">Suppliers</h3>
-        <p class="text-base md:text-lg leading-relaxed">
-          To be the preferred partner for every supplier we work with.
-        </p>
-      </div>
-
-      <!-- Community -->
-      <div>
-        <h3 class="text-xl font-bold mb-2">Community</h3>
-        <p class="text-base md:text-lg leading-relaxed">
-          To promote sustainable livelihoods and implement environmentally friendly practices within the communities we
-          serve.
-        </p>
-      </div>
-
     </div>
-  </div>
 
-  <div class="w-full bg-white py-12 px-6 text-center">
-    <!-- Title -->
-    <h2 class="text-3xl md:text-4xl font-bold mb-10 uppercase">Core Values</h2>
+    <style>
+      .bg-\[url\(\'https\:\/\/images\.unsplash\.com\/photo-1497366754035-f200968a6e72\?ixlib\=rb-4\.0\.3\&auto\=format\&fit\=crop\&w\=2069\&q\=80\'\)\] {
+        background-image: url('https://images.unsplash.com/photo-1497366754035-f200968a6e72?ixlib=rb-4.0.3&auto=format&fit=crop&w=2069&q=80');
+      }
 
-    <!-- Values Grid -->
-    <div class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
+      .scroll-animate {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: all 0.8s ease-out;
+      }
 
-      <!-- God God-Centered -->
-      <div class="flex flex-col items-center">
-        <img src="./assets/coreValues/godcenter.png" alt="God-Centered" class="w-24 h-24 mb-4 rounded-full">
-        <p class="font-semibold text-lg">God-Centered</p>
-      </div>
+      .scroll-animate.animate {
+        opacity: 1;
+        transform: translateY(0);
+      }
 
-      <!-- Excellent Service -->
-      <div class="flex flex-col items-center">
-        <img src="./assets/coreValues/excellentservice.png" alt="Excellent Service" class="w-24 h-24 mb-4 rounded-full">
-        <p class="font-semibold text-lg">Excellent Service</p>
-      </div>
+      .animate-delay-1 {
+        transition-delay: 0.2s;
+      }
 
-      <!-- Teamwork -->
-      <div class="flex flex-col items-center">
-        <img src="./assets/coreValues/teamwork.png" alt="Teamwork" class="w-24 h-24 mb-4 rounded-full">
-        <p class="font-semibold text-lg">Teamwork</p>
-      </div>
+      .animate-delay-2 {
+        transition-delay: 0.4s;
+      }
 
-      <!-- Creativity -->
-      <div class="flex flex-col items-center">
-        <img src="./assets/coreValues/creativity.png" alt="Creativity" class="w-24 h-24 mb-4 rounded-full">
-        <p class="font-semibold text-lg">Creativity</p>
-      </div>
+      .animate-delay-3 {
+        transition-delay: 0.6s;
+      }
 
-      <!-- Joy -->
-      <div class="flex flex-col items-center">
-        <img src="./assets/coreValues/joy.png" alt="Joy" class="w-24 h-24 mb-4 rounded-full">
-        <p class="font-semibold text-lg">Joy</p>
-      </div>
+      .animate-delay-4 {
+        transition-delay: 0.8s;
+      }
 
+      .timeline-card {
+        position: relative;
+        overflow: hidden;
+      }
 
-    </div>
-  </div>
+      .timeline-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 4px;
+        height: 100%;
+        background: linear-gradient(to bottom, #dc2626, #ef4444);
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: transform 0.5s ease;
+      }
+
+      .timeline-card:hover::before {
+        transform: scaleY(1);
+      }
+
+      @keyframes pulse {
+        0% {
+          transform: scale(1);
+        }
+
+        50% {
+          transform: scale(1.05);
+        }
+
+        100% {
+          transform: scale(1);
+        }
+      }
+
+      .timeline-card:hover {
+        animation: pulse 1s ease-in-out;
+      }
+
+      /* Additional styles for the purpose section */
+      .glass-effect {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+      }
+
+      .text-shadow {
+        text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      .hover-lift {
+        transition: transform 0.3s ease;
+      }
+
+      .hover-lift:hover {
+        transform: translateY(-5px);
+      }
+
+      .floating {
+        animation: floating 3s ease-in-out infinite;
+      }
+
+      @keyframes floating {
+        0% {
+          transform: translate(0, 0px);
+        }
+
+        50% {
+          transform: translate(0, -10px);
+        }
+
+        100% {
+          transform: translate(0, 0px);
+        }
+      }
+    </style>
+    <script>
+      document.addEventListener('DOMContentLoaded', function () {
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('animate');
+            }
+          });
+        }, { threshold: 0.1 });
+
+        document.querySelectorAll('.scroll-animate').forEach((el) => {
+          observer.observe(el);
+        });
+      });
+    </script>
 </section>

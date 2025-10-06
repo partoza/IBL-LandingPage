@@ -2,14 +2,13 @@
   <div class="w-full bg-white py-20 px-6">
     <div class="max-w-6xl mx-auto p-8">
       <!-- Title -->
-      <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center uppercase">Our Services</h2>
+      <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center uppercase fade-in">Our Services</h2>
 
       <!-- Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 scale-in">
 
         <!-- Fabrication -->
-        <div
-          class="group relative flex items-center justify-center bg-red-800 text-white font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden">
+        <div class="group relative flex items-center justify-center bg-red-800 text-white font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden card-hover btn-hover animate-up animate-delay-1">
           <span class="group-hover:hidden">FABRICATION</span>
           <div
             class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -24,8 +23,7 @@
         </div>
 
         <!-- Event Management -->
-        <div
-          class="group relative flex items-center justify-center bg-gray-100 text-black font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden">
+        <div class="group relative flex items-center justify-center bg-gray-100 text-black font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden card-hover btn-hover animate-up animate-delay-2">
           <span class="group-hover:hidden">EVENT MANAGEMENT</span>
           <div
             class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -40,8 +38,7 @@
         </div>
 
         <!-- Social Media Management -->
-        <div
-          class="group relative flex items-center justify-center bg-gray-100 text-black font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden">
+        <div class="group relative flex items-center justify-center bg-gray-100 text-black font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden card-hover btn-hover animate-up animate-delay-3">
           <span class="group-hover:hidden">SOCIAL MEDIA MANAGEMENT</span>
           <div
             class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -56,8 +53,7 @@
         </div>
 
         <!-- Printing -->
-        <div
-          class="group relative flex items-center justify-center bg-red-800 text-white font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden">
+        <div class="group relative flex items-center justify-center bg-red-800 text-white font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden card-hover btn-hover animate-up animate-delay-1">
           <span class="group-hover:hidden">PRINTING</span>
           <div
             class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
@@ -78,17 +74,17 @@
   <!-- FABRICATION SECTION -->
   <div id="fabrication" class="w-full bg-red-800 text-white pt-16 px-6">
     <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4 pt-10">FABRICATION</h2>
-      <p class="mb-2">
+      <h2 class="text-3xl font-bold mb-4 pt-10 fade-in">FABRICATION</h2>
+      <p class="mb-2 animate-up animate-delay-1">
         With over 20 years of collective experience in the industry, our skilled team specializes in designing
-        and building custom booths and structures tailored to your brand’s vision.
+        and building custom booths and structures tailored to your brand's vision.
       </p>
-      <p class="mb-12">
+      <p class="mb-12 animate-up animate-delay-2">
         We use only high-quality materials to ensure every build is both visually striking and built to last.
       </p>
 
       <!-- Grid of Works -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 scale-in">
         <?php
         // Define fabrication works array (JPG format)
         $fabricationWorks = [
@@ -128,18 +124,18 @@
   <!-- EVENT MANAGEMENT SECTION -->
   <div id="event-management" class="w-full bg-red-800 text-white py-16 px-6">
     <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4 pt-10">EVENT MANAGEMENT</h2>
-      <p class="mb-2">
+      <h2 class="text-3xl font-bold mb-4 pt-10 fade-in">EVENT MANAGEMENT</h2>
+      <p class="mb-2 animate-up animate-delay-1">
         From ideation to execution and everything in between, we take care of every detail to ensure your event is
         seamless and unforgettable.
       </p>
-      <p class="mb-12">
-        Whether it’s planning, organizing, or post-event wrap-up, we are your trusted partner in bringing extraordinary
+      <p class="mb-12 animate-up animate-delay-2">
+        Whether it's planning, organizing, or post-event wrap-up, we are your trusted partner in bringing extraordinary
         experiences to life.
       </p>
 
       <!-- Grid of Works -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 scale-in">
         <?php
         // Define event works array (JPG format)
         $eventWorks = [
@@ -219,12 +215,12 @@
   <!-- SOCIAL MEDIA STRATEGY & MANAGEMENT -->
   <div id="socmedmanagement" class="w-full bg-white text-black pt-16 pb-5 px-6">
     <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-3xl font-bold mb-4 pt-10">SOCIAL MEDIA STRATEGY & MANAGEMENT</h2>
-      <p class="mb-4">
+      <h2 class="text-3xl font-bold mb-4 pt-10 fade-in">SOCIAL MEDIA STRATEGY & MANAGEMENT</h2>
+      <p class="mb-4 animate-up animate-delay-1">
         We strategize, create, and implement content that grows your audience and builds lasting engagement
         across all your social media platforms.
       </p>
-      <p>
+      <p class="animate-up animate-delay-2">
         Guided by research, driven by strategy, and refined through analytics, we ensure your campaigns reach the
         right market and deliver measurable results.
       </p>
@@ -233,12 +229,12 @@
   
   <div class="bg-white w-full">
     <!-- Row 1 -->
-    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-8 items-center p-6">
-      <div>
+    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-8 items-center p-6 scale-in">
+      <div class="animate-up animate-delay-1">
         <img src="./assets/socmed/socmedImg1.jpg" alt="Social Media Scan & Strategy"
           class="rounded-lg shadow-md w-full h-64 object-cover">
       </div>
-      <div>
+      <div class="animate-up animate-delay-2">
         <h3 class="font-bold text-xl mb-3">SOCIAL MEDIA SCAN & STRATEGY</h3>
         <p class="leading-relaxed text-sm">
           We analyze your social media platforms to assess their current performance and uncover growth
@@ -249,29 +245,29 @@
     </div>
 
     <!-- Row 2 -->
-    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 items-center p-6">
-      <div class="order-2 md:order-1">
+    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 items-center p-6 scale-in">
+      <div class="order-2 md:order-1 animate-up animate-delay-1">
         <h3 class="font-bold text-xl mb-3">LAYOUT & DESIGN</h3>
         <p class="leading-relaxed text-sm">
           Our creative team, composed of dynamic and innovative designers and copywriters, brings your brand to
           life through striking visuals and compelling content. Whether following your creative direction or taking
-          the lead ourselves, we’ll develop key visuals and copy for each asset—always ensuring everything is
+          the lead ourselves, we'll develop key visuals and copy for each asset—always ensuring everything is
           polished and approved before launch.
         </p>
       </div>
-      <div class="order-1 md:order-2">
+      <div class="order-1 md:order-2 animate-up animate-delay-2">
         <img src="./assets/socmed/socmedImg2.jpg" alt="Layout & Design"
           class="rounded-lg shadow-md w-full h-64 object-cover">
       </div>
     </div>
 
     <!-- Row 3 -->
-    <div class="max-w-6xl mx-auto bg-white text-black-md grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 items-center p-6">
-      <div>
+    <div class="max-w-6xl mx-auto bg-white text-black-md grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 items-center p-6 scale-in">
+      <div class="animate-up animate-delay-1">
         <img src="./assets/socmed/socmedImg3.jpg" alt="Social Media Management"
           class="rounded-lg shadow-md w-full h-64 object-cover">
       </div>
-      <div>
+      <div class="animate-up animate-delay-2">
         <h3 class="font-bold text-xl mb-3">SOCIAL MEDIA MANAGEMENT</h3>
         <p class="leading-relaxed text-sm">
           Once your strategy and assets are in place, we take care of everything—from crafting engaging captions
@@ -286,10 +282,10 @@
   <!-- CLIENT SECTION -->
   <div class="w-full bg-white text-black py-16 px-6">
     <div class="max-w-6xl mx-auto text-center">
-      <h2 class="text-3xl font-bold pb-6">OUR CLIENTS</h2>
+      <h2 class="text-3xl font-bold pb-6 fade-in">OUR CLIENTS</h2>
 
       <!-- Responsive Grid of Works -->
-      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-8 gap-6">
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-8 gap-6 scale-in">
         <?php
         // Define event works array (41 images, JPG format)
         $eventWorks = [];
@@ -313,8 +309,8 @@
   <!-- MEET OUR TEAM -->
   <div class="w-full bg-red-800 text-white py-6 px-6">
     <div class="text-center">
-      <h2 class="text-3xl font-bold pb-6">MEET THE TEAM</h2>
-      <p class="pb-6 text-center">
+      <h2 class="text-3xl font-bold pb-6 fade-in">MEET THE TEAM</h2>
+      <p class="pb-6 text-center animate-up animate-delay-1">
         Their dedication transforms your ideas into reality. <br> At the heart of Ideas Beyond Limits is a team
         that brings our purpose, mission, and vision to life.
       </p>
