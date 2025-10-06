@@ -6,54 +6,57 @@
     <div class="w-full bg-white p-8 relative overflow-hidden">
       <!-- Background with image and gradient overlay -->
       <div class="absolute inset-0 z-0">
-        <!-- Background image with better contrast -->
-        <div class="absolute inset-0 bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center bg-no-repeat opacity-20"></div>
-
-        <!-- Stronger red gradient overlay (red dominant now) -->
-        <div class="absolute inset-0 bg-gradient-to-br from-red-900/80 via-white/60 to-red-900/80"></div>
-
-        <!-- Subtle pattern overlay with red highlights -->
-        <div
-          class="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-transparent via-white/30 to-red-800/80">
+        <div class="absolute inset-0 bg-gradient-to-br from-red-800 via-red-900 to-red-950"></div>
+        <!-- Subtle texture -->
+        <div class="absolute inset-0 opacity-10 mix-blend-overlay bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center">
         </div>
       </div>
 
 
       <div class="relative z-10">
         <h2 class="text-8xl md:text-7xl font-black text-center mb-16 ps-10 scroll-animate 
- bg-gradient-to-r from-black via-red-600 to-red-500 bg-clip-text text-transparent leading-tight">
+ bg-gradient-to-r from-white via-red-200 to-red-400 bg-clip-text text-transparent leading-tight">
           Our Journey
         </h2>
+
 
         <div
           class="max-w-4xl relative flex flex-col items-center scroll-animate animate-delay-1 justify-content-center mx-auto">
           <!-- Vertical timeline line -->
-          <div
-            class="absolute w-1.5 top-6 bottom-6 bg-gradient-to-b from-red-700 via-red-500 to-red-700 top-8 bottom-8 left-1/2 transform -translate-x-1/2 rounded-full shadow-lg">
+
+
+          <div class="absolute w-1.5 top-6 bottom-6 bg-gradient-to-b from-white via-red-100 to-red-300
+  left-1/2 transform -translate-x-1/2 rounded-full shadow-lg">
           </div>
 
           <!-- Timeline Items -->
           <!-- 2004 -->
           <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-2">
             <div class="w-5/12 text-right pr-8"></div>
+
+            <!-- Circle + Line -->
             <div class="w-2/12 flex justify-center relative">
               <div
-                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
-                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+                class="w-8 h-8 bg-red-700 border-4 border-white rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-600">
+                <div class="w-3 h-3 bg-white rounded-full"></div>
               </div>
-              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-red-500 top-1/2 left-1/2"></div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-white top-1/2 left-1/2"></div>
             </div>
+
+            <!-- Card -->
             <div class="w-5/12 text-left pl-8">
               <div
-                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
-                <time class="font-black text-xl text-red-700 block mb-2">2004</time>
-                <p class="text-gray-700 italic">Incorporated as Ideas Beyond Limits Enterprises Inc.</p>
-                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
-                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
-                      clip-rule="evenodd"></path>
-                  </svg>
+                class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+                <time class="font-black text-xl text-white block mb-2">2004</time>
+                <p class="text-gray-200 italic">Incorporated as Ideas Beyond Limits Enterprises Inc.</p>
+                <div class="mt-3 flex items-center text-sm text-gray-300 font-medium">
+                  <div class="w-8 h-8 flex items-center justify-center bg-red-600 rounded-full mr-2">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
                   The Beginning
                 </div>
               </div>
@@ -64,26 +67,30 @@
           <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-3">
             <div class="w-5/12 text-right pr-8">
               <div
-                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
-                <time class="font-black text-xl text-red-700 block mb-2">2006</time>
-                <p class="text-gray-700">Completed fabrication for 10 SM Cinema branches</p>
-                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
-                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd"
-                      d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
-                      clip-rule="evenodd"></path>
-                  </svg>
+                class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+                <time class="font-black text-xl text-white block mb-2">2006</time>
+                <p class="text-gray-200">Completed fabrication for 10 SM Cinema branches</p>
+                <div class="mt-3 flex items-center text-sm text-gray-300 font-medium">
+                  <div class="w-8 h-8 flex items-center justify-center bg-red-600 rounded-full mr-2">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M12.586 4.586a2 2 0 112.828 2.828l-3 3a2 2 0 01-2.828 0 1 1 0 00-1.414 1.414 4 4 0 005.656 0l3-3a4 4 0 00-5.656-5.656l-1.5 1.5a1 1 0 101.414 1.414l1.5-1.5zm-5 5a2 2 0 012.828 0 1 1 0 101.414-1.414 4 4 0 00-5.656 0l-3 3a4 4 0 105.656 5.656l1.5-1.5a1 1 0 10-1.414-1.414l-1.5 1.5a2 2 0 11-2.828-2.828l3-3z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
                   Major Client
                 </div>
               </div>
             </div>
+
             <div class="w-2/12 flex justify-center relative">
               <div
-                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
-                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+                class="w-8 h-8 bg-red-700 border-4 border-white rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-600">
+                <div class="w-3 h-3 bg-white rounded-full"></div>
               </div>
-              <div class="absolute w-1/2 h-1 bg-gradient-to-l from-transparent to-red-500 top-1/2 right-1/2"></div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-l from-transparent to-white top-1/2 right-1/2"></div>
             </div>
+
             <div class="w-5/12"></div>
           </div>
 
@@ -92,25 +99,26 @@
             <div class="w-5/12 text-right pr-8"></div>
             <div class="w-2/12 flex justify-center relative">
               <div
-                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
-                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+                class="w-8 h-8 bg-red-700 border-4 border-white rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-600">
+                <div class="w-3 h-3 bg-white rounded-full"></div>
               </div>
-              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-red-500 top-1/2 left-1/2"></div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-white top-1/2 left-1/2"></div>
             </div>
             <div class="w-5/12 text-left pl-8">
               <div
-                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
-                <time class="font-black text-xl text-red-700 block mb-2">2016</time>
-                <p class="text-gray-700">
-                  Secured first nationwide project: fabrication and installation of AXA booths in 1,000+ banks
-                </p>
-                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
-                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
-                    <path fill-rule="evenodd"
-                      d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
-                      clip-rule="evenodd"></path>
-                  </svg>
+                class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+                <time class="font-black text-xl text-white block mb-2">2016</time>
+                <p class="text-gray-200">Secured first nationwide project: fabrication and installation of AXA booths in
+                  1,000+ banks</p>
+                <div class="mt-3 flex items-center text-sm text-gray-300 font-medium">
+                  <div class="w-8 h-8 flex items-center justify-center bg-red-600 rounded-full mr-2">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"></path>
+                      <path fill-rule="evenodd"
+                        d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
                   National Expansion
                 </div>
               </div>
@@ -121,32 +129,31 @@
           <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-1">
             <div class="w-5/12 text-right pr-8">
               <div
-                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
-                <time class="font-black text-xl text-red-700 block mb-2">2018</time>
-                <p class="text-gray-700">
-                  Handled 2 major automotive brands at PIMS 2018 – <span class="font-semibold text-red-700">Isuzu and
-                    Volkswagen</span>
-                </p>
-                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
-                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                    <path
-                      d="M8.433 7.418c.155-.103.346-.196.567-.267v1.698a2.305 2.305 0 01-.567-.267C8.07 8.34 8 8.114 8 8c0-.114.07-.34.433-.582zM11 12.849v-1.698c.22.071.412.164.567.267.364.243.433.468.433.582 0 .114-.07.34-.433.582a2.305 2.305 0 01-.567.267z">
-                    </path>
-                    <path fill-rule="evenodd"
-                      d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
-                      clip-rule="evenodd"></path>
-                  </svg>
+                class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+                <time class="font-black text-xl text-white block mb-2">2018</time>
+                <p class="text-gray-200">Handled 2 major automotive brands at PIMS 2018 – <span
+                    class="font-semibold text-">Isuzuwhite and Volkswagen</span></p>
+                <div class="mt-3 flex items-center text-sm text-gray-300 font-medium">
+                  <div class="w-8 h-8 flex items-center justify-center bg-red-600 rounded-full mr-2">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-13a1 1 0 10-2 0v.092a4.535 4.535 0 00-1.676.662C6.602 6.234 6 7.009 6 8c0 .99.602 1.765 1.324 2.246.48.32 1.054.545 1.676.662v1.941c-.391-.127-.68-.317-.843-.504a1 1 0 10-1.51 1.31c.562.649 1.413 1.076 2.353 1.253V15a1 1 0 102 0v-.092a4.535 4.535 0 001.676-.662C13.398 13.766 14 12.991 14 12c0-.99-.602-1.765-1.324-2.246A4.535 4.535 0 0011 9.092V7.151c.391.127.68.317.843.504a1 1 0 101.511-1.31c-.563-.649-1.413-1.076-2.354-1.253V5z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
                   Automotive Focus
                 </div>
               </div>
             </div>
+
             <div class="w-2/12 flex justify-center relative">
               <div
-                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
-                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+                class="w-8 h-8 bg-red-700 border-4 border-white rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-600">
+                <div class="w-3 h-3 bg-white rounded-full"></div>
               </div>
-              <div class="absolute w-1/2 h-1 bg-gradient-to-l from-transparent to-red-500 top-1/2 right-1/2"></div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-l from-transparent to-white top-1/2 right-1/2"></div>
             </div>
+
             <div class="w-5/12"></div>
           </div>
 
@@ -155,24 +162,24 @@
             <div class="w-5/12 text-right pr-8"></div>
             <div class="w-2/12 flex justify-center relative">
               <div
-                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
-                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+                class="w-8 h-8 bg-red-700 border-4 border-white rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-600">
+                <div class="w-3 h-3 bg-white rounded-full"></div>
               </div>
-              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-red-500 top-1/2 left-1/2"></div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-white top-1/2 left-1/2"></div>
             </div>
             <div class="w-5/12 text-left pl-8">
               <div
-                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
-                <time class="font-black text-xl text-red-700 block mb-2">2019</time>
-                <p class="text-gray-700">
-                  Managed KIA Philippines exhibit and launched KIA Stinger at MIAS 2019
-                </p>
-                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
-                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd"
-                      d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
-                      clip-rule="evenodd"></path>
-                  </svg>
+                class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+                <time class="font-black text-xl text-white block mb-2">2019</time>
+                <p class="text-gray-200">Managed KIA Philippines exhibit and launched KIA Stinger at MIAS 2019</p>
+                <div class="mt-3 flex items-center text-sm text-gray-300 font-medium">
+                  <div class="w-8 h-8 flex items-center justify-center bg-red-600 rounded-full mr-2">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
                   Product Launch
                 </div>
               </div>
@@ -183,76 +190,87 @@
           <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-3">
             <div class="w-5/12 text-right pr-8">
               <div
-                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
-                <time class="font-black text-xl text-red-700 block mb-2">2020</time>
-                <p class="text-gray-700">
-                  Overcame the challenges of the pandemic, adapting and thriving while continuing to grow.
-                </p>
-                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
-                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd"
-                      d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
-                      clip-rule="evenodd"></path>
-                  </svg>
+                class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+                <time class="font-black text-xl text-white block mb-2">2020</time>
+                <p class="text-gray-200">Overcame the challenges of the pandemic, adapting and thriving while continuing
+                  to grow.</p>
+                <div class="mt-3 flex items-center text-sm text-gray-300 font-medium">
+                  <div class="w-8 h-8 flex items-center justify-center bg-red-600 rounded-full mr-2">
+                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
                   Resilience
                 </div>
               </div>
             </div>
+
             <div class="w-2/12 flex justify-center relative">
               <div
-                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
-                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+                class="w-8 h-8 bg-red-700 border-4 border-white rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-600">
+                <div class="w-3 h-3 bg-white rounded-full"></div>
               </div>
-              <div class="absolute w-1/2 h-1 bg-gradient-to-l from-transparent to-red-500 top-1/2 right-1/2"></div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-l from-transparent to-white top-1/2 right-1/2"></div>
             </div>
+
             <div class="w-5/12"></div>
           </div>
 
-          <!-- 2025 -->
           <div class="mb-4 flex justify-between items-center w-full relative scroll-animate animate-delay-4">
+            <!-- Left side empty -->
             <div class="w-5/12 text-right pr-8"></div>
+
+            <!-- Middle circle + connecting line -->
             <div class="w-2/12 flex justify-center relative">
               <div
-                class="w-8 h-8 bg-white border-4 border-red-700 rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-50">
-                <div class="w-3 h-3 bg-red-700 rounded-full"></div>
+                class="w-8 h-8 bg-red-700 border-4 border-white rounded-full z-10 flex items-center justify-center shadow-lg transition-all duration-300 hover:scale-125 hover:bg-red-600">
+                <div class="w-3 h-3 bg-white rounded-full"></div>
               </div>
-              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-red-500 top-1/2 left-1/2"></div>
+              <div class="absolute w-1/2 h-1 bg-gradient-to-r from-transparent to-white top-1/2 left-1/2"></div>
             </div>
+
+            <!-- Right side card -->
             <div class="w-5/12 text-left pl-8">
               <div
-                class="timeline-card bg-gradient-to-br from-white to-gray-50 p-6 rounded-2xl shadow-md border border-gray-100 transition-all duration-500 hover:shadow-xl hover:scale-105 hover:border-red-200">
-                <time class="font-black text-xl text-red-700 block mb-2">2025</time>
-                <p class="text-gray-700">
-                  Expanded services to include digital solutions alongside fabrication, printing, and events.
-                </p>
-                <div class="mt-3 flex items-center text-sm text-red-600 font-medium">
-                  <svg class="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd"
-                      d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z"
-                      clip-rule="evenodd"></path>
-                  </svg>
+                class="bg-white/10 backdrop-blur-sm p-6 rounded-2xl border border-white/20 shadow-lg transition-all duration-500 hover:shadow-xl hover:scale-105">
+                <time class="font-black text-xl text-white block mb-2">2025</time>
+                <p class="text-red-100 italic">Expanded services to include digital solutions alongside fabrication,
+                  printing, and events.</p>
+                <div class="mt-3 flex items-center text-sm text-white font-medium">
+                  <div class="w-8 h-8 flex items-center justify-center bg-red-600 rounded-full mr-2">
+                    <svg class="w-4 h-4 mr-1 text-red-200" fill="currentColor" viewBox="0 0 20 20">
+                      <path fill-rule="evenodd"
+                        d="M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z"
+                        clip-rule="evenodd"></path>
+                    </svg>
+                  </div>
                   Digital Expansion
                 </div>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>
 
     <!-- Purpose-->
-    <div class="w-full min-h-[60vh] bg-gray-900 text-white px-4 py-12 md:py-20 relative overflow-hidden">
+    <div class="w-full min-h-[60vh] bg-white text-black px-4 py-12 md:py-20 relative overflow-hidden">
       <div class="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
 
+        <!-- Left Image -->
         <div class="space-y-6 order-2 lg:order-1">
           <div
-            class="group relative rounded-2xl overflow-hidden bg-gray-800/30 backdrop-blur-md border border-white/10 shadow-2xl hover:shadow-2xl transition-all duration-700 hover:scale-[1.02]">
+            class="group relative rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-xl hover:shadow-2xl transition-all duration-700 hover:scale-[1.02]">
             <img src="./assets/bg/bg1.jpg" alt="Community coming together in faith and support"
               class="w-full h-[300px] md:h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
               width="600" height="400" loading="lazy" />
 
+            <!-- White overlay instead of dark -->
             <div
-              class="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent opacity-60 group-hover:opacity-30 transition-opacity duration-500">
+              class="absolute inset-0 bg-gradient-to-t from-white/70 to-transparent opacity-80 group-hover:opacity-40 transition-opacity duration-500">
             </div>
 
             <div
@@ -261,23 +279,24 @@
           </div>
         </div>
 
+        <!-- Right Content -->
         <div class="space-y-6 lg:space-y-8 order-1 lg:order-2">
           <h2
-            class="text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-tight scroll-animate opacity-0 translate-y-8 transition duration-700 ease-out">
+            class="text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-tight scroll-animate opacity-0 translate-y-8 transition duration-700 ease-out text-red-600">
             PURPOSE
           </h2>
-           <div class="h-1 w-24 bg-blue-300 mt-4 rounded-full scroll-animate animate-delay-1"></div>
 
           <div class="space-y-4">
             <p
-              class="text-2xl leading-relaxed font-medium scroll-animate animate-delay-1 opacity-0 translate-y-8 transition duration-700 ease-out">
-              We want to be <span class="text-red-400 font-semibold">God's channel</span> of blessings that change
+              class="text-2xl leading-relaxed font-medium scroll-animate animate-delay-1 opacity-0 translate-y-8 transition duration-700 ease-out text-gray-800">
+              We want to be <span class="text-red-600 font-semibold">God's channel</span> of blessings that change
               people's lives for the better.
             </p>
 
+            <!-- Button -->
             <div class="pt-4 scroll-animate animate-delay-2 opacity-0 translate-y-8 transition duration-700 ease-out">
               <button
-                class="group relative px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-1">
+                class="group relative px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg overflow-hidden transition-all duration-500 hover:shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:-translate-y-1">
                 <span class="relative z-10">Join Our Mission</span>
 
                 <div
@@ -292,142 +311,103 @@
       </div>
 
       <!-- Background Elements -->
-      <div class="absolute inset-0 bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center opacity-20"></div>
-      <div class="absolute inset-0 bg-red-600/70"></div>
+      <div class="absolute inset-0 bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center opacity-70"></div>
+      <div class="absolute inset-0 bg-white/90"></div>
     </div>
 
-    <!-- Mission -->
-    <div
-      class="w-full min-h-screen flex items-center justify-center px-4 py-12 md:py-20 relative overflow-hidden gradient-bg">
-      <!-- Floating decorative elements -->
-      <div class="absolute top-1/4 left-1/4 w-20 h-20 rounded-full bg-blue-400/30 blur-xl floating"></div>
-      <div class="absolute bottom-1/4 right-1/4 w-16 h-16 rounded-full bg-white/20 blur-lg floating"
-        style="animation-delay: 1.5s;"></div>
-      <div class="absolute top-1/2 right-1/3 w-12 h-12 rounded-full bg-blue-300/40 blur-md floating"
-        style="animation-delay: 2s;"></div>
 
-      <!-- Main content container -->
-      <div class="relative z-10 max-w-6xl mx-auto w-full">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <!-- Text content section -->
-          <div class="space-y-8 order-1">
-            <!-- Section title with animated underline -->
-            <div class="relative">
-              <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tight text-white scroll-animate">
-                M<span class="text-blue-300">I</span>SSION
-              </h2>
-              <div class="h-1 w-24 bg-blue-300 mt-4 rounded-full scroll-animate animate-delay-1"></div>
+    <!-- Mission -->
+    <div class="w-full min-h-[60vh] bg-gray-900 text-white px-4 py-12 md:py-20 relative overflow-hidden">
+      <div class="relative z-10 max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+
+        <!-- Left Content -->
+        <div class="space-y-6 order-1 lg:order-1">
+          <h2
+            class="text-4xl md:text-5xl lg:text-6xl font-black uppercase tracking-tight scroll-animate opacity-0 translate-y-8 transition duration-700 ease-out">
+            MISSION
+          </h2>
+
+          <div class="space-y-4">
+            <p
+              class="text-2xl leading-relaxed font-medium scroll-animate animate-delay-1 opacity-0 translate-y-8 transition duration-700 ease-out">
+              We strive to provide <span class="text-red-400 font-semibold">world-class marketing solutions</span>
+              that enrich the lives of every partner we serve.
+            </p>
+
+            <!-- Info Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+              <!-- Card 1 -->
+              <div
+                class="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/20 hover:scale-[1.02] transition-all duration-500">
+                <div class="flex items-center space-x-3">
+                  <!-- Growth Icon -->
+                  <div class="w-12 h-12 flex items-center justify-center bg-red-600 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                      class="w-6 h-6 text-white">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 17l6-6 4 4 8-8" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-white">Growth Focused</h3>
+                    <p class="text-sm text-gray-300">Driving measurable results</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2 -->
+              <div
+                class="bg-white/10 backdrop-blur-sm p-4 rounded-xl border border-white/20 hover:scale-[1.02] transition-all duration-500">
+                <div class="flex items-center space-x-3">
+                  <!-- Partnership Icon -->
+                  <div class="w-12 h-12 flex items-center justify-center bg-red-600 rounded-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                      class="w-6 h-6 text-white">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c0-1.657 1.343-3 3-3s3 1.343 3 3-1.343 3-3 3-3-1.343-3-3zm-6 0c0-1.657 
+                       1.343-3 3-3s3 1.343 3 3-1.343 3-3 3-3-1.343-3-3zm9 5.5a5.5 5.5 0 00-9 0" />
+                    </svg>
+                  </div>
+                  <div>
+                    <h3 class="font-bold text-white">Partnership Driven</h3>
+                    <p class="text-sm text-gray-300">Collaborative approach</p>
+                  </div>
+                </div>
+              </div>
             </div>
 
-            <!-- Main description -->
-            <div class="space-y-6">
-              <p class="text-xl md:text-2xl leading-relaxed font-medium text-white scroll-animate animate-delay-2">
-                We strive to provide <span class="text-blue-300 font-semibold relative">
-                  world-class marketing solutions
-                  <span
-                    class="absolute bottom-0 left-0 w-full h-1 bg-blue-300/40 transform scale-x-0 transition-transform duration-500 origin-left"></span>
-                </span> that enrich the lives of every partner we serve.
-              </p>
-
-              <!-- Additional info cards -->
-              <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+            <!-- Button -->
+            <div class="pt-4 scroll-animate animate-delay-2 opacity-0 translate-y-8 transition duration-700 ease-out">
+              <button
+                class="group relative px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg overflow-hidden transition-all duration-500 hover:shadow-[0_0_20px_rgba(220,38,38,0.6)] hover:-translate-y-1">
+                <span class="relative z-10">Join Our Mission</span>
                 <div
-                  class="bg-white/10 backdrop-blur-sm p-4 rounded-xl timeline-card hover-lift border border-white/20">
-                  <div class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
-                      <i class="fas fa-chart-line text-white"></i>
-                    </div>
-                    <div>
-                      <h3 class="font-bold text-white">Growth Focused</h3>
-                      <p class="text-sm text-blue-100">Driving measurable results</p>
-                    </div>
-                  </div>
+                  class="absolute inset-0 bg-gradient-to-r from-red-600 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                 </div>
-
-                <div
-                  class="bg-white/10 backdrop-blur-sm p-4 rounded-xl timeline-card hover-lift border border-white/20">
-                  <div class="flex items-center space-x-3">
-                    <div class="w-10 h-10 bg-blue-500 rounded-full flex items-center justify-center">
-                      <i class="fas fa-handshake text-white"></i>
-                    </div>
-                    <div>
-                      <h3 class="font-bold text-white">Partnership Driven</h3>
-                      <p class="text-sm text-blue-100">Collaborative approach</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Interactive CTA button -->
-              <div class="pt-6 scroll-animate animate-delay-4">
-                <button
-                  class="group relative px-8 py-4 bg-white text-blue-600 font-bold rounded-xl overflow-hidden transition-all duration-500 hover:shadow-2xl hover:-translate-y-1">
-                  <span class="relative z-10 flex items-center space-x-2">
-                    <span>Explore Our Solutions</span>
-                    <i class="fas fa-arrow-right group-hover:translate-x-1 transition-transform"></i>
-                  </span>
-
-                  <!-- Animated background effect -->
-                  <div
-                    class="absolute inset-0 bg-blue-50 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-                  </div>
-
-                  <!-- Button shine effect -->
-                  <div
-                    class="absolute top-0 -inset-full h-full w-1/2 z-5 block transform -skew-x-12 bg-gradient-to-r from-transparent to-white opacity-40 group-hover:animate-shine">
-                  </div>
-                </button>
-              </div>
+              </button>
             </div>
           </div>
+        </div>
 
-          <!-- Image section -->
-          <div class="space-y-6 order-2">
-            <div class="relative group">
-              <!-- Main image with glass effect frame -->
-              <div class="bg-white/10 backdrop-blur-sm rounded-2xl p-4 hover-lift border border-white/20">
-                <img
-                  src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
-                  alt="Marketing team collaboration" class="w-full h-auto rounded-xl shadow-2xl object-cover">
-              </div>
-
-              <!-- Decorative elements -->
-              <div
-                class="absolute -top-4 -right-4 w-24 h-24 bg-blue-400 rounded-full opacity-70 blur-md group-hover:scale-110 transition-transform duration-500">
-              </div>
-              <div
-                class="absolute -bottom-4 -left-4 w-20 h-20 bg-white/30 rounded-full opacity-50 blur-md group-hover:scale-110 transition-transform duration-500">
-              </div>
-
-              <!-- Floating badge -->
-              <div
-                class="absolute -bottom-6 right-10 bg-white text-blue-600 px-6 py-3 rounded-full shadow-lg timeline-card">
-                <div class="flex items-center space-x-2">
-                  <i class="fas fa-bullseye text-blue-600"></i>
-                  <span class="font-bold">Our Vision</span>
-                </div>
-              </div>
-            </div>
-
-            <!-- Stats section -->
-            <div class="grid grid-cols-3 gap-4 mt-8">
-              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl text-center border border-white/20">
-                <div class="text-2xl font-bold text-white">150+</div>
-                <div class="text-sm text-blue-100">Partners</div>
-              </div>
-              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl text-center border border-white/20">
-                <div class="text-2xl font-bold text-white">98%</div>
-                <div class="text-sm text-blue-100">Satisfaction</div>
-              </div>
-              <div class="bg-white/10 backdrop-blur-sm p-4 rounded-xl text-center border border-white/20">
-                <div class="text-2xl font-bold text-white">15+</div>
-                <div class="text-sm text-blue-100">Years</div>
-              </div>
+        <!-- Right Image -->
+        <div class="space-y-6 order-2 lg:order-2">
+          <div
+            class="group relative rounded-2xl overflow-hidden bg-gray-800/30 backdrop-blur-md border border-white/10 shadow-2xl hover:shadow-2xl transition-all duration-700 hover:scale-[1.02]">
+            <img
+              src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+              alt="Marketing team collaboration"
+              class="w-full h-[300px] md:h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
+              width="600" height="400" loading="lazy" />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-gray-900/50 to-transparent opacity-60 group-hover:opacity-30 transition-opacity duration-500">
             </div>
           </div>
         </div>
       </div>
-</div>
+
+      <!-- Background Overlay -->
+      <div class="absolute inset-0 bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center opacity-20"></div>
+      <div class="absolute inset-0 bg-red-600/70"></div>
+    </div>
+
 
     <div class="w-full bg-red-800 text-white py-12 px-6">
       <!-- Title -->
