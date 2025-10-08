@@ -1,5 +1,5 @@
 <section id="service" class="text-center">
-  <div class="w-full bg-white py-20 px-6">
+  <div class="w-full bg-white py-10 px-6">
     <div class="max-w-6xl mx-auto p-8">
       <!-- Title -->
       <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center uppercase fade-in">Our Services</h2>
