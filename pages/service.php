@@ -1,69 +1,175 @@
 <section id="service" class="text-center">
   <div class="w-full bg-white py-10 px-6">
-    <div class="max-w-6xl mx-auto p-8">
+
+    <div class="max-w-6xl mx-auto p-8 pt-5">
       <!-- Title -->
-      <h2 class="text-3xl md:text-4xl font-bold mb-10 text-center uppercase fade-in">Our Services</h2>
-
+      <h2
+        class="text-4xl md:text-6xl font-black pb-10 uppercase tracking-tight bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent scroll-animate">
+        OUR SERVICE
+      </h2>
       <!-- Grid -->
-      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 scale-in">
-
+      <div class="max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 p-6 mx-auto">
         <!-- Fabrication -->
-        <div class="group relative flex items-center justify-center bg-red-800 text-white font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden card-hover btn-hover animate-up animate-delay-1">
-          <span class="group-hover:hidden">FABRICATION</span>
+        <div
+          class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
+          <!-- Background Image -->
+          <div class="absolute inset-0 bg-[url('assets/fabrication/fabricationImg1.jpg')] bg-cover bg-center">
+          </div>
+          <!-- Gradient Overlay -->
           <div
-            class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <p class="mb-4 text-sm md:text-base">
+            class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
+          </div>
+
+          <!-- Content -->
+          <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
+            <!-- Title -->
+            <h3
+              class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
+              FABRICATION
+            </h3>
+
+            <!-- Description -->
+            <p
+              class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
               Custom-built structures, displays, and setups tailored to bring your ideas to life.
             </p>
-            <a href="#fabrication"
-              class="bg-black text-white px-4 py-2 text-sm font-semibold rounded hover:bg-gray-900 transition scroll-link">
-              See Our Works →
-            </a>
+
+            <!-- Button -->
+            <div
+              class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
+              <button
+                class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                See Our Works
+                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
+                  stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                  </path>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
 
         <!-- Event Management -->
-        <div class="group relative flex items-center justify-center bg-gray-100 text-black font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden card-hover btn-hover animate-up animate-delay-2">
-          <span class="group-hover:hidden">EVENT MANAGEMENT</span>
+        <div
+          class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
+          <!-- Background Image -->
+          <div class="absolute inset-0 bg-[url('assets/event/eventImg8.jpg')] bg-cover bg-center">
+          </div>
+          <!-- Gradient Overlay -->
           <div
-            class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <p class="mb-4 text-sm md:text-base">
+            class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
+          </div>
+
+          <!-- Content -->
+          <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
+            <!-- Title -->
+            <h3
+              class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
+              EVENT MANAGEMENT
+            </h3>
+
+            <!-- Description -->
+            <p
+              class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
               End-to-end planning and execution of seamless, memorable events.
             </p>
-            <a href="#event-management"
-              class="bg-black text-white px-4 py-2 text-sm font-semibold rounded hover:bg-gray-900 transition scroll-link">
-              See Our Works →
-            </a>
+
+            <!-- Button -->
+            <div
+              class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
+              <button
+                class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                See Our Works
+                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
+                  stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                  </path>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
 
-        <!-- Social Media Management -->
-        <div class="group relative flex items-center justify-center bg-gray-100 text-black font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden card-hover btn-hover animate-up animate-delay-3">
-          <span class="group-hover:hidden">SOCIAL MEDIA MANAGEMENT</span>
+        <!-- Social Media -->
+        <div
+          class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
+          <!-- Background Image -->
+          <div class="absolute inset-0 bg-[url('assets/socmed/socmedImg3.jpg')] bg-cover bg-center">
+          </div>
+          <!-- Gradient Overlay -->
           <div
-            class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <p class="mb-4 text-sm md:text-base">
+            class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
+          </div>
+
+          <!-- Content -->
+          <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
+            <!-- Title -->
+            <h3
+              class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
+              SOCIAL MEDIA
+            </h3>
+
+            <!-- Description -->
+            <p
+              class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
               Engaging content creation and strategy to grow your online presence.
             </p>
-            <a href="#socmedmanagement"
-              class="bg-black text-white px-4 py-2 text-sm font-semibold rounded hover:bg-gray-900 transition scroll-link">
-              See Our Works →
-            </a>
+
+            <!-- Button -->
+            <div
+              class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
+              <button
+                class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                See Our Works
+                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
+                  stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                  </path>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
 
         <!-- Printing -->
-        <div class="group relative flex items-center justify-center bg-red-800 text-white font-semibold text-lg py-12 rounded-lg shadow-md transition-all duration-300 cursor-pointer overflow-hidden card-hover btn-hover animate-up animate-delay-1">
-          <span class="group-hover:hidden">PRINTING</span>
-          <div
-            class="absolute inset-0 flex flex-col items-center justify-center text-center px-6 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-            <p class="mb-4 text-sm md:text-base">
+        <div
+          class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
+          <!-- Background Image -->
+          <div class="absolute inset-0 bg-[url('./assets/printing/printingImg7.jpg')] bg-cover bg-center">
+          </div>
+          <!-- Gradient Overlay -->
+         <div
+            class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
+          </div>
+
+          <!-- Content -->
+          <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
+            <!-- Title -->
+            <h3
+              class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
+              PRINTING
+            </h3>
+
+            <!-- Description -->
+            <p
+              class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
               Accurate and high-quality prints for your branding, marketing, and promotional needs.
             </p>
-            <a href="#printing"
-              class="bg-black text-white px-4 py-2 text-sm font-semibold rounded hover:bg-gray-900 transition scroll-link">
-              See Our Works →
-            </a>
+
+            <!-- Button -->
+            <div
+              class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
+              <button
+                class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                See Our Works
+                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
+                  stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                  </path>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
 
@@ -226,7 +332,7 @@
       </p>
     </div>
   </div>
-  
+
   <div class="bg-white w-full">
     <!-- Row 1 -->
     <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-8 items-center p-6 scale-in">
@@ -245,7 +351,8 @@
     </div>
 
     <!-- Row 2 -->
-    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 items-center p-6 scale-in">
+    <div
+      class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 items-center p-6 scale-in">
       <div class="order-2 md:order-1 animate-up animate-delay-1">
         <h3 class="font-bold text-xl mb-3">LAYOUT & DESIGN</h3>
         <p class="leading-relaxed text-sm">
@@ -262,7 +369,8 @@
     </div>
 
     <!-- Row 3 -->
-    <div class="max-w-6xl mx-auto bg-white text-black-md grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 items-center p-6 scale-in">
+    <div
+      class="max-w-6xl mx-auto bg-white text-black-md grid grid-cols-1 md:grid-cols-2 gap-8 mt-12 items-center p-6 scale-in">
       <div class="animate-up animate-delay-1">
         <img src="./assets/socmed/socmedImg3.jpg" alt="Social Media Management"
           class="rounded-lg shadow-md w-full h-64 object-cover">
@@ -439,20 +547,20 @@
   </style>
 
   <script>
-  document.querySelectorAll('a.scroll-link').forEach(link => {
-    link.addEventListener('click', function (e) {
-      e.preventDefault(); // stop the URL from changing
-      const targetId = this.getAttribute('href').substring(1);
-      const target = document.getElementById(targetId);
+    document.querySelectorAll('a.scroll-link').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault(); // stop the URL from changing
+        const targetId = this.getAttribute('href').substring(1);
+        const target = document.getElementById(targetId);
 
-      if (target) {
-        target.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
-      }
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
     });
-  });
-</script>
+  </script>
 
 </section>
