@@ -96,7 +96,7 @@
         </a>
 
 
-        <a href="#event-management">
+        <a href="#socialmedia">
           <div
             class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
             <!-- Background Image -->
@@ -614,7 +614,7 @@
     </div>
   </div>
 
-  <div id="socmedmanagement" class="w-full bg-gradient-to-br from-white to-red-50 text-black pt-20 pb-16 px-6">
+  <div id="socialmedia" class="w-full bg-gradient-to-br from-white to-red-50 text-black pt-20 pb-16 px-6">
     <div class="max-w-6xl mx-auto text-center">
       <h2
         class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
@@ -632,7 +632,7 @@
     </div>
   </div>
 
-  <div class="bg-white w-full py-16">
+  <div id="socialmedia" class="bg-white w-full py-16">
     <!-- Row 1 -->
     <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 items-center p-6">
       <div class="relative group">
@@ -768,286 +768,452 @@
     </div>
   </div>
 
-  <div class="w-full bg-red-800 text-white py-6 px-6">
-    <div class="text-center">
-      <h2 class="text-3xl font-bold pb-6">OUR CLIENTS</h2>
-      <p class="pb-6 text-center">
-        We’re proud to have partnered with amazing brands. <br>
-        Here’s a glimpse of some of our valued clients.
-      </p>
 
-      <!-- Carousel Wrapper -->
+  <div class="w-full bg-red-900 text-white py-10 relative overflow-hidden">
+
+    <div
+      class="absolute left-1/2 top-0 -translate-x-1/2 w-[150%] h-[150%] bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.1),transparent_40%)]">
+    </div>
+
+    <div
+      class="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.1)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.1)_1px,transparent_1px)] [background-size:4rem_4rem] opacity-50">
+    </div>
+
+    <div class="relative z-10">
+      <div class="text-start max-w-7xl mx-auto px-6">
+        <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl pb-4 md:pb-8">OUR CLIENTS</h2>
+        <p class="pb-12 text-red-100 text-lg sm:text-xl">
+          We’re proud to have partnered with amazing brands. <br class="hidden md:block">
+          Here’s a glimpse of some of our valued clients.
+        </p>
+      </div>
+
       <div class="relative overflow-hidden w-full">
-        <!-- Animated container -->
-        <div class="animate-marquee flex flex-col space-y-6">
-          <?php
-          // Define client works array (41 logos)
-          $clients = [];
-          for ($i = 1; $i <= 41; $i++) {
-            $clients[] = ["src" => "./assets/client/clientImg{$i}.png"];
-          }
 
-          // Divide into two rows
-          echo '<div class="flex justify-center flex-wrap gap-4">';
-          foreach (array_slice($clients, 0, ceil(count($clients) / 2)) as $client) {
-            echo '
+        <div
+          class="absolute left-0 top-0 bottom-0 w-16 sm:w-24 bg-gradient-to-r from-red-900 via-red-900 to-transparent z-20">
+        </div>
+        <div
+          class="absolute right-0 top-0 bottom-0 w-16 sm:w-24 bg-gradient-to-l from-red-900 via-red-900 to-transparent z-20">
+        </div>
+
+        <!-- Carousel Wrapper -->
+        <div class="relative overflow-hidden w-full">
+          <!-- Animated container -->
+          <div class="animate-marquee flex flex-col space-y-6">
+            <?php
+            // Define client works array (41 logos)
+            $clients = [];
+            for ($i = 1; $i <= 41; $i++) {
+              $clients[] = ["src" => "./assets/client/clientImg{$i}.png"];
+            }
+
+            // Divide into two rows
+            echo '<div class="flex justify-center flex-wrap gap-4">';
+            foreach (array_slice($clients, 0, ceil(count($clients) / 2)) as $client) {
+              echo '
             <div class="bg-white rounded-lg shadow-md flex items-center justify-center p-2">
               <img src="' . $client["src"] . '" class="w-24 h-20 object-contain">
             </div>
           ';
-          }
-          echo '</div>';
+            }
+            echo '</div>';
 
-          echo '<div class="flex justify-center flex-wrap gap-4">';
-          foreach (array_slice($clients, ceil(count($clients) / 2)) as $client) {
-            echo '
+            echo '<div class="flex justify-center flex-wrap gap-4">';
+            foreach (array_slice($clients, ceil(count($clients) / 2)) as $client) {
+              echo '
             <div class="bg-white rounded-lg shadow-md flex items-center justify-center p-2">
               <img src="' . $client["src"] . '" class="w-24 h-20 object-contain">
             </div>
           ';
-          }
-          echo '</div>';
-          ?>
+            }
+            echo '</div>';
+            ?>
+          </div>
         </div>
       </div>
+
+      <div class="max-w-7xl mx-auto px-6 py-10 lg:px-8">
+
+        <div class="text-end mb-16">
+          <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl pb-8">MEET THE TEAM</h2>
+          <p class="text-red-100 text-lg sm:text-xl">
+            Their dedication transforms your ideas into reality. <br class="hidden md:block">
+            At the heart of <span class="font-semibold">Ideas Beyond Limits</span> is a team that brings
+            our purpose, mission, and vision to life.
+          </p>
+        </div>
+        <div class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-12 gap-2 sm:gap-4">
+
+          <div
+            class="sm:col-span-7 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team1.jpg" alt="A professional team member in an office setting"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+          <div
+            class="sm:col-span-5 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team2.jpg" alt="A smiling team member at their desk"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+
+          <div
+            class="sm:col-span-4 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team3.jpg" alt="A team member collaborating in a meeting"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+          <div
+            class="sm:col-span-4 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team4.jpg" alt="A candid photo of a team member working"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+          <div
+            class="sm:col-span-4 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team5.jpg" alt="A team member presenting ideas on a whiteboard"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+
+          <div
+            class="sm:col-span-5 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team6.jpg" alt="A professional headshot of a team member"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+          <div
+            class="sm:col-span-7 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team7.jpg" alt="Team members working together in a modern office"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+
+          <div
+            class="sm:col-span-6 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team8.jpg" alt="A team member focused on their work on a laptop"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+          <div
+            class="sm:col-span-3 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team9.jpg" alt="A casual photo of a team member in the office"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+          <div
+            class="sm:col-span-3 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            <img src="./assets/team/team10.jpg" alt="A team member smiling during a break"
+              class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
+          </div>
+
+        </div>
+      </div>
+
+      <div class="text-start max-w-7xl mx-auto px-6">
+        <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl pb-4 md:pb-8">OUR LEADERSHIP</h2>
+        <p class="pb-5 text-red-100 text-lg sm:text-xl">
+          We bring a wealth of skills and experience from a wide range of backgrounds. Meet the people who’ve grown
+          with
+          us and continue to shape the future of <span class="font-semibold">Ideas Beyond Limits</span>.
+        </p>
+      </div>
+
+      <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+
+        <?php
+        $teamMembers = [
+          [
+            'name' => 'Maria Rowena Baguio',
+            'image' => 'Baguio, Maria Rowena.png'
+          ],
+          [
+            'name' => 'Grynel Baloloy',
+            'image' => 'Baloloy, Grynel.png'
+          ],
+          [
+            'name' => 'Michael Dumaguete',
+            'image' => 'Dumaguete, Michael.png'
+          ],
+          [
+            'name' => 'Karl Magallon',
+            'image' => 'Magallon, Karl.png'
+          ],
+          [
+            'name' => 'Christopher Magsino',
+            'image' => 'Magsino, Christopher.png'
+          ],
+          [
+            'name' => 'Dwaine Ocampo',
+            'image' => 'Ocampo, Dwaine.png'
+          ],
+          [
+            'name' => 'Timothy Seña',
+            'image' => 'Sena, Timothy.png'
+          ],
+          [
+            'name' => 'Melissa Terwel',
+            'image' => 'Terwel, Melissa.png'
+          ],
+          [
+            'name' => 'Elmer Valeriano',
+            'image' => 'Valeriano, Elmer.png'
+          ]
+        ];
+
+        echo '<div class="mt-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-8 gap-y-16 max-w-5xl mx-auto">';
+
+        // Loop through each team member and create a card for them
+        foreach ($teamMembers as $member) {
+          // Using htmlspecialchars is a good practice to prevent security issues
+          $name = htmlspecialchars($member['name']);
+          $imagePath = './assets/members/' . htmlspecialchars($member['image']);
+          $altText = 'Photo of ' . $name;
+
+          echo '
+    <div class="group relative bg-white rounded-xl p-6 pt-16 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-red-900/40">
+      <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-28 h-28 rounded-full ring-4 ring-red-200 overflow-hidden">
+        <img class="w-full h-full object-cover rounded-full" src="' . $imagePath . '" alt="' . $altText . '">
+      </div>
+      <div class="mt-4">
+        <h3 class="font-heading text-xl font-bold text-red-600">' . $name . '</h3>
+      </div>
     </div>
-  </div>
+    ';
+        }
 
-  <style>
-    @keyframes marquee {
-      0% {
-        transform: translateX(0%);
-      }
+        echo '</div>';
+        ?>
 
-      100% {
-        transform: translateX(-50%);
-      }
-    }
+      </div>
 
-    .animate-marquee {
-      display: flex;
-      width: max-content;
-      animation: marquee 25s linear infinite;
-    }
+      <style>
+        @keyframes marquee {
+          0% {
+            transform: translateX(0%);
+          }
 
-    /* Reusable Carousel Animations */
-    @keyframes carousel-fade-in-up {
-      from {
-        opacity: 0;
-        transform: translateY(30px);
-      }
+          100% {
+            transform: translateX(-50%);
+          }
+        }
 
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
-    }
+        .animate-marquee {
+          display: flex;
+          width: max-content;
+          animation: marquee 25s linear infinite;
+        }
 
-    @keyframes carousel-scale-in {
-      from {
-        opacity: 0;
-        transform: scale(0.9);
-      }
+        /* Reusable Carousel Animations */
+        @keyframes carousel-fade-in-up {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
 
-      to {
-        opacity: 1;
-        transform: scale(1);
-      }
-    }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
 
-    .carousel-item-visible {
-      animation: carousel-fade-in-up 0.6s ease-out forwards;
-    }
+        @keyframes carousel-scale-in {
+          from {
+            opacity: 0;
+            transform: scale(0.9);
+          }
 
-    /* Modern carousel track */
-    [id$="-track"] {
-      display: flex;
-      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-    }
+          to {
+            opacity: 1;
+            transform: scale(1);
+          }
+        }
 
-    /* Enhanced hover effects for carousel items */
-    .carousel-item:hover .carousel-image {
-      transform: scale(1.1);
-    }
+        .carousel-item-visible {
+          animation: carousel-fade-in-up 0.6s ease-out forwards;
+        }
 
-    /* Modern glow effect for interactive elements */
-    .carousel-nav-button:hover {
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
-    }
+        /* Modern carousel track */
+        [id$="-track"] {
+          display: flex;
+          transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+        }
 
-    /* Mobile optimizations */
-    @media (max-width: 768px) {
-      .carousel-item {
-        animation: carousel-scale-in 0.6s ease-out forwards;
-      }
-    }
+        /* Enhanced hover effects for carousel items */
+        .carousel-item:hover .carousel-image {
+          transform: scale(1.1);
+        }
 
-    /* Reduced motion support */
-    @media (prefers-reduced-motion: reduce) {
+        /* Modern glow effect for interactive elements */
+        .carousel-nav-button:hover {
+          box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+        }
 
-      .carousel-item-visible,
-      [id$="-track"] .group {
-        animation: none;
-      }
+        /* Mobile optimizations */
+        @media (max-width: 768px) {
+          .carousel-item {
+            animation: carousel-scale-in 0.6s ease-out forwards;
+          }
+        }
 
-      [id$="-track"] {
-        transition: none;
-      }
-    }
-  </style>
-  <script>
+        /* Reduced motion support */
+        @media (prefers-reduced-motion: reduce) {
 
-    document.querySelectorAll('a.scroll-link').forEach(link => {
-      link.addEventListener('click', function (e) {
-        e.preventDefault(); // stop the URL from changing
-        const targetId = this.getAttribute('href').substring(1);
-        const target = document.getElementById(targetId);
+          .carousel-item-visible,
+          [id$="-track"] .group {
+            animation: none;
+          }
 
-        if (target) {
-          target.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+          [id$="-track"] {
+            transition: none;
+          }
+        }
+      </style>
+      <script>
+
+        document.querySelectorAll('a.scroll-link').forEach(link => {
+          link.addEventListener('click', function (e) {
+            e.preventDefault(); // stop the URL from changing
+            const targetId = this.getAttribute('href').substring(1);
+            const target = document.getElementById(targetId);
+
+            if (target) {
+              target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+              });
+            }
           });
-        }
-      });
-    });
-    // Data for all sections
-    const fabricationWorks = [
-      { src: "./assets/fabrication/fabricationImg1.jpg", label: "REX Education Booth at Manila International Book Fair 2024" },
-      { src: "./assets/fabrication/fabricationImg2.jpg", label: "REX Education Booth at Manila International Book Fair 2025" },
-      { src: "./assets/fabrication/fabricationImg3.jpg", label: "Hotel and Spa Essentials Booth at Hotel & Foodservice Suppliers Show" },
-      { src: "./assets/fabrication/fabricationImg4.jpg", label: "Watsons HWB Awards 2025 Booth" },
-      { src: "./assets/fabrication/fabricationImg5.jpg", label: "Watsons HWB Awards 2024 Booth" },
-      { src: "./assets/fabrication/fabricationImg6.jpg", label: "Dazzle Me Ambassador Launch at Robinsons Antipolo" },
-      { src: "./assets/fabrication/fabricationImg7.jpg", label: "GAC Motor Outdoor Booth at Autofocus Test Drive Festival" },
-      { src: "./assets/fabrication/fabricationImg8.jpg", label: "Watsons Skin Solutions Booth" },
-      { src: "./assets/fabrication/fabricationImg9.jpg", label: "Nustar Resort & Casino Booth in Cebu" },
-      { src: "./assets/fabrication/fabricationImg10.jpg", label: "Nutrafinity Booth at MAFBEX 2024" },
-      { src: "./assets/fabrication/fabricationImg11.jpg", label: "Abi Marquez Booth at Philippine Food Expo 2025" },
-      { src: "./assets/fabrication/fabricationImg12.jpg", label: "Watsons Get That K-Glow Campaign Booth" },
-      { src: "./assets/fabrication/fabricationImg13.jpg", label: "AXA Nationwide Booths" },
-      { src: "./assets/fabrication/fabricationImg14.jpg", label: "SM Cinema Murals" },
-      { src: "./assets/fabrication/fabricationImg15.jpg", label: "BBC Virtual Golf Signage Booth" }
-    ];
-
-    const eventWorks = [
-      { src: "./assets/event/eventImg1.jpg", label: "Jetour Dealer Exclusive Preview 2023 at Okada Manila" },
-      { src: "./assets/event/eventImg2.jpg", label: "AC Motors Centrale in BGC Inauguration" },
-      { src: "./assets/event/eventImg3.jpg", label: "BYD Manila Bay Grand Opening at Aseana City" },
-      { src: "./assets/event/eventImg4.jpg", label: "KIA at Manila International Auto Show 2019" },
-      { src: "./assets/event/eventImg5.jpg", label: "Maxus T60 Launch at Arcovia" },
-      { src: "./assets/event/eventImg6.jpg", label: "Success Academy" },
-      { src: "./assets/event/eventImg7.jpg", label: "Jetour Dashing Media Launch" },
-      { src: "./assets/event/eventImg8.jpg", label: "BJ Mercantile Inc. 50th Anniversary" },
-      { src: "./assets/event/eventImg9.jpg", label: "Bayer 2024 Sales Excellence Awards" },
-      { src: "./assets/event/eventImg10.jpg", label: "Isuzu and Volkswagen at Philippine International Motor Show 2018" },
-      { src: "./assets/event/eventImg11.jpg", label: "Menarini Philippines 2025 National Sales Conference" },
-      { src: "./assets/event/eventImg12.jpg", label: "KIA National Skills Cup 2022" }
-    ];
-
-    const printingWorks = [
-      { src: "./assets/printing/printingImg1.jpg", label: "Wall Mural Sticker at a Medical Clinic" },
-      { src: "./assets/printing/printingImg2.jpg", label: "Drop Down Banners at Market! Market!" },
-      { src: "./assets/printing/printingImg3.jpg", label: "Wall Tarp Printing & Installation for a Fitness Gym" },
-      { src: "./assets/printing/printingImg4.jpg", label: "Sticker Printing & Installation for SM Beauty at SM North Edsa" },
-      { src: "./assets/printing/printingImg5.jpg", label: "Skechers Drop Down Banners at Market! Market!" },
-      { src: "./assets/printing/printingImg6.jpg", label: "Vehicle Sticker Printing and Installation" },
-      { src: "./assets/printing/printingImg7.jpg", label: "Large Format Prints" },
-      { src: "./assets/printing/printingImg8.jpg", label: "Pull Up Banners for GX International Pharma" }
-    ];
-
-    // Reusable Carousel Implementation
-    function initializeCarousel(carouselId, works) {
-      const carousel = document.getElementById(`${carouselId}-carousel`);
-      const track = document.getElementById(`${carouselId}-track`);
-      const prevBtn = document.getElementById(`${carouselId}-prev`);
-      const nextBtn = document.getElementById(`${carouselId}-next`);
-      const prevBtnMobile = document.getElementById(`${carouselId}-prev-mobile`);
-      const nextBtnMobile = document.getElementById(`${carouselId}-next-mobile`);
-      const desktopDots = document.getElementById(`${carouselId}-desktop-dots`);
-      const mobileDots = document.getElementById(`${carouselId}-mobile-dots`);
-
-      if (!carousel || !track || !prevBtn || !nextBtn || !prevBtnMobile || !nextBtnMobile) {
-        console.error(`Missing carousel elements for: ${carouselId}`);
-        return;
-      }
-
-      let currentIndex = 0;
-      const itemsPerSlideDesktop = 3;
-      const itemsPerSlideMobile = 1;
-
-      const desktopSlides = chunkArray(works, itemsPerSlideDesktop);
-      const mobileSlides = chunkArray(works, itemsPerSlideMobile);
-
-      let totalSlides = window.innerWidth < 768 ? mobileSlides.length : desktopSlides.length;
-
-      // Initialize carousel
-      renderCarousel();
-      createDots();
-      updateCarousel();
-
-      // Event listeners for desktop buttons
-      prevBtn.addEventListener('click', prevSlide);
-      nextBtn.addEventListener('click', nextSlide);
-
-      // Event listeners for mobile buttons
-      prevBtnMobile.addEventListener('click', prevSlide);
-      nextBtnMobile.addEventListener('click', nextSlide);
-
-      // Handle window resize
-      window.addEventListener('resize', handleResize);
-
-      function chunkArray(array, size) {
-        const chunks = [];
-        for (let i = 0; i < array.length; i += size) {
-          chunks.push(array.slice(i, i + size));
-        }
-        return chunks;
-      }
-
-      function handleResize() {
-        totalSlides = window.innerWidth < 768 ? mobileSlides.length : desktopSlides.length;
-        if (currentIndex >= totalSlides) {
-          currentIndex = 0;
-        }
-        renderCarousel();
-        createDots();
-        updateCarousel();
-      }
-
-      function renderCarousel() {
-        track.innerHTML = '';
-        const isMobile = window.innerWidth < 768;
-        const slides = isMobile ? mobileSlides : desktopSlides;
-
-        slides.forEach((slideWorks, index) => {
-          const slideDiv = document.createElement('div');
-          slideDiv.className = 'w-full flex-shrink-0';
-          slideDiv.style.width = '100%';
-
-          const gridClasses = isMobile
-            ? 'grid grid-cols-1 gap-4 px-2'
-            : 'grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 px-4';
-
-          const gridDiv = document.createElement('div');
-          gridDiv.className = gridClasses;
-
-          slideWorks.forEach(work => {
-            const workElement = createWorkElement(work, isMobile);
-            gridDiv.appendChild(workElement);
-          });
-
-          slideDiv.appendChild(gridDiv);
-          track.appendChild(slideDiv);
         });
-      }
+        // Data for all sections
+        const fabricationWorks = [
+          { src: "./assets/fabrication/fabricationImg1.jpg", label: "REX Education Booth at Manila International Book Fair 2024" },
+          { src: "./assets/fabrication/fabricationImg2.jpg", label: "REX Education Booth at Manila International Book Fair 2025" },
+          { src: "./assets/fabrication/fabricationImg3.jpg", label: "Hotel and Spa Essentials Booth at Hotel & Foodservice Suppliers Show" },
+          { src: "./assets/fabrication/fabricationImg4.jpg", label: "Watsons HWB Awards 2025 Booth" },
+          { src: "./assets/fabrication/fabricationImg5.jpg", label: "Watsons HWB Awards 2024 Booth" },
+          { src: "./assets/fabrication/fabricationImg6.jpg", label: "Dazzle Me Ambassador Launch at Robinsons Antipolo" },
+          { src: "./assets/fabrication/fabricationImg7.jpg", label: "GAC Motor Outdoor Booth at Autofocus Test Drive Festival" },
+          { src: "./assets/fabrication/fabricationImg8.jpg", label: "Watsons Skin Solutions Booth" },
+          { src: "./assets/fabrication/fabricationImg9.jpg", label: "Nustar Resort & Casino Booth in Cebu" },
+          { src: "./assets/fabrication/fabricationImg10.jpg", label: "Nutrafinity Booth at MAFBEX 2024" },
+          { src: "./assets/fabrication/fabricationImg11.jpg", label: "Abi Marquez Booth at Philippine Food Expo 2025" },
+          { src: "./assets/fabrication/fabricationImg12.jpg", label: "Watsons Get That K-Glow Campaign Booth" },
+          { src: "./assets/fabrication/fabricationImg13.jpg", label: "AXA Nationwide Booths" },
+          { src: "./assets/fabrication/fabricationImg14.jpg", label: "SM Cinema Murals" },
+          { src: "./assets/fabrication/fabricationImg15.jpg", label: "BBC Virtual Golf Signage Booth" }
+        ];
 
-      function createWorkElement(work, isMobile) {
-        const workDiv = document.createElement('div');
-        workDiv.className = `group relative bg-white ${isMobile ? 'rounded-xl shadow-lg' : 'rounded-2xl shadow-2xl'
-          } overflow-hidden transform transition-all duration-500 hover:scale-105`;
+        const eventWorks = [
+          { src: "./assets/event/eventImg1.jpg", label: "Jetour Dealer Exclusive Preview 2023 at Okada Manila" },
+          { src: "./assets/event/eventImg2.jpg", label: "AC Motors Centrale in BGC Inauguration" },
+          { src: "./assets/event/eventImg3.jpg", label: "BYD Manila Bay Grand Opening at Aseana City" },
+          { src: "./assets/event/eventImg4.jpg", label: "KIA at Manila International Auto Show 2019" },
+          { src: "./assets/event/eventImg5.jpg", label: "Maxus T60 Launch at Arcovia" },
+          { src: "./assets/event/eventImg6.jpg", label: "Success Academy" },
+          { src: "./assets/event/eventImg7.jpg", label: "Jetour Dashing Media Launch" },
+          { src: "./assets/event/eventImg8.jpg", label: "BJ Mercantile Inc. 50th Anniversary" },
+          { src: "./assets/event/eventImg9.jpg", label: "Bayer 2024 Sales Excellence Awards" },
+          { src: "./assets/event/eventImg10.jpg", label: "Isuzu and Volkswagen at Philippine International Motor Show 2018" },
+          { src: "./assets/event/eventImg11.jpg", label: "Menarini Philippines 2025 National Sales Conference" },
+          { src: "./assets/event/eventImg12.jpg", label: "KIA National Skills Cup 2022" }
+        ];
 
-        workDiv.innerHTML = `
+        const printingWorks = [
+          { src: "./assets/printing/printingImg1.jpg", label: "Wall Mural Sticker at a Medical Clinic" },
+          { src: "./assets/printing/printingImg2.jpg", label: "Drop Down Banners at Market! Market!" },
+          { src: "./assets/printing/printingImg3.jpg", label: "Wall Tarp Printing & Installation for a Fitness Gym" },
+          { src: "./assets/printing/printingImg4.jpg", label: "Sticker Printing & Installation for SM Beauty at SM North Edsa" },
+          { src: "./assets/printing/printingImg5.jpg", label: "Skechers Drop Down Banners at Market! Market!" },
+          { src: "./assets/printing/printingImg6.jpg", label: "Vehicle Sticker Printing and Installation" },
+          { src: "./assets/printing/printingImg7.jpg", label: "Large Format Prints" },
+          { src: "./assets/printing/printingImg8.jpg", label: "Pull Up Banners for GX International Pharma" }
+        ];
+
+        // Reusable Carousel Implementation
+        function initializeCarousel(carouselId, works) {
+          const carousel = document.getElementById(`${carouselId}-carousel`);
+          const track = document.getElementById(`${carouselId}-track`);
+          const prevBtn = document.getElementById(`${carouselId}-prev`);
+          const nextBtn = document.getElementById(`${carouselId}-next`);
+          const prevBtnMobile = document.getElementById(`${carouselId}-prev-mobile`);
+          const nextBtnMobile = document.getElementById(`${carouselId}-next-mobile`);
+          const desktopDots = document.getElementById(`${carouselId}-desktop-dots`);
+          const mobileDots = document.getElementById(`${carouselId}-mobile-dots`);
+
+          if (!carousel || !track || !prevBtn || !nextBtn || !prevBtnMobile || !nextBtnMobile) {
+            console.error(`Missing carousel elements for: ${carouselId}`);
+            return;
+          }
+
+          let currentIndex = 0;
+          const itemsPerSlideDesktop = 3;
+          const itemsPerSlideMobile = 1;
+
+          const desktopSlides = chunkArray(works, itemsPerSlideDesktop);
+          const mobileSlides = chunkArray(works, itemsPerSlideMobile);
+
+          let totalSlides = window.innerWidth < 768 ? mobileSlides.length : desktopSlides.length;
+
+          // Initialize carousel
+          renderCarousel();
+          createDots();
+          updateCarousel();
+
+          // Event listeners for desktop buttons
+          prevBtn.addEventListener('click', prevSlide);
+          nextBtn.addEventListener('click', nextSlide);
+
+          // Event listeners for mobile buttons
+          prevBtnMobile.addEventListener('click', prevSlide);
+          nextBtnMobile.addEventListener('click', nextSlide);
+
+          // Handle window resize
+          window.addEventListener('resize', handleResize);
+
+          function chunkArray(array, size) {
+            const chunks = [];
+            for (let i = 0; i < array.length; i += size) {
+              chunks.push(array.slice(i, i + size));
+            }
+            return chunks;
+          }
+
+          function handleResize() {
+            totalSlides = window.innerWidth < 768 ? mobileSlides.length : desktopSlides.length;
+            if (currentIndex >= totalSlides) {
+              currentIndex = 0;
+            }
+            renderCarousel();
+            createDots();
+            updateCarousel();
+          }
+
+          function renderCarousel() {
+            track.innerHTML = '';
+            const isMobile = window.innerWidth < 768;
+            const slides = isMobile ? mobileSlides : desktopSlides;
+
+            slides.forEach((slideWorks, index) => {
+              const slideDiv = document.createElement('div');
+              slideDiv.className = 'w-full flex-shrink-0';
+              slideDiv.style.width = '100%';
+
+              const gridClasses = isMobile
+                ? 'grid grid-cols-1 gap-4 px-2'
+                : 'grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 px-4';
+
+              const gridDiv = document.createElement('div');
+              gridDiv.className = gridClasses;
+
+              slideWorks.forEach(work => {
+                const workElement = createWorkElement(work, isMobile);
+                gridDiv.appendChild(workElement);
+              });
+
+              slideDiv.appendChild(gridDiv);
+              track.appendChild(slideDiv);
+            });
+          }
+
+          function createWorkElement(work, isMobile) {
+            const workDiv = document.createElement('div');
+            workDiv.className = `group relative bg-white ${isMobile ? 'rounded-xl shadow-lg' : 'rounded-2xl shadow-2xl'
+              } overflow-hidden transform transition-all duration-500 hover:scale-105`;
+
+            workDiv.innerHTML = `
             <div class="relative overflow-hidden">
                 <img 
                     src="${work.src}" 
@@ -1073,190 +1239,190 @@
             </div>
         `;
 
-        return workDiv;
-      }
-
-      function createDots() {
-        const isMobile = window.innerWidth < 768;
-        const totalDots = isMobile ? mobileSlides.length : desktopSlides.length;
-
-        // Determine dot colors based on section
-        let activeColor, inactiveColor;
-        if (carouselId === 'event-management') {
-          activeColor = 'bg-gray-800';
-          inactiveColor = 'bg-gray-300';
-        } else {
-          // Fabrication and Printing: Pure white for active, low opacity white for inactive
-          activeColor = 'bg-white';
-          inactiveColor = 'bg-white/30'; // Low opacity white
-        }
-
-        // Mobile dots
-        if (mobileDots) {
-          mobileDots.innerHTML = '';
-          for (let i = 0; i < totalDots; i++) {
-            const dot = document.createElement('button');
-            dot.className = `w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${i === currentIndex ? `${activeColor} scale-110` : `${inactiveColor} hover:${activeColor}`
-              }`;
-            dot.addEventListener('click', () => goToSlide(i));
-            mobileDots.appendChild(dot);
+            return workDiv;
           }
-        }
 
-        // Desktop dots
-        if (desktopDots) {
-          desktopDots.innerHTML = '';
-          for (let i = 0; i < totalDots; i++) {
-            const dot = document.createElement('button');
-            dot.className = `w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${i === currentIndex ? `${activeColor} scale-110` : `${inactiveColor} hover:${activeColor}`
-              }`;
-            dot.addEventListener('click', () => goToSlide(i));
-            desktopDots.appendChild(dot);
+          function createDots() {
+            const isMobile = window.innerWidth < 768;
+            const totalDots = isMobile ? mobileSlides.length : desktopSlides.length;
+
+            // Determine dot colors based on section
+            let activeColor, inactiveColor;
+            if (carouselId === 'event-management') {
+              activeColor = 'bg-gray-800';
+              inactiveColor = 'bg-gray-300';
+            } else {
+              // Fabrication and Printing: Pure white for active, low opacity white for inactive
+              activeColor = 'bg-white';
+              inactiveColor = 'bg-white/30'; // Low opacity white
+            }
+
+            // Mobile dots
+            if (mobileDots) {
+              mobileDots.innerHTML = '';
+              for (let i = 0; i < totalDots; i++) {
+                const dot = document.createElement('button');
+                dot.className = `w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${i === currentIndex ? `${activeColor} scale-110` : `${inactiveColor} hover:${activeColor}`
+                  }`;
+                dot.addEventListener('click', () => goToSlide(i));
+                mobileDots.appendChild(dot);
+              }
+            }
+
+            // Desktop dots
+            if (desktopDots) {
+              desktopDots.innerHTML = '';
+              for (let i = 0; i < totalDots; i++) {
+                const dot = document.createElement('button');
+                dot.className = `w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${i === currentIndex ? `${activeColor} scale-110` : `${inactiveColor} hover:${activeColor}`
+                  }`;
+                dot.addEventListener('click', () => goToSlide(i));
+                desktopDots.appendChild(dot);
+              }
+            }
           }
-        }
-      }
 
-      function updateCarousel() {
-        const offset = -currentIndex * 100;
-        track.style.transform = `translateX(${offset}%)`;
+          function updateCarousel() {
+            const offset = -currentIndex * 100;
+            track.style.transform = `translateX(${offset}%)`;
 
-        // Update arrow states for both desktop and mobile
-        prevBtn.classList.toggle('opacity-50', currentIndex === 0);
-        nextBtn.classList.toggle('opacity-50', currentIndex === totalSlides - 1);
-        prevBtnMobile.classList.toggle('opacity-50', currentIndex === 0);
-        nextBtnMobile.classList.toggle('opacity-50', currentIndex === totalSlides - 1);
+            // Update arrow states for both desktop and mobile
+            prevBtn.classList.toggle('opacity-50', currentIndex === 0);
+            nextBtn.classList.toggle('opacity-50', currentIndex === totalSlides - 1);
+            prevBtnMobile.classList.toggle('opacity-50', currentIndex === 0);
+            nextBtnMobile.classList.toggle('opacity-50', currentIndex === totalSlides - 1);
 
-        // Update dots
-        updateDots();
-      }
-
-      function updateDots() {
-        const isMobile = window.innerWidth < 768;
-        const totalDots = isMobile ? mobileSlides.length : desktopSlides.length;
-
-        // Determine dot colors based on section
-        let activeColor, inactiveColor;
-        if (carouselId === 'event-management') {
-          activeColor = 'bg-gray-800';
-          inactiveColor = 'bg-gray-300';
-        } else {
-          // Fabrication and Printing: Pure white for active, low opacity white for inactive
-          activeColor = 'bg-white';
-          inactiveColor = 'bg-white/30'; // Low opacity white
-        }
-
-        // Update mobile dots
-        if (mobileDots) {
-          const dots = mobileDots.children;
-          for (let i = 0; i < dots.length; i++) {
-            dots[i].className = `w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${i === currentIndex ? `${activeColor} scale-110` : `${inactiveColor} hover:${activeColor}`
-              }`;
+            // Update dots
+            updateDots();
           }
-        }
 
-        // Update desktop dots
-        if (desktopDots) {
-          const dots = desktopDots.children;
-          for (let i = 0; i < dots.length; i++) {
-            dots[i].className = `w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${i === currentIndex ? `${activeColor} scale-110` : `${inactiveColor} hover:${activeColor}`
-              }`;
+          function updateDots() {
+            const isMobile = window.innerWidth < 768;
+            const totalDots = isMobile ? mobileSlides.length : desktopSlides.length;
+
+            // Determine dot colors based on section
+            let activeColor, inactiveColor;
+            if (carouselId === 'event-management') {
+              activeColor = 'bg-gray-800';
+              inactiveColor = 'bg-gray-300';
+            } else {
+              // Fabrication and Printing: Pure white for active, low opacity white for inactive
+              activeColor = 'bg-white';
+              inactiveColor = 'bg-white/30'; // Low opacity white
+            }
+
+            // Update mobile dots
+            if (mobileDots) {
+              const dots = mobileDots.children;
+              for (let i = 0; i < dots.length; i++) {
+                dots[i].className = `w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${i === currentIndex ? `${activeColor} scale-110` : `${inactiveColor} hover:${activeColor}`
+                  }`;
+              }
+            }
+
+            // Update desktop dots
+            if (desktopDots) {
+              const dots = desktopDots.children;
+              for (let i = 0; i < dots.length; i++) {
+                dots[i].className = `w-3 h-3 rounded-full transition-all duration-300 cursor-pointer ${i === currentIndex ? `${activeColor} scale-110` : `${inactiveColor} hover:${activeColor}`
+                  }`;
+              }
+            }
           }
+
+          function goToSlide(index) {
+            currentIndex = index;
+            updateCarousel();
+          }
+
+          function nextSlide() {
+            if (currentIndex < totalSlides - 1) {
+              currentIndex++;
+              updateCarousel();
+            }
+          }
+
+          function prevSlide() {
+            if (currentIndex > 0) {
+              currentIndex--;
+              updateCarousel();
+            }
+          }
+
+          // Touch events for mobile
+          let startX = 0;
+          let isDragging = false;
+
+          track.addEventListener('touchstart', (e) => {
+            startX = e.touches[0].clientX;
+            isDragging = true;
+          });
+
+          track.addEventListener('touchmove', (e) => {
+            if (!isDragging) return;
+            e.preventDefault();
+          });
+
+          track.addEventListener('touchend', (e) => {
+            if (!isDragging) return;
+
+            const endX = e.changedTouches[0].clientX;
+            const diff = startX - endX;
+
+            if (Math.abs(diff) > 50) {
+              if (diff > 0) nextSlide();
+              else prevSlide();
+            }
+
+            isDragging = false;
+          });
+
+          console.log(`Carousel ${carouselId} initialized successfully`);
         }
-      }
 
-      function goToSlide(index) {
-        currentIndex = index;
-        updateCarousel();
-      }
 
-      function nextSlide() {
-        if (currentIndex < totalSlides - 1) {
-          currentIndex++;
-          updateCarousel();
-        }
-      }
+        // Initialize all carousels
+        function initializeAllCarousels() {
+          const carousels = [
+            { id: 'fabrication', works: fabricationWorks },
+            { id: 'event-management', works: eventWorks },
+            { id: 'printing', works: printingWorks }
+          ];
 
-      function prevSlide() {
-        if (currentIndex > 0) {
-          currentIndex--;
-          updateCarousel();
-        }
-      }
-
-      // Touch events for mobile
-      let startX = 0;
-      let isDragging = false;
-
-      track.addEventListener('touchstart', (e) => {
-        startX = e.touches[0].clientX;
-        isDragging = true;
-      });
-
-      track.addEventListener('touchmove', (e) => {
-        if (!isDragging) return;
-        e.preventDefault();
-      });
-
-      track.addEventListener('touchend', (e) => {
-        if (!isDragging) return;
-
-        const endX = e.changedTouches[0].clientX;
-        const diff = startX - endX;
-
-        if (Math.abs(diff) > 50) {
-          if (diff > 0) nextSlide();
-          else prevSlide();
+          carousels.forEach(({ id, works }) => {
+            initializeCarousel(id, works);
+          });
         }
 
-        isDragging = false;
-      });
+        // Initialize when DOM is loaded
+        document.addEventListener('DOMContentLoaded', function () {
+          console.log('Initializing all carousels...');
+          initializeAllCarousels();
 
-      console.log(`Carousel ${carouselId} initialized successfully`);
-    }
-
-
-    // Initialize all carousels
-    function initializeAllCarousels() {
-      const carousels = [
-        { id: 'fabrication', works: fabricationWorks },
-        { id: 'event-management', works: eventWorks },
-        { id: 'printing', works: printingWorks }
-      ];
-
-      carousels.forEach(({ id, works }) => {
-        initializeCarousel(id, works);
-      });
-    }
-
-    // Initialize when DOM is loaded
-    document.addEventListener('DOMContentLoaded', function () {
-      console.log('Initializing all carousels...');
-      initializeAllCarousels();
-
-      // Enhanced hover effect for CTA buttons
-      document.querySelectorAll('#fabrication button.bg-white, #event-management button.bg-gray-800, #printing button.bg-white').forEach(button => {
-        button.addEventListener('mouseenter', function () {
-          this.style.transform = 'scale(1.05)';
-        });
-        button.addEventListener('mouseleave', function () {
-          this.style.transform = 'scale(1)';
-        });
-      });
-
-      // Smooth scrolling for navigation
-      document.querySelectorAll('a.scroll-link').forEach(link => {
-        link.addEventListener('click', function (e) {
-          e.preventDefault();
-          const targetId = this.getAttribute('href').substring(1);
-          const target = document.getElementById(targetId);
-          if (target) {
-            target.scrollIntoView({
-              behavior: 'smooth',
-              block: 'start'
+          // Enhanced hover effect for CTA buttons
+          document.querySelectorAll('#fabrication button.bg-white, #event-management button.bg-gray-800, #printing button.bg-white').forEach(button => {
+            button.addEventListener('mouseenter', function () {
+              this.style.transform = 'scale(1.05)';
             });
-          }
+            button.addEventListener('mouseleave', function () {
+              this.style.transform = 'scale(1)';
+            });
+          });
+
+          // Smooth scrolling for navigation
+          document.querySelectorAll('a.scroll-link').forEach(link => {
+            link.addEventListener('click', function (e) {
+              e.preventDefault();
+              const targetId = this.getAttribute('href').substring(1);
+              const target = document.getElementById(targetId);
+              if (target) {
+                target.scrollIntoView({
+                  behavior: 'smooth',
+                  block: 'start'
+                });
+              }
+            });
+          });
         });
-      });
-    });
-  </script>
+      </script>
 </section>

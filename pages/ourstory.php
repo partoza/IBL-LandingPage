@@ -8,7 +8,7 @@
       <div class="absolute inset-0 z-0">
         <div class="absolute inset-0 bg-gradient-to-br from-red-300 via-red-700 to-red-950"></div>
         <!-- Subtle texture -->
-        <div class="absolute inset-0 opacity-10 mix-blend-overlay bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center">
+        <div class="absolute inset-0 opacity-10 mix-blend-overlay bg-[url('./assets/team/team3.jpg')] bg-cover bg-center">
         </div>
       </div>
 
@@ -329,7 +329,7 @@
         <div class="space-y-6 order-2 lg:order-1">
           <div
             class="group relative rounded-2xl overflow-hidden bg-white border border-gray-200 shadow-xl hover:shadow-2xl transition-all duration-700 hover:scale-[1.02] scroll-animate">
-            <img src="./assets/bg/bg1.jpg" alt="Community coming together in faith and support"
+            <img src="./assets/team/team6.jpg" alt="Community coming together in faith and support"
               class="w-full h-[300px] md:h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
               width="600" height="400" loading="lazy" />
 
@@ -376,7 +376,7 @@
       </div>
 
       <!-- Background Elements -->
-      <div class="absolute inset-0 bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center opacity-70"></div>
+      <div class="absolute inset-0 bg-[url('./assets/team/team6.jpg')] bg-cover bg-center opacity-70"></div>
       <div class="absolute inset-0 bg-white/90"></div>
     </div>
 
@@ -457,7 +457,7 @@
           <div
             class="scroll-animate group relative rounded-2xl overflow-hidden bg-gray-800/30 backdrop-blur-md border border-white/10 shadow-2xl hover:shadow-2xl transition-all duration-700 hover:scale-[1.02]">
             <img
-              src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80"
+              src="./assets/team/team8.jpg"
               alt="Marketing team collaboration"
               class="w-full h-[300px] md:h-[400px] object-cover transition-transform duration-700 group-hover:scale-105"
               width="600" height="400" loading="lazy" />
@@ -469,7 +469,7 @@
       </div>
 
       <!-- Background Overlay -->
-      <div class="absolute inset-0 bg-[url('./assets/bg/bg1.jpg')] bg-cover bg-center opacity-20"></div>
+      <div class="absolute inset-0 bg-[url('./assets/team/team8.jpg')] bg-cover bg-center opacity-20"></div>
       <div class="absolute inset-0 bg-red-600/70"></div>
     </div>
 
@@ -509,7 +509,7 @@
           class="group relative h-80 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
           <!-- Background Image -->
           <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')] bg-cover bg-center">
+            class="absolute inset-0 bg-[url('./assets/team/team7.jpg')] bg-cover bg-center">
           </div>
           <!-- Gradient Overlay -->
           <div class="absolute inset-0 bg-gradient-to-t from-red-900/90 via-red-800/40 to-transparent"></div>
@@ -538,7 +538,7 @@
           class="group relative h-80 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
           <!-- Background Image -->
           <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')] bg-cover bg-center">
+            class="absolute inset-0 bg-[url('./assets/event/eventImg9.jpg')] bg-cover bg-center">
           </div>
           <!-- Gradient Overlay -->
           <div class="absolute inset-0 bg-gradient-to-t from-red-800/90 via-red-700/40 to-transparent"></div>
@@ -567,7 +567,7 @@
           class="group relative h-80 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
           <!-- Background Image -->
           <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')] bg-cover bg-center">
+            class="absolute inset-0 bg-[url('./assets/printing/printingImg7.jpg')] bg-cover bg-center">
           </div>
           <!-- Gradient Overlay -->
           <div class="absolute inset-0 bg-gradient-to-t from-red-700/90 via-red-600/40 to-transparent"></div>
@@ -596,7 +596,7 @@
           class="group relative h-80 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
           <!-- Background Image -->
           <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80')] bg-cover bg-center">
+            class="absolute inset-0 bg-[url('./assets/team/team1.jpg')] bg-cover bg-center">
           </div>
           <!-- Gradient Overlay -->
           <div class="absolute inset-0 bg-gradient-to-t from-red-600/90 via-red-500/40 to-transparent"></div>
