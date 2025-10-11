@@ -8,12 +8,18 @@
   <link rel="icon" type="image/png" href="./assets/iblLogo.png">
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
   <style>
     /* Enhanced smooth scrolling */
     html {
       scroll-behavior: smooth;
       overflow-x: hidden;
-      scroll-padding-top: 100px; /* Account for fixed header */
+      scroll-padding-top: 100px;
+      /* Account for fixed header */
     }
 
     body {
@@ -85,6 +91,7 @@
       0% {
         transform: translateX(0%);
       }
+
       100% {
         transform: translateX(-50%);
       }
@@ -114,8 +121,8 @@
         padding: 0.75rem 1rem;
         font-size: 1.1rem;
       }
-      
-      
+
+
       .card-hover:hover {
         transform: translateY(-2px);
       }
@@ -126,7 +133,7 @@
       .card-hover:active {
         transform: translateY(-2px);
       }
-      
+
       .btn-hover:active::before {
         left: 100%;
       }
@@ -151,7 +158,7 @@
       left: -100%;
       width: 100%;
       height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
       transition: left 0.5s ease;
     }
 
@@ -176,8 +183,8 @@
   <header class="bg-white shadow-lg fixed top-0 left-0 w-full z-50 backdrop-blur-sm bg-white/95">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
       <img src="./assets/iblLogo.png" alt="Company Logo" class="w-20 hover:scale-105 transition-transform duration-300">
-      
-        <!-- Desktop Nav -->
+
+      <!-- Desktop Nav -->
       <nav class="hidden md:flex space-x-2">
         <a href="#home" class="nav-link">Home</a>
         <a href="#ourstory" class="nav-link">Our Story</a>
@@ -186,11 +193,12 @@
       </nav>
 
       <!-- Mobile menu button -->
-      <button id="menu-btn" class="md:hidden text-gray-700 focus:outline-none text-2xl hover:text-red-600 transition-colors duration-300">
+      <button id="menu-btn"
+        class="md:hidden text-gray-700 focus:outline-none text-2xl hover:text-red-600 transition-colors duration-300">
         <i class="bi bi-list"></i>
       </button>
     </div>
-    
+
     <!-- Mobile Nav -->
     <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200 mobile-menu-enter">
       <nav class="flex flex-col p-4 space-y-2">
@@ -225,7 +233,7 @@
         if (target) {
           const headerHeight = document.querySelector('header').offsetHeight;
           const targetPosition = target.offsetTop - headerHeight - 20; // Extra 20px padding
-          
+
           // Smooth scroll with easing
           window.scrollTo({
             top: targetPosition,
@@ -251,13 +259,13 @@
       const sections = document.querySelectorAll('section[id]');
       const navLinks = document.querySelectorAll('.nav-link');
       const headerHeight = document.querySelector('header').offsetHeight;
-      
+
       let current = '';
-      
+
       sections.forEach(section => {
         const sectionTop = section.offsetTop - headerHeight - 100;
         const sectionHeight = section.offsetHeight;
-        
+
         if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
           current = section.getAttribute('id');
         }
@@ -274,7 +282,7 @@
     // Enhanced scroll event handling for smooth performance
     let ticking = false;
     let lastScrollY = 0;
-    
+
     function onScroll() {
       if (!ticking) {
         requestAnimationFrame(() => {
@@ -309,7 +317,7 @@
         if (target) {
           const headerHeight = document.querySelector('header').offsetHeight;
           const targetPosition = target.offsetTop - headerHeight;
-          
+
           window.scrollTo({
             top: targetPosition,
             behavior: 'smooth'
