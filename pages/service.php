@@ -9,172 +9,177 @@
       <!-- Grid -->
       <div class="max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 p-6 mx-auto">
         <!-- Fabrication -->
-        <div
-          class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
-          <!-- Background Image -->
+        <a href="#fabrication">
           <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1581094794329-c6dccbdd56c9?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')] bg-cover bg-center">
-          </div>
-          <!-- Gradient Overlay -->
-          <div
-            class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
-          </div>
-
-          <!-- Content -->
-          <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
-            <!-- Title -->
-            <h3
-              class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
-              FABRICATION
-            </h3>
-
-            <!-- Description -->
-            <p
-              class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
-              Custom-built structures, displays, and setups tailored to bring your ideas to life.
-            </p>
-
-            <!-- Button -->
+            class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
+            <!-- Background Image -->
+            <div class="absolute inset-0 bg-[url('./assets/fabrication/fabricationImg3.jpg')] bg-cover bg-center">
+            </div>
+            <!-- Gradient Overlay -->
             <div
-              class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
-              <button
-                class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                See Our Works
-                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
-                  stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
-                  </path>
-                </svg>
-              </button>
+              class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
+            </div>
+
+            <!-- Content -->
+            <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
+              <!-- Title -->
+              <h3
+                class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
+                FABRICATION
+              </h3>
+
+              <!-- Description -->
+              <p
+                class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
+                Custom-built structures, displays, and setups tailored to bring your ideas to life.
+              </p>
+
+              <!-- Button -->
+              <div
+                class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
+                <button
+                  class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                  See Our Works
+                  <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                    </path>
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
+
 
         <!-- Event Management -->
-        <div
-          class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
-          <!-- Background Image -->
+        <a href="#event-management">
           <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')] bg-cover bg-center">
-          </div>
-          <!-- Gradient Overlay -->
-          <div
-            class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
-          </div>
-
-          <!-- Content -->
-          <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
-            <!-- Title -->
-            <h3
-              class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
-              EVENT MANAGEMENT
-            </h3>
-
-            <!-- Description -->
-            <p
-              class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
-              End-to-end planning and execution of seamless, memorable events.
-            </p>
-
-            <!-- Button -->
+            class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
+            <!-- Background Image -->
+            <div class="absolute inset-0 bg-[url('./assets/event/eventImg7.jpg')] bg-cover bg-center">
+            </div>
+            <!-- Gradient Overlay -->
             <div
-              class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
-              <button
-                class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                See Our Works
-                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
-                  stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
-                  </path>
-                </svg>
-              </button>
+              class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
+            </div>
+
+            <!-- Content -->
+            <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
+              <!-- Title -->
+              <h3
+                class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
+                EVENT MANAGEMENT
+              </h3>
+
+              <!-- Description -->
+              <p
+                class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
+                End-to-end planning and execution of seamless, memorable events.
+              </p>
+
+              <!-- Button -->
+              <div
+                class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
+                <button
+                  class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                  See Our Works
+                  <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                    </path>
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
 
-        <!-- Social Media -->
-        <div
-          class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
-          <!-- Background Image -->
+
+        <a href="#event-management">
           <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')] bg-cover bg-center">
-          </div>
-          <!-- Gradient Overlay -->
-          <div
-            class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
-          </div>
-
-          <!-- Content -->
-          <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
-            <!-- Title -->
-            <h3
-              class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
-              SOCIAL MEDIA
-            </h3>
-
-            <!-- Description -->
-            <p
-              class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
-              Engaging content creation and strategy to grow your online presence.
-            </p>
-
-            <!-- Button -->
+            class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
+            <!-- Background Image -->
+            <div class="absolute inset-0 bg-[url('./assets/socmed/socmedImg3.jpg')] bg-cover bg-center">
+            </div>
+            <!-- Gradient Overlay -->
             <div
-              class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
-              <button
-                class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                See Our Works
-                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
-                  stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
-                  </path>
-                </svg>
-              </button>
+              class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
+            </div>
+
+            <!-- Content -->
+            <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
+              <!-- Title -->
+              <h3
+                class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
+                SOCIAL MEDIA
+              </h3>
+
+              <!-- Description -->
+              <p
+                class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
+                Engaging content creation and strategy to grow your online presence.
+              </p>
+
+              <!-- Button -->
+              <div
+                class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
+                <button
+                  class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                  See Our Works
+                  <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                    </path>
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
 
-        <!-- Printing -->
-        <div
-          class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
-          <!-- Background Image -->
+        <a href="#printing">
+          <!-- Printing -->
           <div
-            class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1603712610496-5362a2c93c88?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80')] bg-cover bg-center">
-          </div>
-          <!-- Gradient Overlay -->
-          <div
-            class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
-          </div>
-
-          <!-- Content -->
-          <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
-            <!-- Title -->
-            <h3
-              class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
-              PRINTING
-            </h3>
-
-            <!-- Description -->
-            <p
-              class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
-              Accurate and high-quality prints for your branding, marketing, and promotional needs.
-            </p>
-
-            <!-- Button -->
+            class="group relative h-72 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-[1.02] hover:shadow-xl">
+            <!-- Background Image -->
+            <div class="absolute inset-0 bg-[url('./assets/printing/printingImg6.jpg')] bg-cover bg-center">
+            </div>
+            <!-- Gradient Overlay -->
             <div
-              class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
-              <button
-                class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                See Our Works
-                <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
-                  stroke="currentColor" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
-                  </path>
-                </svg>
-              </button>
+              class="absolute inset-0 bg-gradient-to-b from-red-900/20 via-red-800/60 to-red-900/95 transition-all duration-500">
+            </div>
+
+            <!-- Content -->
+            <div class="relative h-full flex flex-col items-center justify-center text-center p-8">
+              <!-- Title -->
+              <h3
+                class="text-3xl group-hover:text-2xl font-black group-hover:font-bold text-white mb-4 transition-colors duration-300 text-center">
+                PRINTING
+              </h3>
+
+              <!-- Description -->
+              <p
+                class="text-gray-600 group-hover:text-white/90 text-base leading-relaxed max-w-xs max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-40 group-hover:translate-y-0 transition-all duration-500 delay-100">
+                Accurate and high-quality prints for your branding, marketing, and promotional needs.
+              </p>
+
+              <!-- Button -->
+              <div
+                class="mt-6 max-h-0 overflow-hidden transform translate-y-4 group-hover:max-h-20 group-hover:translate-y-0 transition-all duration-500 delay-200">
+                <button
+                  class="bg-white/90 group-hover:bg-white text-red-800 px-6 py-3 rounded-full font-semibold text-sm flex items-center gap-2 shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+                  See Our Works
+                  <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                    </path>
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -183,68 +188,73 @@
   <div id="fabrication"
     class="w-full bg-gradient-to-br from-red-900 via-red-800 to-rose-900 text-white pt-20 px-4 sm:px-6 relative overflow-hidden">
     <!-- Background decorative elements -->
-    <div class="absolute inset-0 opacity-10">
-      <div class="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-xl"></div>
-      <div class="absolute bottom-20 right-20 w-40 h-40 bg-rose-300 rounded-full blur-xl"></div>
-      <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-amber-200 rounded-full blur-lg"></div>
-    </div>
-
-    <!-- Geometric pattern overlay -->
-    <div class="absolute inset-0 opacity-5">
-      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\" 60\" height=\"60\"
-        viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg
-        fill=\"%23ffffff\" fill-opacity=\"0.4\"%3E%3Ccircle cx=\"30\" cy=\"30\"
-        r=\"1\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+    <div class="absolute inset-0">
+      <!-- Main background image overlay -->
+      <div
+        class="absolute inset-0 bg-[url('./assets/fabrication/fabricationImg8.jpg')] bg-cover bg-center mix-blend-overlay opacity-20">
+      </div>
+      <!-- Animated gradient overlay -->
+      <div class="absolute inset-0 bg-gradient-to-br from-red-900/80 via-transparent to-rose-900/70 animate-pulse-slow">
+      </div>
+      <!-- Geometric pattern overlay -->
+      <div class="absolute inset-0 opacity-10">
+        <div class="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-xl"></div>
+        <div class="absolute bottom-20 right-20 w-40 h-40 bg-rose-300 rounded-full blur-xl"></div>
+        <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-amber-200 rounded-full blur-lg"></div>
+      </div>
+      <!-- Animated gradient overlay -->
+      <div class="absolute inset-0 bg-gradient-to-br from-red-900/80 via-transparent to-rose-900/70 animate-pulse-slow">
+      </div>
     </div>
 
     <div class="max-w-7xl mx-auto relative z-10">
       <!-- Header Section -->
       <div class="text-center mb-12 md:mb-16">
         <div class="inline-block mb-3 md:mb-4">
-          <span class="text-rose-200 text-sm font-semibold tracking-widest uppercase">Where Vision Meets
-            Craftsmanship</span>
+          <span
+            class="text-rose-200 text-sm font-semibold tracking-widest uppercase bg-white/10 px-4 py-2 rounded-full border border-white/20">Where
+            Vision Meets Craftsmanship</span>
         </div>
         <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white tracking-tight">
-          FABRICATION
+          <span class="bg-gradient-to-r from-white to-rose-200 bg-clip-text text-transparent">
+            FABRICATION</span>
         </h2>
 
         <div class="max-w-4xl mx-auto">
-          <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl">
-            <p class="text-lg md:text-xl lg:text-2xl text-rose-50 mb-6 leading-relaxed font-light italic">
-              "We don't just build booths—we create <span class="font-bold text-white not-italic">immersive brand
-                experiences</span> that stop audiences in their tracks."
+          <div
+            class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
+            <!-- Card background pattern -->
+            <div
+              class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-white/5 to-transparent rounded-full -translate-y-16 translate-x-16">
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-rose-400/10 to-transparent rounded-full translate-y-12 -translate-x-12">
+            </div>
+
+            <p class="text-lg md:text-xl lg:text-1xl text-rose-50 mb-6 leading-relaxed font-medium relative z-10">
+              With over two decades of collective mastery in the industry, our artisans specialize in transforming
+              concepts into extraordinary custom booths and structures that perfectly embody your brand's essence.
             </p>
 
-            <div class="grid grid-cols-3 gap-4 md:gap-6 text-center">
-              <div class="space-y-1 md:space-y-2">
-                <div class="text-2xl md:text-3xl font-bold text-white">20+</div>
-                <div class="text-rose-200 text-xs md:text-sm font-medium">Years of Mastery</div>
-              </div>
-              <div class="space-y-1 md:space-y-2">
-                <div class="text-2xl md:text-3xl font-bold text-white">500+</div>
-                <div class="text-rose-200 text-xs md:text-sm font-medium">Projects Delivered</div>
-              </div>
-              <div class="space-y-1 md:space-y-2">
-                <div class="text-2xl md:text-3xl font-bold text-white">100%</div>
-                <div class="text-rose-200 text-xs md:text-sm font-medium">Client Satisfaction</div>
-              </div>
+            <div class="mt-6 md:mt-8 flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm relative z-10">
+              <span
+                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                Bespoke Design Solutions</span>
+              <span
+                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                Premium Material Selection</span>
+              <span
+                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                End-to-End Excellence</span>
             </div>
 
-            <div class="mt-6 md:mt-8 pt-4 md:pt-6 border-t border-white/10">
+            <div class="mt-6 md:mt-8 pt-4 md:pt-6 border-t border-white/10 relative z-10">
               <p class="text-base md:text-lg text-rose-100 leading-relaxed">
-                From concept to completion, we transform your wildest ideas into <span
-                  class="font-semibold text-white">tangible, breathtaking realities</span>.
+                From initial concept to final installation, we transform your boldest visions into <span
+                  class="font-semibold text-white bg-gradient-to-r from-white to-rose-200 bg-clip-text text-transparent">tangible,
+                  breathtaking realities</span> that captivate and inspire.
               </p>
             </div>
-          </div>
-
-          <div class="mt-6 md:mt-8 flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm">
-            <span class="bg-white/10 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20">✓
-              Custom Design</span>
-            <span class="bg-white/10 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20">✓
-              Premium Materials</span>
-            <span class="bg-white/10 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20">✓
-              End-to-End Service</span>
           </div>
         </div>
       </div>
@@ -252,14 +262,14 @@
       <div class="relative">
         <!-- Desktop Navigation Arrows -->
         <button id="fabrication-prev"
-          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-white/20 hover:bg-white/30 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
+          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
           <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
 
         <button id="fabrication-next"
-          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-white/20 hover:bg-white/30 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
+          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
           <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -267,14 +277,14 @@
 
         <!-- Mobile Navigation Arrows -->
         <button id="fabrication-prev-mobile"
-          class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+          class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
 
         <button id="fabrication-next-mobile"
-          class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+          class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -282,7 +292,7 @@
 
         <div id="fabrication-carousel" class="overflow-hidden">
           <div class="flex transition-transform duration-500 ease-out" id="fabrication-track">
-            <!-- Carousel items -->
+            <!-- Carousel items would go here -->
           </div>
         </div>
 
@@ -293,13 +303,21 @@
       <!-- CTA Section -->
       <div class="text-center mt-12 md:mt-16">
         <div
-          class="bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-2xl">
-          <h3 class="text-xl md:text-2xl font-bold text-white mb-4">Ready to Bring Your Vision to Life?</h3>
-          <p class="text-rose-100 mb-6 max-w-2xl mx-auto text-sm md:text-base">
-            Let's collaborate to create something extraordinary. Your brand deserves a stage that commands attention.
+          class="bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-2xl relative overflow-hidden">
+          <!-- CTA background elements -->
+          <div
+            class="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-bl from-rose-400/10 to-transparent rounded-full blur-xl">
+          </div>
+          <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-white/5 rounded-full blur-lg"></div>
+
+          <h3 class="text-xl md:text-2xl font-bold text-white mb-4 relative z-10">Ready to Bring Your Vision to Life?
+          </h3>
+          <p class="text-rose-100 mb-6 max-w-2xl mx-auto text-sm md:text-base relative z-10">
+            Let's collaborate to create something extraordinary. Your brand deserves a stage that commands attention and
+            leaves a lasting impression.
           </p>
           <button
-            class="bg-white text-red-800 px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:bg-rose-50 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base">
+            class="relative z-10 bg-gradient-to-r from-white to-rose-100 text-red-800 px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-rose-50 hover:to-white transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
             Start Your Project Today
           </button>
         </div>
@@ -311,75 +329,86 @@
   <div id="event-management"
     class="w-full bg-gradient-to-br from-white to-gray-100 text-gray-800 pt-20 px-4 sm:px-6 relative overflow-hidden">
     <!-- Background decorative elements -->
-    <div class="absolute inset-0 opacity-10">
-      <div class="absolute top-10 left-10 w-32 h-32 bg-gray-400 rounded-full blur-xl"></div>
-      <div class="absolute bottom-20 right-20 w-40 h-40 bg-gray-300 rounded-full blur-xl"></div>
-      <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-gray-200 rounded-full blur-lg"></div>
+    <div class="absolute inset-0">
+
+      <!-- Geometric pattern overlay -->
+      <div class="absolute inset-0 opacity-10">
+        <div class="absolute top-10 left-10 w-32 h-32 bg-gray-400 rounded-full blur-xl"></div>
+        <div class="absolute bottom-20 right-20 w-40 h-40 bg-gray-300 rounded-full blur-xl"></div>
+        <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-gray-200 rounded-full blur-lg"></div>
+      </div>
+
+      <!-- Main background image overlay -->
+      <div class="absolute inset-0 bg-[url('./assets/event/eventImg4.jpg')] bg-cover bg-center opacity-10">
+      </div>
     </div>
 
     <div class="max-w-7xl mx-auto relative z-10">
       <!-- Header Section -->
       <div class="text-center mb-12 md:mb-16">
         <div class="inline-block mb-3 md:mb-4">
-          <span class="text-gray-600 text-sm font-semibold tracking-widest uppercase">Where Ideas Become Unforgettable
-            Experiences</span>
+          <span
+            class="text-gray-600 text-sm font-semibold tracking-widest uppercase bg-gray-100 px-4 py-2 rounded-full border border-gray-300">Where
+            Ideas Become Unforgettable Experiences</span>
         </div>
         <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-gray-800 tracking-tight">
-          EVENT MANAGEMENT
+          <span class="bg-gradient-to-r from-red-800 via-red-700 to-red-600 bg-clip-text text-transparent">
+            EVENT MANAGEMENT</span>
         </h2>
 
         <div class="max-w-4xl mx-auto">
-          <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl">
-            <p class="text-lg md:text-xl lg:text-2xl text-gray-700 mb-6 leading-relaxed font-light italic">
-              "We don't just plan events—we create <span class="font-bold text-gray-900 not-italic">memorable
-                experiences</span> that leave lasting impressions."
+          <div
+            class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl relative overflow-hidden">
+            <!-- Card background pattern -->
+            <div
+              class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-gray-100 to-transparent rounded-full -translate-y-16 translate-x-16">
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-red-400/10 to-transparent rounded-full translate-y-12 -translate-x-12">
+            </div>
+
+            <p class="text-lg md:text-xl lg:text-1xl text-gray-700 mb-6 leading-relaxed font-medium relative z-10">
+              From ideation to execution and everything in between, we take care of every detail to ensure your event is
+              seamless and unforgettable.
+
+              Whether it’s planning, organizing, or post-event wrap-up, we are your trusted partner in bringing
+              extraordinary experiences to life.
             </p>
 
-            <div class="grid grid-cols-3 gap-4 md:gap-6 text-center">
-              <div class="space-y-1 md:space-y-2">
-                <div class="text-2xl md:text-3xl font-bold text-gray-800">15+</div>
-                <div class="text-gray-600 text-xs md:text-sm font-medium">Years of Experience</div>
-              </div>
-              <div class="space-y-1 md:space-y-2">
-                <div class="text-2xl md:text-3xl font-bold text-gray-800">300+</div>
-                <div class="text-gray-600 text-xs md:text-sm font-medium">Events Managed</div>
-              </div>
-              <div class="space-y-1 md:space-y-2">
-                <div class="text-2xl md:text-3xl font-bold text-gray-800">100%</div>
-                <div class="text-gray-600 text-xs md:text-sm font-medium">Client Satisfaction</div>
-              </div>
+            <div class="mt-6 md:mt-8 flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm relative z-10">
+              <span
+                class="bg-gray-200/80 px-3 py-1 md:px-4 md:py-2 rounded-full text-gray-700 border border-gray-300 backdrop-blur-sm shadow-lg">✓
+                Comprehensive Event Planning</span>
+              <span
+                class="bg-gray-200/80 px-3 py-1 md:px-4 md:py-2 rounded-full text-gray-700 border border-gray-300 backdrop-blur-sm shadow-lg">✓
+                Professional Venue Management</span>
+              <span
+                class="bg-gray-200/80 px-3 py-1 md:px-4 md:py-2 rounded-full text-gray-700 border border-gray-300 backdrop-blur-sm shadow-lg">✓
+                End-to-End Coordination</span>
             </div>
 
-            <div class="mt-6 md:mt-8 pt-4 md:pt-6 border-t border-gray-200">
-              <p class="text-base md:text-lg text-gray-700 leading-relaxed">
-                From concept to execution, we transform your vision into <span
-                  class="font-semibold text-gray-900">seamless, unforgettable events</span>.
+            <div class="mt-6 md:mt-8 pt-4 md:pt-6 border-t border-gray-200 relative z-10">
+              <p class="text-base md:text-md text-gray-700 leading-relaxed">
+                From initial concept to flawless execution, we transform your event ideas into <span
+                  class="font-semibold text-gray-900">seamless, unforgettable experiences</span> that engage and inspire
+                your audience.
               </p>
             </div>
-          </div>
-
-          <div class="mt-6 md:mt-8 flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm">
-            <span class="bg-gray-200/80 px-3 py-1 md:px-4 md:py-2 rounded-full text-gray-700 border border-gray-300">✓
-              Event Planning</span>
-            <span class="bg-gray-200/80 px-3 py-1 md:px-4 md:py-2 rounded-full text-gray-700 border border-gray-300">✓
-              Venue Management</span>
-            <span class="bg-gray-200/80 px-3 py-1 md:px-4 md:py-2 rounded-full text-gray-700 border border-gray-300">✓
-              End-to-End Service</span>
           </div>
         </div>
       </div>
 
       <div class="relative">
-        <!-- Navigation Arrows -->
+        <!-- Desktop Navigation Arrows -->
         <button id="event-management-prev"
-          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gray-800/20 hover:bg-gray-800/30 text-red-600 w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-red-600/50">
+          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-gray-200 to-gray-100 hover:from-gray-300 hover:to-gray-200 text-red-600 w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-red-600/50">
           <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
 
         <button id="event-management-next"
-          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-gray-800/20 hover:bg-gray-800/30 text-red-600 w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-red-600/50">
+          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-gradient-to-r from-gray-200 to-gray-100 hover:from-gray-300 hover:to-gray-200 text-red-600 w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-red-600/50">
           <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -387,14 +416,14 @@
 
         <!-- Mobile Navigation Arrows -->
         <button id="event-management-prev-mobile"
-          class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-gray-800/80 hover:bg-gray-800 text-white w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+          class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-gray-800 to-gray-700 hover:from-gray-900 hover:to-gray-800 text-white w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
 
         <button id="event-management-next-mobile"
-          class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-gray-800/80 hover:bg-gray-800 text-white w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+          class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-gray-800 to-gray-700 hover:from-gray-900 hover:to-gray-800 text-white w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -402,30 +431,33 @@
 
         <div id="event-management-carousel" class="overflow-hidden">
           <div class="flex transition-transform duration-500 ease-out" id="event-management-track">
-            <!-- Carousel items -->
+            <!-- Carousel items would go here -->
           </div>
         </div>
 
-        <!-- Desktop Pagination Dots -->
-        <div class="hidden md:flex justify-center mt-8 lg:mt-12 space-x-3" id="event-management-desktop-dots">
-          <!-- Dots will be generated by JavaScript -->
-        </div>
-
-        <!-- Mobile Navigation Dots -->
-        <div class="md:hidden flex justify-center mt-6 space-x-3" id="event-management-mobile-dots">
-          <!-- Dots will be generated by JavaScript -->
-        </div>
+        <div class="hidden md:flex justify-center mt-8 lg:mt-12 space-x-3" id="event-management-desktop-dots"></div>
+        <div class="md:hidden flex justify-center mt-6 space-x-3" id="event-management-mobile-dots"></div>
       </div>
 
       <!-- CTA Section -->
       <div class="text-center mt-12 md:mt-16">
-        <div class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl">
-          <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4">Ready to Create an Unforgettable Event?</h3>
-          <p class="text-gray-700 mb-6 max-w-2xl mx-auto text-sm md:text-base">
-            Let's collaborate to create something extraordinary. Your event deserves to be memorable and seamless.
+        <div
+          class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl relative overflow-hidden">
+          <!-- CTA background elements -->
+          <div
+            class="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-bl from-red-400/10 to-transparent rounded-full blur-xl">
+          </div>
+          <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-gray-100 rounded-full blur-lg"></div>
+
+          <h3 class="text-xl md:text-2xl font-bold text-gray-800 mb-4 relative z-10">Ready to Create an Unforgettable
+            Event?
+          </h3>
+          <p class="text-gray-700 mb-6 max-w-2xl mx-auto text-sm md:text-base relative z-10">
+            Let's collaborate to create something extraordinary. Your event deserves to be memorable, seamless, and
+            truly remarkable.
           </p>
           <button
-            class="bg-gray-800 text-white px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:bg-gray-700 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base">
+            class="relative z-10 bg-gradient-to-r from-red-700 to-red-600 text-white px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-red-600 hover:to-red-500 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
             Plan Your Event Today
           </button>
         </div>
@@ -437,68 +469,81 @@
   <div id="printing"
     class="w-full bg-gradient-to-br from-red-900 via-red-800 to-rose-900 text-white pt-20 px-4 sm:px-6 relative overflow-hidden">
     <!-- Background decorative elements -->
-    <div class="absolute inset-0 opacity-10">
-      <div class="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-xl"></div>
-      <div class="absolute bottom-20 right-20 w-40 h-40 bg-rose-300 rounded-full blur-xl"></div>
-      <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-amber-200 rounded-full blur-lg"></div>
-    </div>
+    <div class="absolute inset-0">
 
-    <!-- Geometric pattern overlay -->
-    <div class="absolute inset-0 opacity-5">
-      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\" 60\" height=\"60\"
-        viewBox=\"0 0 60 60\" xmlns=\"http://www.w3.org/2000/svg\"%3E%3Cg fill=\"none\" fill-rule=\"evenodd\"%3E%3Cg
-        fill=\"%23ffffff\" fill-opacity=\"0.4\"%3E%3Ccircle cx=\"30\" cy=\"30\"
-        r=\"1\"/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+      <!-- Geometric pattern overlay -->
+      <div class="absolute inset-0 opacity-10">
+        <div class="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-xl"></div>
+        <div class="absolute bottom-20 right-20 w-40 h-40 bg-rose-300 rounded-full blur-xl"></div>
+        <div class="absolute top-1/2 left-1/3 w-24 h-24 bg-amber-200 rounded-full blur-lg"></div>
+      </div>
+      <!-- Animated gradient overlay -->
+      <div class="absolute inset-0 bg-gradient-to-br from-red-900/80 via-transparent to-rose-900/70 animate-pulse-slow">
+      </div>
+      <!-- Main background image overlay -->
+      <div
+        class="absolute inset-0 bg-[url('./assets/printing/printingImg8.jpg')] bg-cover bg-center mix-blend-overlay opacity-20">
+      </div>
+
+      <!-- Animated gradient overlay -->
+      <div class="absolute inset-0 bg-gradient-to-br from-red-900/80 via-transparent to-rose-900/70 animate-pulse-slow">
+      </div>
+
+      <!-- Subtle texture overlay -->
+      <div
+        class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] opacity-10 mix-blend-overlay">
+      </div>
     </div>
 
     <div class="max-w-7xl mx-auto relative z-10">
       <!-- Header Section -->
       <div class="text-center mb-12 md:mb-16">
         <div class="inline-block mb-3 md:mb-4">
-          <span class="text-rose-200 text-sm font-semibold tracking-widest uppercase">Where Ideas Take Physical
-            Form</span>
+          <span
+            class="text-rose-200 text-sm font-semibold tracking-widest uppercase bg-white/10 px-4 py-2 rounded-full border border-white/20">Where
+            Ideas Take Physical Form</span>
         </div>
         <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white tracking-tight">
-          PRINTING
+          <span class="bg-gradient-to-r from-white to-rose-200 bg-clip-text text-transparent">
+            PRINTING</span>
         </h2>
 
         <div class="max-w-4xl mx-auto">
-          <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl">
-            <p class="text-lg md:text-xl lg:text-2xl text-rose-50 mb-6 leading-relaxed font-light italic">
-              "We don't just print materials—we create <span class="font-bold text-white not-italic">tangible brand
-                assets</span> that make lasting impressions."
+          <div
+            class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
+            <!-- Card background pattern -->
+            <div
+              class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-white/5 to-transparent rounded-full -translate-y-16 translate-x-16">
+            </div>
+            <div
+              class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-rose-400/10 to-transparent rounded-full translate-y-12 -translate-x-12">
+            </div>
+
+            <p class="text-lg md:text-xl lg:text-1xl text-rose-50 mb-6 leading-relaxed font-medium relative z-10">
+              With over a decade of expertise in the printing industry, our specialists excel at transforming digital
+              designs
+              into exceptional physical materials that perfectly communicate your brand's message and quality.
             </p>
 
-            <div class="grid grid-cols-3 gap-4 md:gap-6 text-center">
-              <div class="space-y-1 md:space-y-2">
-                <div class="text-2xl md:text-3xl font-bold text-white">10+</div>
-                <div class="text-rose-200 text-xs md:text-sm font-medium">Years of Expertise</div>
-              </div>
-              <div class="space-y-1 md:space-y-2">
-                <div class="text-2xl md:text-3xl font-bold text-white">1000+</div>
-                <div class="text-rose-200 text-xs md:text-sm font-medium">Projects Completed</div>
-              </div>
-              <div class="space-y-1 md:space-y-2">
-                <div class="text-2xl md:text-3xl font-bold text-white">100%</div>
-                <div class="text-rose-200 text-xs md:text-sm font-medium">Quality Guarantee</div>
-              </div>
+            <div class="mt-6 md:mt-8 flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm relative z-10">
+              <span
+                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                Premium Quality Printing</span>
+              <span
+                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                Fast Turnaround Times</span>
+              <span
+                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                End-to-End Excellence</span>
             </div>
 
-            <div class="mt-6 md:mt-8 pt-4 md:pt-6 border-t border-white/10">
-              <p class="text-base md:text-lg text-rose-100 leading-relaxed">
-                From design to delivery, we ensure your printed materials <span
-                  class="font-semibold text-white">perfectly represent your brand</span>.
+            <div class="mt-6 md:mt-8 pt-4 md:pt-6 border-t border-white/10 relative z-10">
+              <p class="text-base md:text-md text-rose-100 leading-relaxed">
+                From digital concepts to tangible results, we transform your designs into <span
+                  class="font-semibold text-white bg-gradient-to-r from-white to-rose-200 bg-clip-text text-transparent">high-quality,
+                  impactful printed materials</span> that elevate your brand presence.
               </p>
             </div>
-          </div>
-
-          <div class="mt-6 md:mt-8 flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm">
-            <span class="bg-white/10 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20">✓
-              High-Quality Prints</span>
-            <span class="bg-white/10 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20">✓ Fast
-              Turnaround</span>
-            <span class="bg-white/10 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20">✓
-              End-to-End Service</span>
           </div>
         </div>
       </div>
@@ -506,14 +551,14 @@
       <div class="relative">
         <!-- Desktop Navigation Arrows -->
         <button id="printing-prev"
-          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-white/20 hover:bg-white/30 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
+          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
           <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
 
         <button id="printing-next"
-          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-white/20 hover:bg-white/30 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
+          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
           <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -521,14 +566,14 @@
 
         <!-- Mobile Navigation Arrows -->
         <button id="printing-prev-mobile"
-          class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+          class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
           </svg>
         </button>
 
         <button id="printing-next-mobile"
-          class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+          class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
           </svg>
@@ -536,31 +581,32 @@
 
         <div id="printing-carousel" class="overflow-hidden">
           <div class="flex transition-transform duration-500 ease-out" id="printing-track">
-            <!-- Carousel items -->
+            <!-- Carousel items would go here -->
           </div>
         </div>
 
-        <!-- Desktop Pagination Dots -->
-        <div class="hidden md:flex justify-center mt-8 lg:mt-12 space-x-3" id="printing-desktop-dots">
-          <!-- Dots will be generated by JavaScript -->
-        </div>
-
-        <!-- Mobile Navigation Dots -->
-        <div class="md:hidden flex justify-center mt-6 space-x-3" id="printing-mobile-dots">
-          <!-- Dots will be generated by JavaScript -->
-        </div>
+        <div class="hidden md:flex justify-center mt-8 lg:mt-12 space-x-3" id="printing-desktop-dots"></div>
+        <div class="md:hidden flex justify-center mt-6 space-x-3" id="printing-mobile-dots"></div>
       </div>
 
       <!-- CTA Section -->
       <div class="text-center mt-12 md:mt-16">
         <div
-          class="bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-2xl">
-          <h3 class="text-xl md:text-2xl font-bold text-white mb-4">Ready to Bring Your Designs to Life?</h3>
-          <p class="text-rose-100 mb-6 max-w-2xl mx-auto text-sm md:text-base">
-            Let's collaborate to create high-quality prints that perfectly represent your brand.
+          class="bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-2xl relative overflow-hidden">
+          <!-- CTA background elements -->
+          <div
+            class="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-bl from-rose-400/10 to-transparent rounded-full blur-xl">
+          </div>
+          <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-white/5 rounded-full blur-lg"></div>
+
+          <h3 class="text-xl md:text-2xl font-bold text-white mb-4 relative z-10">Ready to Bring Your Designs to Life?
+          </h3>
+          <p class="text-rose-100 mb-6 max-w-2xl mx-auto text-sm md:text-base relative z-10">
+            Let's collaborate to create high-quality prints that perfectly represent your brand and make lasting
+            impressions.
           </p>
           <button
-            class="bg-white text-red-800 px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:bg-rose-50 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base">
+            class="relative z-10 bg-gradient-to-r from-white to-rose-100 text-red-800 px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-rose-50 hover:to-white transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
             Start Your Print Project
           </button>
         </div>
@@ -568,8 +614,204 @@
     </div>
   </div>
 
-  <!-- Rest of your sections (Social Media, Clients, Team, etc.) -->
-  <!-- ... -->
+  <div id="socmedmanagement" class="w-full bg-gradient-to-br from-white to-red-50 text-black pt-20 pb-16 px-6">
+    <div class="max-w-6xl mx-auto text-center">
+      <h2
+        class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
+        SOCIAL MEDIA STRATEGY & MANAGEMENT</h2>
+      <div class="max-w-3xl mx-auto">
+        <p class="mb-6 text-lg text-gray-800 leading-relaxed font-medium">
+          We strategize, create, and implement content that grows your audience and builds lasting engagement across all
+          your social media platforms.
+        </p>
+        <p class="text-lg text-gray-800 leading-relaxed font-medium">
+          Guided by research, driven by strategy, and refined through analytics, we ensure your campaigns reach the
+          right market and deliver measurable results.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-white w-full py-16">
+    <!-- Row 1 -->
+    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 items-center p-6">
+      <div class="relative group">
+        <div
+          class="absolute -inset-4 bg-gradient-to-r from-red-100 to-red-200 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
+        </div>
+        <div class="relative">
+          <img src="./assets/socmed/socmedImg1.jpg" alt="Social Media Scan & Strategy"
+            class="rounded-xl shadow-xl w-full h-80 object-cover transform transition duration-500 group-hover:scale-[1.03]">
+        </div>
+      </div>
+      <div class="space-y-8">
+        <div class="flex items-center mb-4">
+          <div class="w-14 h-14 rounded-full bg-red-100 flex items-center justify-center mr-5 shadow-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-600" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+            </svg>
+          </div>
+          <h3 class="font-black text-3xl bg-gradient-to-r from-red-700 to-red-900 bg-clip-text text-transparent">SOCIAL
+            MEDIA SCAN & STRATEGY</h3>
+        </div>
+        <p class="leading-relaxed text-gray-800 text-lg font-medium">
+          We analyze your social media platforms to assess their current performance and uncover growth opportunities.
+          Then, we craft a comprehensive strategy tailored to your business goals—optimizing each platform to strengthen
+          your presence, engage your audience, and ultimately drive conversions.
+        </p>
+        <div class="pt-6">
+          <a href="#"
+            class="inline-flex items-center bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transform transition duration-300 hover:scale-105 group">
+            Learn More
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 ml-2 transform transition-transform group-hover:translate-x-2" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 mt-24 items-center p-6">
+      <div class="order-2 md:order-1 space-y-8">
+        <div class="flex items-center mb-4">
+          <div class="w-14 h-14 rounded-full bg-red-100 flex items-center justify-center mr-5 shadow-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-600" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+            </svg>
+          </div>
+          <h3 class="font-black text-3xl bg-gradient-to-r from-red-700 to-red-900 bg-clip-text text-transparent">LAYOUT
+            & DESIGN</h3>
+        </div>
+        <p class="leading-relaxed text-gray-800 text-lg font-medium">
+          Our creative team, composed of dynamic and innovative designers and copywriters, brings your brand to life
+          through striking visuals and compelling content. Whether following your creative direction or taking the lead
+          ourselves, we'll develop key visuals and copy for each asset—always ensuring everything is polished and
+          approved before launch.
+        </p>
+        <div class="pt-6">
+          <a href="#"
+            class="inline-flex items-center bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transform transition duration-300 hover:scale-105 group">
+            Learn More
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 ml-2 transform transition-transform group-hover:translate-x-2" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="order-1 md:order-2 relative group">
+        <div
+          class="absolute -inset-4 bg-gradient-to-r from-red-100 to-red-200 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
+        </div>
+        <div class="relative">
+          <img src="./assets/socmed/socmedImg2.jpg" alt="Layout & Design"
+            class="rounded-xl shadow-xl w-full h-80 object-cover transform transition duration-500 group-hover:scale-[1.03]">
+        </div>
+      </div>
+    </div>
+
+    <!-- Row 3 -->
+    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 mt-24 items-center p-6">
+      <div class="relative group">
+        <div
+          class="absolute -inset-4 bg-gradient-to-r from-red-100 to-red-200 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
+        </div>
+        <div class="relative">
+          <img src="./assets/socmed/socmedImg3.jpg" alt="Social Media Management"
+            class="rounded-xl shadow-xl w-full h-80 object-cover transform transition duration-500 group-hover:scale-[1.03]">
+        </div>
+      </div>
+      <div class="space-y-8">
+        <div class="flex items-center mb-4">
+          <div class="w-14 h-14 rounded-full bg-red-100 flex items-center justify-center mr-5 shadow-md">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-red-600" fill="none" viewBox="0 0 24 24"
+              stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          </div>
+          <h3 class="font-black text-3xl bg-gradient-to-r from-red-700 to-red-900 bg-clip-text text-transparent">SOCIAL
+            MEDIA MANAGEMENT</h3>
+        </div>
+        <p class="leading-relaxed text-gray-800 text-lg font-medium">
+          Once your strategy and assets are in place, we take care of everything—from crafting engaging captions and
+          posting content to managing your community. After each campaign, we provide a comprehensive performance report
+          with insights on effectiveness and recommendations for improvement, ensuring every campaign delivers stronger
+          results.
+        </p>
+        <div class="pt-6">
+          <a href="#"
+            class="inline-flex items-center bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transform transition duration-300 hover:scale-105 group">
+            Learn More
+            <svg xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5 ml-2 transform transition-transform group-hover:translate-x-2" viewBox="0 0 20 20"
+              fill="currentColor">
+              <path fill-rule="evenodd"
+                d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z"
+                clip-rule="evenodd" />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="w-full bg-red-800 text-white py-6 px-6">
+    <div class="text-center">
+      <h2 class="text-3xl font-bold pb-6">OUR CLIENTS</h2>
+      <p class="pb-6 text-center">
+        We’re proud to have partnered with amazing brands. <br>
+        Here’s a glimpse of some of our valued clients.
+      </p>
+
+      <!-- Carousel Wrapper -->
+      <div class="relative overflow-hidden w-full">
+        <!-- Animated container -->
+        <div class="animate-marquee flex flex-col space-y-6">
+          <?php
+          // Define client works array (41 logos)
+          $clients = [];
+          for ($i = 1; $i <= 41; $i++) {
+            $clients[] = ["src" => "./assets/client/clientImg{$i}.png"];
+          }
+
+          // Divide into two rows
+          echo '<div class="flex justify-center flex-wrap gap-4">';
+          foreach (array_slice($clients, 0, ceil(count($clients) / 2)) as $client) {
+            echo '
+            <div class="bg-white rounded-lg shadow-md flex items-center justify-center p-2">
+              <img src="' . $client["src"] . '" class="w-24 h-20 object-contain">
+            </div>
+          ';
+          }
+          echo '</div>';
+
+          echo '<div class="flex justify-center flex-wrap gap-4">';
+          foreach (array_slice($clients, ceil(count($clients) / 2)) as $client) {
+            echo '
+            <div class="bg-white rounded-lg shadow-md flex items-center justify-center p-2">
+              <img src="' . $client["src"] . '" class="w-24 h-20 object-contain">
+            </div>
+          ';
+          }
+          echo '</div>';
+          ?>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <style>
     @keyframes marquee {
@@ -654,6 +896,21 @@
     }
   </style>
   <script>
+
+    document.querySelectorAll('a.scroll-link').forEach(link => {
+      link.addEventListener('click', function (e) {
+        e.preventDefault(); // stop the URL from changing
+        const targetId = this.getAttribute('href').substring(1);
+        const target = document.getElementById(targetId);
+
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
     // Data for all sections
     const fabricationWorks = [
       { src: "./assets/fabrication/fabricationImg1.jpg", label: "REX Education Booth at Manila International Book Fair 2024" },
@@ -662,19 +919,15 @@
       { src: "./assets/fabrication/fabricationImg4.jpg", label: "Watsons HWB Awards 2025 Booth" },
       { src: "./assets/fabrication/fabricationImg5.jpg", label: "Watsons HWB Awards 2024 Booth" },
       { src: "./assets/fabrication/fabricationImg6.jpg", label: "Dazzle Me Ambassador Launch at Robinsons Antipolo" },
-      { src: "./assets/fabrication/fabricationImg1.jpg", label: "REX Education Booth at Manila International Book Fair 2024" },
-      { src: "./assets/fabrication/fabricationImg2.jpg", label: "REX Education Booth at Manila International Book Fair 2025" },
-      { src: "./assets/fabrication/fabricationImg3.jpg", label: "Hotel and Spa Essentials Booth at Hotel & Foodservice Suppliers Show" },
-      { src: "./assets/fabrication/fabricationImg4.jpg", label: "Watsons HWB Awards 2025 Booth" },
-      { src: "./assets/fabrication/fabricationImg5.jpg", label: "Watsons HWB Awards 2024 Booth" },
-      { src: "./assets/fabrication/fabricationImg6.jpg", label: "Dazzle Me Ambassador Launch at Robinsons Antipolo" },
-          { src: "./assets/fabrication/fabricationImg1.jpg", label: "REX Education Booth at Manila International Book Fair 2024" },
-      { src: "./assets/fabrication/fabricationImg2.jpg", label: "REX Education Booth at Manila International Book Fair 2025" },
-      { src: "./assets/fabrication/fabricationImg3.jpg", label: "Hotel and Spa Essentials Booth at Hotel & Foodservice Suppliers Show" },
-      { src: "./assets/fabrication/fabricationImg4.jpg", label: "Watsons HWB Awards 2025 Booth" },
-      { src: "./assets/fabrication/fabricationImg5.jpg", label: "Watsons HWB Awards 2024 Booth" },
-      { src: "./assets/fabrication/fabricationImg6.jpg", label: "Dazzle Me Ambassador Launch at Robinsons Antipolo" },
-      
+      { src: "./assets/fabrication/fabricationImg7.jpg", label: "GAC Motor Outdoor Booth at Autofocus Test Drive Festival" },
+      { src: "./assets/fabrication/fabricationImg8.jpg", label: "Watsons Skin Solutions Booth" },
+      { src: "./assets/fabrication/fabricationImg9.jpg", label: "Nustar Resort & Casino Booth in Cebu" },
+      { src: "./assets/fabrication/fabricationImg10.jpg", label: "Nutrafinity Booth at MAFBEX 2024" },
+      { src: "./assets/fabrication/fabricationImg11.jpg", label: "Abi Marquez Booth at Philippine Food Expo 2025" },
+      { src: "./assets/fabrication/fabricationImg12.jpg", label: "Watsons Get That K-Glow Campaign Booth" },
+      { src: "./assets/fabrication/fabricationImg13.jpg", label: "AXA Nationwide Booths" },
+      { src: "./assets/fabrication/fabricationImg14.jpg", label: "SM Cinema Murals" },
+      { src: "./assets/fabrication/fabricationImg15.jpg", label: "BBC Virtual Golf Signage Booth" }
     ];
 
     const eventWorks = [
@@ -683,7 +936,13 @@
       { src: "./assets/event/eventImg3.jpg", label: "BYD Manila Bay Grand Opening at Aseana City" },
       { src: "./assets/event/eventImg4.jpg", label: "KIA at Manila International Auto Show 2019" },
       { src: "./assets/event/eventImg5.jpg", label: "Maxus T60 Launch at Arcovia" },
-      { src: "./assets/event/eventImg6.jpg", label: "Success Academy" }
+      { src: "./assets/event/eventImg6.jpg", label: "Success Academy" },
+      { src: "./assets/event/eventImg7.jpg", label: "Jetour Dashing Media Launch" },
+      { src: "./assets/event/eventImg8.jpg", label: "BJ Mercantile Inc. 50th Anniversary" },
+      { src: "./assets/event/eventImg9.jpg", label: "Bayer 2024 Sales Excellence Awards" },
+      { src: "./assets/event/eventImg10.jpg", label: "Isuzu and Volkswagen at Philippine International Motor Show 2018" },
+      { src: "./assets/event/eventImg11.jpg", label: "Menarini Philippines 2025 National Sales Conference" },
+      { src: "./assets/event/eventImg12.jpg", label: "KIA National Skills Cup 2022" }
     ];
 
     const printingWorks = [
@@ -692,7 +951,9 @@
       { src: "./assets/printing/printingImg3.jpg", label: "Wall Tarp Printing & Installation for a Fitness Gym" },
       { src: "./assets/printing/printingImg4.jpg", label: "Sticker Printing & Installation for SM Beauty at SM North Edsa" },
       { src: "./assets/printing/printingImg5.jpg", label: "Skechers Drop Down Banners at Market! Market!" },
-      { src: "./assets/printing/printingImg6.jpg", label: "Vehicle Sticker Printing and Installation" }
+      { src: "./assets/printing/printingImg6.jpg", label: "Vehicle Sticker Printing and Installation" },
+      { src: "./assets/printing/printingImg7.jpg", label: "Large Format Prints" },
+      { src: "./assets/printing/printingImg8.jpg", label: "Pull Up Banners for GX International Pharma" }
     ];
 
     // Reusable Carousel Implementation
