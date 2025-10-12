@@ -3,11 +3,11 @@
     <div class="max-w-6xl mx-auto p-8 pt-5">
       <!-- Title -->
       <h2
-        class="text-4xl md:text-6xl font-black pb-10 uppercase tracking-tight bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent scroll-animate">
+        class="text-4xl md:text-6xl font-black pb-10 uppercase tracking-tight bg-gradient-to-r from-red-900 to-red-500 bg-clip-text text-transparent delay-animate-1 scroll-animate">
         OUR SERVICE
       </h2>
       <!-- Grid -->
-      <div class="max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 p-6 mx-auto">
+      <div class="max-w-6xl grid grid-cols-1 md:grid-cols-2 gap-6 p-6 mx-auto scroll-animate animate-delay-1">
         <!-- Fabrication -->
         <a href="#fabrication">
           <div
@@ -210,17 +210,18 @@
     <div class="max-w-7xl mx-auto relative z-10">
       <!-- Header Section -->
       <div class="text-center mb-12 md:mb-16">
-        <div class="inline-block mb-3 md:mb-4">
+        <div class="inline-block mb-3 md:mb-4 animate-delay-1 scroll-animate">
           <span
             class="text-rose-200 text-sm font-semibold tracking-widest uppercase bg-white/10 px-4 py-2 rounded-full border border-white/20">Where
             Vision Meets Craftsmanship</span>
         </div>
-        <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white tracking-tight">
+        <h2
+          class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white tracking-tight animate-delay-1 scroll-animate">
           <span class="bg-gradient-to-r from-white to-rose-200 bg-clip-text text-transparent">
             FABRICATION</span>
         </h2>
 
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-4xl mx-auto animate-delay-1 scroll-animate">
           <div
             class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
             <!-- Card background pattern -->
@@ -259,7 +260,7 @@
         </div>
       </div>
 
-      <div class="relative">
+      <div class="relative animate-delay-1 scroll-animate">
         <!-- Desktop Navigation Arrows -->
         <button id="fabrication-prev"
           class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
@@ -301,7 +302,7 @@
       </div>
 
       <!-- CTA Section -->
-      <div class="text-center mt-12 md:mt-16">
+      <div class="text-center mt-12 md:mt-16 animate-delay-1 scroll-animate">
         <div
           class="bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-2xl relative overflow-hidden">
           <!-- CTA background elements -->
@@ -316,10 +317,10 @@
             Let's collaborate to create something extraordinary. Your brand deserves a stage that commands attention and
             leaves a lasting impression.
           </p>
-          <button
-            class="relative z-10 bg-gradient-to-r from-white to-rose-100 text-red-800 px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-rose-50 hover:to-white transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
+          <a href="#contact"
+            class="btn relative z-10 bg-gradient-to-r from-white to-rose-100 text-red-800 px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-rose-50 hover:to-white transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
             Start Your Project Today
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -346,17 +347,18 @@
     <div class="max-w-7xl mx-auto relative z-10">
       <!-- Header Section -->
       <div class="text-center mb-12 md:mb-16">
-        <div class="inline-block mb-3 md:mb-4">
+        <div class="inline-block mb-3 md:mb-4 animate-delay-1 scroll-animate">
           <span
             class="text-gray-600 text-sm font-semibold tracking-widest uppercase bg-gray-100 px-4 py-2 rounded-full border border-gray-300">Where
             Ideas Become Unforgettable Experiences</span>
         </div>
-        <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-gray-800 tracking-tight">
+        <h2
+          class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-gray-800 tracking-tight animate-delay-1 scroll-animate">
           <span class="bg-gradient-to-r from-red-800 via-red-700 to-red-600 bg-clip-text text-transparent">
             EVENT MANAGEMENT</span>
         </h2>
 
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-4xl mx-auto animate-delay-1 scroll-animate">
           <div
             class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl relative overflow-hidden">
             <!-- Card background pattern -->
@@ -398,7 +400,7 @@
         </div>
       </div>
 
-      <div class="relative">
+      <div class="relative animate-delay-1 scroll-animate">
         <!-- Desktop Navigation Arrows -->
         <button id="event-management-prev"
           class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-gray-200 to-gray-100 hover:from-gray-300 hover:to-gray-200 text-red-600 w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-red-600/50">
@@ -440,7 +442,7 @@
       </div>
 
       <!-- CTA Section -->
-      <div class="text-center mt-12 md:mt-16">
+      <div class="text-center mt-12 md:mt-16 animate-delay-1 scroll-animate">
         <div
           class="bg-white/80 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl relative overflow-hidden">
           <!-- CTA background elements -->
@@ -456,10 +458,10 @@
             Let's collaborate to create something extraordinary. Your event deserves to be memorable, seamless, and
             truly remarkable.
           </p>
-          <button
-            class="relative z-10 bg-gradient-to-r from-red-700 to-red-600 text-white px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-red-600 hover:to-red-500 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
+          <a href="#contact"
+            class="btn relative z-10 bg-gradient-to-r from-red-700 to-red-600 text-white px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-red-600 hover:to-red-500 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
             Plan Your Event Today
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -498,17 +500,18 @@
     <div class="max-w-7xl mx-auto relative z-10">
       <!-- Header Section -->
       <div class="text-center mb-12 md:mb-16">
-        <div class="inline-block mb-3 md:mb-4">
+        <div class="inline-block mb-3 md:mb-4 animate-delay-1 scroll-animate">
           <span
             class="text-rose-200 text-sm font-semibold tracking-widest uppercase bg-white/10 px-4 py-2 rounded-full border border-white/20">Where
             Ideas Take Physical Form</span>
         </div>
-        <h2 class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white tracking-tight">
+        <h2
+          class="text-4xl md:text-5xl lg:text-6xl font-black mb-6 text-white tracking-tight animate-delay-1 scroll-animate">
           <span class="bg-gradient-to-r from-white to-rose-200 bg-clip-text text-transparent">
             PRINTING</span>
         </h2>
 
-        <div class="max-w-4xl mx-auto">
+        <div class="max-w-4xl mx-auto animate-delay-1 scroll-animate">
           <div
             class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
             <!-- Card background pattern -->
@@ -548,7 +551,7 @@
         </div>
       </div>
 
-      <div class="relative">
+      <div class="relative animate-delay-1 scroll-animate">
         <!-- Desktop Navigation Arrows -->
         <button id="printing-prev"
           class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
@@ -590,7 +593,7 @@
       </div>
 
       <!-- CTA Section -->
-      <div class="text-center mt-12 md:mt-16">
+      <div class="text-center mt-12 md:mt-16 animate-delay-1 scroll-animate">
         <div
           class="bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-2xl relative overflow-hidden">
           <!-- CTA background elements -->
@@ -605,10 +608,10 @@
             Let's collaborate to create high-quality prints that perfectly represent your brand and make lasting
             impressions.
           </p>
-          <button
+          <a href="#contact"
             class="relative z-10 bg-gradient-to-r from-white to-rose-100 text-red-800 px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-rose-50 hover:to-white transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
             Start Your Print Project
-          </button>
+          </a>
         </div>
       </div>
     </div>
@@ -617,9 +620,9 @@
   <div id="socialmedia" class="w-full bg-gradient-to-br from-white to-red-50 text-black pt-20 pb-16 px-6">
     <div class="max-w-6xl mx-auto text-center">
       <h2
-        class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent">
-        SOCIAL MEDIA STRATEGY & MANAGEMENT</h2>
-      <div class="max-w-3xl mx-auto">
+        class="text-4xl md:text-5xl font-black mb-6 bg-gradient-to-r from-red-600 to-red-800 bg-clip-text text-transparent animate-delay-1 scroll-animate">
+        SOCIAL MEDIA & MANAGEMENT</h2>
+      <div class="max-w-3xl mx-auto animate-delay-1 scroll-animate">
         <p class="mb-6 text-lg text-gray-800 leading-relaxed font-medium">
           We strategize, create, and implement content that grows your audience and builds lasting engagement across all
           your social media platforms.
@@ -634,7 +637,8 @@
 
   <div id="socialmedia" class="bg-white w-full py-16">
     <!-- Row 1 -->
-    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 items-center p-6">
+    <div
+      class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 items-center p-6 scroll-animate">
       <div class="relative group">
         <div
           class="absolute -inset-4 bg-gradient-to-r from-red-100 to-red-200 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
@@ -662,7 +666,7 @@
           your presence, engage your audience, and ultimately drive conversions.
         </p>
         <div class="pt-6">
-          <a href="#"
+          <a href="#contact"
             class="inline-flex items-center bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transform transition duration-300 hover:scale-105 group">
             Learn More
             <svg xmlns="http://www.w3.org/2000/svg"
@@ -678,7 +682,8 @@
     </div>
 
     <!-- Row 2 -->
-    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 mt-24 items-center p-6">
+    <div
+      class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 mt-24 items-center p-6 scroll-animate">
       <div class="order-2 md:order-1 space-y-8">
         <div class="flex items-center mb-4">
           <div class="w-14 h-14 rounded-full bg-red-100 flex items-center justify-center mr-5 shadow-md">
@@ -698,7 +703,7 @@
           approved before launch.
         </p>
         <div class="pt-6">
-          <a href="#"
+          <a href="#contact"
             class="inline-flex items-center bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transform transition duration-300 hover:scale-105 group">
             Learn More
             <svg xmlns="http://www.w3.org/2000/svg"
@@ -723,7 +728,8 @@
     </div>
 
     <!-- Row 3 -->
-    <div class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 mt-24 items-center p-6">
+    <div
+      class="max-w-6xl mx-auto bg-white text-black grid grid-cols-1 md:grid-cols-2 gap-16 mt-24 items-center p-6 scroll-animate">
       <div class="relative group">
         <div
           class="absolute -inset-4 bg-gradient-to-r from-red-100 to-red-200 rounded-2xl blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200">
@@ -752,7 +758,7 @@
           results.
         </p>
         <div class="pt-6">
-          <a href="#"
+          <a href="#contact"
             class="inline-flex items-center bg-gradient-to-r from-red-600 to-red-700 text-white px-8 py-4 rounded-full font-bold shadow-lg hover:shadow-xl transform transition duration-300 hover:scale-105 group">
             Learn More
             <svg xmlns="http://www.w3.org/2000/svg"
@@ -781,14 +787,15 @@
 
     <div class="relative z-10">
       <div class="text-start max-w-7xl mx-auto px-6">
-        <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl pb-4 md:pb-8">OUR CLIENTS</h2>
-        <p class="pb-12 text-red-100 text-lg sm:text-xl">
+        <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl pb-4 md:pb-8 animate-delay-1 scroll-animate">OUR
+          CLIENTS</h2>
+        <p class="pb-12 text-red-100 text-lg sm:text-xl animate-delay-1 scroll-animate">
           We’re proud to have partnered with amazing brands. <br class="hidden md:block">
           Here’s a glimpse of some of our valued clients.
         </p>
       </div>
 
-      <div class="relative overflow-hidden w-full">
+      <div class="relative overflow-hidden w-full ">
 
         <div
           class="absolute left-0 top-0 bottom-0 w-16 sm:w-24 bg-gradient-to-r from-red-900 via-red-900 to-transparent z-20">
@@ -798,7 +805,7 @@
         </div>
 
         <!-- Carousel Wrapper -->
-        <div class="relative overflow-hidden w-full">
+        <div class="relative overflow-hidden w-full animate-delay-1 scroll-animate">
           <!-- Animated container -->
           <div class="animate-marquee flex flex-col space-y-6">
             <?php
@@ -836,8 +843,9 @@
       <div class="max-w-7xl mx-auto px-6 py-10 lg:px-8">
 
         <div class="text-end mb-16">
-          <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl pb-8">MEET THE TEAM</h2>
-          <p class="text-red-100 text-lg sm:text-xl">
+          <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl pb-8 animate-delay-1 scroll-animate">MEET THE
+            TEAM</h2>
+          <p class="text-red-100 text-lg sm:text-xl animate-delay-1 scroll-animate">
             Their dedication transforms your ideas into reality. <br class="hidden md:block">
             At the heart of <span class="font-semibold">Ideas Beyond Limits</span> is a team that brings
             our purpose, mission, and vision to life.
@@ -846,55 +854,55 @@
         <div class="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-12 gap-2 sm:gap-4">
 
           <div
-            class="sm:col-span-7 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-7 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team1.jpg" alt="A professional team member in an office setting"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
           <div
-            class="sm:col-span-5 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-5 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team2.jpg" alt="A smiling team member at their desk"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
 
           <div
-            class="sm:col-span-4 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-4 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team3.jpg" alt="A team member collaborating in a meeting"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
           <div
-            class="sm:col-span-4 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-4 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team4.jpg" alt="A candid photo of a team member working"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
           <div
-            class="sm:col-span-4 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-4 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team5.jpg" alt="A team member presenting ideas on a whiteboard"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
 
           <div
-            class="sm:col-span-5 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-5 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team6.jpg" alt="A professional headshot of a team member"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
           <div
-            class="sm:col-span-7 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-7 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team7.jpg" alt="Team members working together in a modern office"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
 
           <div
-            class="sm:col-span-6 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-6 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team8.jpg" alt="A team member focused on their work on a laptop"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
           <div
-            class="sm:col-span-3 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-3 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team9.jpg" alt="A casual photo of a team member in the office"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
           <div
-            class="sm:col-span-3 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500">
+            class="sm:col-span-3 aspect-video rounded-2xl overflow-hidden group relative shadow-lg hover:shadow-2xl transition-shadow duration-500 scroll-animate">
             <img src="./assets/team/team10.jpg" alt="A team member smiling during a break"
               class="w-full h-full object-cover transition-all duration-500 group-hover:scale-110 group-hover:brightness-110">
           </div>
@@ -903,8 +911,9 @@
       </div>
 
       <div class="text-start max-w-7xl mx-auto px-6">
-        <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl pb-4 md:pb-8">OUR LEADERSHIP</h2>
-        <p class="pb-5 text-red-100 text-lg sm:text-xl">
+        <h2 class="text-5xl font-extrabold tracking-tighter sm:text-6xl pb-4 md:pb-8 delay-animate-1 scroll-animate">OUR
+          LEADERSHIP</h2>
+        <p class="pb-5 text-red-100 text-lg sm:text-xl delay-animate-1 scroll-animate">
           We bring a wealth of skills and experience from a wide range of backgrounds. Meet the people who’ve grown
           with
           us and continue to shape the future of <span class="font-semibold">Ideas Beyond Limits</span>.
@@ -963,7 +972,7 @@
           $altText = 'Photo of ' . $name;
 
           echo '
-    <div class="group relative bg-white rounded-xl p-6 pt-16 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-red-900/40">
+    <div class="group relative bg-white rounded-xl p-6 pt-16 text-center shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-2xl hover:shadow-red-900/40 scroll-animate">
       <div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-28 h-28 rounded-full ring-4 ring-red-200 overflow-hidden">
         <img class="w-full h-full object-cover rounded-full" src="' . $imagePath . '" alt="' . $altText . '">
       </div>
@@ -1089,10 +1098,8 @@
           { src: "./assets/fabrication/fabricationImg8.jpg", label: "Watsons Skin Solutions Booth" },
           { src: "./assets/fabrication/fabricationImg9.jpg", label: "Nustar Resort & Casino Booth in Cebu" },
           { src: "./assets/fabrication/fabricationImg10.jpg", label: "Nutrafinity Booth at MAFBEX 2024" },
-          { src: "./assets/fabrication/fabricationImg11.jpg", label: "Abi Marquez Booth at Philippine Food Expo 2025" },
           { src: "./assets/fabrication/fabricationImg12.jpg", label: "Watsons Get That K-Glow Campaign Booth" },
           { src: "./assets/fabrication/fabricationImg13.jpg", label: "AXA Nationwide Booths" },
-          { src: "./assets/fabrication/fabricationImg14.jpg", label: "SM Cinema Murals" },
           { src: "./assets/fabrication/fabricationImg15.jpg", label: "BBC Virtual Golf Signage Booth" }
         ];
 
@@ -1113,13 +1120,13 @@
 
         const printingWorks = [
           { src: "./assets/printing/printingImg1.jpg", label: "Wall Mural Sticker at a Medical Clinic" },
-          { src: "./assets/printing/printingImg2.jpg", label: "Drop Down Banners at Market! Market!" },
           { src: "./assets/printing/printingImg3.jpg", label: "Wall Tarp Printing & Installation for a Fitness Gym" },
           { src: "./assets/printing/printingImg4.jpg", label: "Sticker Printing & Installation for SM Beauty at SM North Edsa" },
-          { src: "./assets/printing/printingImg5.jpg", label: "Skechers Drop Down Banners at Market! Market!" },
           { src: "./assets/printing/printingImg6.jpg", label: "Vehicle Sticker Printing and Installation" },
           { src: "./assets/printing/printingImg7.jpg", label: "Large Format Prints" },
-          { src: "./assets/printing/printingImg8.jpg", label: "Pull Up Banners for GX International Pharma" }
+          { src: "./assets/printing/printingImg8.jpg", label: "Pull Up Banners for GX International Pharma" },
+          { src: "./assets/printing/printingImg9.jpg", label: "Abi Marquez Booth at Philippine Food Expo 2025" },
+          { src: "./assets/printing/printingImg10.jpg", label: "SM Cinema Murals" },
         ];
 
         // Reusable Carousel Implementation
@@ -1210,34 +1217,59 @@
 
           function createWorkElement(work, isMobile) {
             const workDiv = document.createElement('div');
-            workDiv.className = `group relative bg-white ${isMobile ? 'rounded-xl shadow-lg' : 'rounded-2xl shadow-2xl'
-              } overflow-hidden transform transition-all duration-500 hover:scale-105`;
+            // Base card styling (responsive rounding/shadow, hover scale effect)
+            workDiv.className = `
+        group relative 
+        bg-white 
+        ${isMobile ? 'rounded-xl shadow-lg' : 'rounded-2xl shadow-2xl'} 
+        overflow-hidden 
+        transform transition-all duration-500 hover:scale-[1.03]
+        cursor-pointer
+    `;
 
             workDiv.innerHTML = `
-            <div class="relative overflow-hidden">
-                <img 
-                    src="${work.src}" 
-                    alt="${work.label}" 
-                    class="w-full ${isMobile ? 'h-48' : 'h-64'} object-cover transition-transform duration-700 group-hover:scale-110"
-                    loading="lazy"
-                >
-                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                <div class="absolute ${isMobile ? 'top-3 right-3' : 'top-4 right-4'}">
-                    <span class="bg-red-600 text-white ${isMobile ? 'px-2 py-1 text-xs' : 'px-3 py-1 text-xs'} rounded-full font-bold shadow-lg">CUSTOM</span>
+        <div class="relative overflow-hidden">
+            <img 
+                src="${work.src}" 
+                alt="${work.label}" 
+                class="w-full ${isMobile ? 'h-48' : 'h-64'} object-cover 
+                       transition-transform duration-700 group-hover:scale-110"
+                loading="lazy"
+            >
+            
+            <div class="absolute inset-0 
+                        bg-gradient-to-t from-red-800/80 via-red-700/60 to-transparent 
+                        flex items-end ${isMobile ? 'p-4' : 'p-6'} 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                
+                <div class="relative w-full">
+                    <h3 class="text-white font-bold 
+                               ${isMobile ? 'text-base max-w-[90%]' : 'text-xl max-w-sm'} 
+                               leading-tight break-words mb-1"> ${work.label}
+                    </h3>
+                    
+                    <p class="text-white/80 ${isMobile ? 'text-xs' : 'text-sm'} font-medium">
+                        Premium Service Detail
+                    </p>
                 </div>
             </div>
-            <div class="${isMobile ? 'p-4' : 'p-6'}">
-                <h3 class="text-gray-800 font-bold ${isMobile ? 'text-sm' : 'text-lg'} leading-tight mb-2 group-hover:text-red-700 transition-colors duration-300">
-                    ${work.label}
-                </h3>
-                <div class="flex items-center text-gray-500 ${isMobile ? 'text-xs' : 'text-sm'}">
-                    <svg class="${isMobile ? 'w-3 h-3' : 'w-4 h-4'} mr-1" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+
+            <div class="absolute 
+                        ${isMobile ? 'top-3 right-3' : 'top-4 right-4'} 
+                        opacity-0 group-hover:opacity-100 transition-opacity duration-300 
+                        z-10"> <div class="bg-red-600 text-white 
+                            ${isMobile ? 'w-8 h-8' : 'w-10 h-10'} 
+                            rounded-full flex items-center justify-center 
+                            font-bold shadow-lg">
+                    <svg class="${isMobile ? 'w-4 h-4' : 'w-5 h-5'}" 
+                         fill="none" stroke="currentColor" viewBox="0 0 24 24" 
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                     </svg>
-                    Premium Service
                 </div>
             </div>
-        `;
+        </div>
+    `;
 
             return workDiv;
           }

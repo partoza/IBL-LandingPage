@@ -360,9 +360,9 @@
 
             <!-- Button -->
             <div class="pt-4 scroll-animate animate-delay-2 opacity-0 translate-y-8 transition duration-700 ease-out">
-              <button
+              <button  onclick="window.location.href='#contact'"
                 class="group relative px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg overflow-hidden transition-all duration-500 hover:shadow-[0_0_20px_rgba(220,38,38,0.4)] hover:-translate-y-1">
-                <span class="relative z-10">Join Our Mission</span>
+                <span class="relative z-10">Connect to our Work</span>
 
                 <div
                   class="absolute inset-0 bg-gradient-to-r from-red-600 to-red-500 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
@@ -441,7 +441,7 @@
 
             <!-- Button -->
             <div class="pt-4 scroll-animate animate-delay-2 opacity-0 translate-y-8 transition duration-700 ease-out">
-              <button
+            <button  onclick="window.location.href='#contact'"
                 class="group relative px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-semibold rounded-lg overflow-hidden transition-all duration-500 hover:shadow-[0_0_20px_rgba(220,38,38,0.6)] hover:-translate-y-1">
                 <span class="relative z-10">Join Our Mission</span>
                 <div
@@ -503,7 +503,7 @@
         </div>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10 mx-5 scroll-animate">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 relative z-10 mx-5 animate-delay-2 scroll-animate">
         <!-- Employees -->
         <div
           class="group relative h-80 rounded-2xl overflow-hidden cursor-pointer transform transition-all duration-500 hover:scale-105 hover:shadow-2xl">
@@ -634,7 +634,7 @@
       </h2>
 
       <!-- Modern underline design -->
-      <div class="absolute -bottom-4 left-10 w-3/4 h-2 bg-gradient-to-r from-red-500 to-red-400 rounded-full shadow-lg scroll-animate">
+      <div class="absolute -bottom-4 left-10 w-3/4 h-2 bg-gradient-to-r from-red-500 to-red-400 rounded-full shadow-lg animate-delay-2 scroll-animate">
       </div>
 
       <!-- Decorative elements -->
