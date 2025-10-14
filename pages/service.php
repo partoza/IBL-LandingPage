@@ -774,6 +774,38 @@
     </div>
   </div>
 
+  <div id="image-modal"
+    class="fixed inset-0 z-50 hidden items-center justify-center bg-gray-900 bg-opacity-75 transition-opacity duration-300"
+    onclick="closeModal(event)">
+    <div
+      class="bg-white rounded-3xl shadow-2xl w-11/12 md:w-3/4 lg:w-2/3 max-h-[90vh] overflow-hidden transform scale-95 transition-transform duration-300"
+      onclick="event.stopPropagation()">
+      <!-- Modal Header -->
+      <div class="flex justify-between items-center p-4 md:p-6 border-b border-gray-200">
+        <h4 id="modal-title" class="text-xl md:text-2xl font-bold text-red-800 truncate">
+          Project Title
+        </h4>
+        <button onclick="closeModal()"
+          class="text-gray-500 hover:text-red-600 transition duration-150 p-2 rounded-full hover:bg-gray-100">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-4 md:p-6 overflow-y-auto max-h-[calc(90vh-70px)]">
+        <div class="w-full h-auto overflow-hidden rounded-2xl">
+          <img id="modal-image" src="" alt="Project Image"
+            class="w-full h-full object-contain transition duration-500 hover:scale-[1.01]">
+        </div>
+        <!-- You can add more details here if needed -->
+        <p id="modal-image-caption" class="mt-4 text-gray-600 text-sm italic hidden">Full view of the project.</p>
+      </div>
+
+    </div>
+  </div>
+
 
   <div class="w-full bg-red-900 text-white py-10 relative overflow-hidden">
 
