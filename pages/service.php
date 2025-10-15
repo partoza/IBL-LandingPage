@@ -223,7 +223,7 @@
 
         <div class="max-w-4xl mx-auto animate-delay-1 scroll-animate">
           <div
-            class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
+            class="bg-[#e7e2e2] backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
             <!-- Card background pattern -->
             <div
               class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-white/5 to-transparent rounded-full -translate-y-16 translate-x-16">
@@ -232,27 +232,27 @@
               class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-rose-400/10 to-transparent rounded-full translate-y-12 -translate-x-12">
             </div>
 
-            <p class="text-lg md:text-xl lg:text-1xl text-rose-50 mb-6 leading-relaxed font-medium relative z-10">
+            <p class="text-lg md:text-xl lg:text-1xl text-[#7e0505] mb-6 leading-relaxed font-medium relative z-10">
               With over two decades of collective mastery in the industry, our artisans specialize in transforming
               concepts into extraordinary custom booths and structures that perfectly embody your brand's essence.
             </p>
 
             <div class="mt-6 md:mt-8 flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm relative z-10">
               <span
-                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                class="bg-gradient-to-r from-red/15 to-red/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-white border border-white/20 backdrop-blur-sm shadow-lg">✓
                 Bespoke Design Solutions</span>
               <span
-                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                class="bg-gradient-to-r from-red/15 to-red/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-white border border-white/20 backdrop-blur-sm shadow-lg">✓
                 Premium Material Selection</span>
               <span
-                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                class="bg-gradient-to-r from-red/15 to-red/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-white border border-white/20 backdrop-blur-sm shadow-lg">✓
                 End-to-End Excellence</span>
             </div>
 
-            <div class="mt-6 md:mt-8 pt-4 md:pt-6 border-t border-white/10 relative z-10">
-              <p class="text-base md:text-lg text-rose-100 leading-relaxed">
+            <div class="mt-6 md:mt-8 pt-4 border-t border-white/10 relative z-10">
+              <p class="text-base md:text-lg text-[#7e0505] leading-relaxed">
                 From initial concept to final installation, we transform your boldest visions into <span
-                  class="font-semibold text-white bg-gradient-to-r from-white to-rose-200 bg-clip-text text-transparent">tangible,
+                  class="font-semibold text-[#7e0505] bg-gradient-to-r from-red to-[#7e0505] bg-clip-text text-transparent">tangible,
                   breathtaking realities</span> that captivate and inspire.
               </p>
             </div>
@@ -303,22 +303,18 @@
 
       <!-- CTA Section -->
       <div class="text-center mt-12 md:mt-16 animate-delay-1 scroll-animate">
-        <div
-          class="bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-2xl relative overflow-hidden">
-          <!-- CTA background elements -->
-          <div
-            class="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-bl from-rose-400/10 to-transparent rounded-full blur-xl">
-          </div>
-          <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-white/5 rounded-full blur-lg"></div>
-
-          <h3 class="text-xl md:text-2xl font-bold text-white mb-4 relative z-10">Ready to Bring Your Vision to Life?
+        <div class="bg-[#e7e2e2] rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl relative overflow-hidden">
+          <h3 class="text-xl md:text-2xl font-bold text-[#7e0505] mb-4 relative z-10">
+            Ready to Bring Your Vision to Life?
           </h3>
-          <p class="text-rose-100 mb-6 max-w-2xl mx-auto text-sm md:text-base relative z-10">
+
+          <p class="text-[#7e0505] mb-6 max-w-2xl mx-auto text-sm md:text-base relative z-10">
             Let's collaborate to create something extraordinary. Your brand deserves a stage that commands attention and
             leaves a lasting impression.
           </p>
+
           <a href="#contact"
-            class="btn relative z-10 bg-gradient-to-r from-white to-rose-100 text-red-800 px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-rose-50 hover:to-white transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
+            class="relative z-10 bg-gradient-to-r from-red-700 to-red-600 text-[#e7e2e2] px-6 py-3 md:px-8 md:py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl hover:bg-[#a30707]">
             Start Your Project Today
           </a>
         </div>
@@ -459,8 +455,8 @@
             truly remarkable.
           </p>
           <a href="#contact"
-            class="btn relative z-10 bg-gradient-to-r from-red-700 to-red-600 text-white px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-red-600 hover:to-red-500 transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
-            Plan Your Event Today
+            class="relative z-10 bg-[#7e0505] text-[#e7e2e2] px-6 py-3 md:px-8 md:py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl hover:bg-[#a30707]"></a>
+          Plan Your Event Today
           </a>
         </div>
       </div>
@@ -513,7 +509,7 @@
 
         <div class="max-w-4xl mx-auto animate-delay-1 scroll-animate">
           <div
-            class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
+            class="bg-[#e7e2e2] backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/10 shadow-2xl relative overflow-hidden">
             <!-- Card background pattern -->
             <div
               class="absolute top-0 right-0 w-32 h-32 bg-gradient-to-bl from-white/5 to-transparent rounded-full -translate-y-16 translate-x-16">
@@ -522,7 +518,7 @@
               class="absolute bottom-0 left-0 w-24 h-24 bg-gradient-to-tr from-rose-400/10 to-transparent rounded-full translate-y-12 -translate-x-12">
             </div>
 
-            <p class="text-lg md:text-xl lg:text-1xl text-rose-50 mb-6 leading-relaxed font-medium relative z-10">
+            <p class="text-lg md:text-xl lg:text-1xl text-[#7e0505] mb-6 leading-relaxed font-medium relative z-10">
               With over a decade of expertise in the printing industry, our specialists excel at transforming digital
               designs
               into exceptional physical materials that perfectly communicate your brand's message and quality.
@@ -530,91 +526,88 @@
 
             <div class="mt-6 md:mt-8 flex flex-wrap justify-center gap-2 md:gap-4 text-xs md:text-sm relative z-10">
               <span
-                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                class="bg-gradient-to-r from-red/15 to-red/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-white border border-white/20 backdrop-blur-sm shadow-lg">✓
                 Premium Quality Printing</span>
               <span
-                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                class="bg-gradient-to-r from-red/15 to-red/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-white border border-white/20 backdrop-blur-sm shadow-lg">✓
                 Fast Turnaround Times</span>
               <span
-                class="bg-gradient-to-r from-white/15 to-white/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-rose-100 border border-white/20 backdrop-blur-sm shadow-lg">✓
+                class="bg-gradient-to-r from-red/15 to-red/5 px-3 py-1 md:px-4 md:py-2 rounded-full text-white border border-white/20 backdrop-blur-sm shadow-lg">✓
                 End-to-End Excellence</span>
             </div>
 
-            <div class="mt-6 md:mt-8 pt-4 md:pt-6 border-t border-white/10 relative z-10">
-              <p class="text-base md:text-md text-rose-100 leading-relaxed">
+            <div class="mt-6 md:mt-8 pt-4 border-t border-white/10 relative z-10">
+              <p class="text-base md:text-lg text-[#7e0505] leading-relaxed">
                 From digital concepts to tangible results, we transform your designs into <span
-                  class="font-semibold text-white bg-gradient-to-r from-white to-rose-200 bg-clip-text text-transparent">high-quality,
+                  class="font-semibold text-[#7e0505] bg-gradient-to-r from-red to-[#7e0505] bg-clip-text text-transparent">high-quality,
                   impactful printed materials</span> that elevate your brand presence.
               </p>
             </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <div class="relative animate-delay-1 scroll-animate">
-        <!-- Desktop Navigation Arrows -->
-        <button id="printing-prev"
-          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
-          <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-          </svg>
-        </button>
+    <div class="relative animate-delay-1 scroll-animate">
+      <!-- Desktop Navigation Arrows -->
+      <button id="printing-prev"
+        class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
+        <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
 
-        <button id="printing-next"
-          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
-          <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
+      <button id="printing-next"
+        class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
+        <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
 
-        <!-- Mobile Navigation Arrows -->
-        <button id="printing-prev-mobile"
-          class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-          </svg>
-        </button>
+      <!-- Mobile Navigation Arrows -->
+      <button id="printing-prev-mobile"
+        class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+        </svg>
+      </button>
 
-        <button id="printing-next-mobile"
-          class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
-          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
+      <button id="printing-next-mobile"
+        class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+        </svg>
+      </button>
 
-        <div id="printing-carousel" class="overflow-hidden">
-          <div class="flex transition-transform duration-500 ease-out" id="printing-track">
-            <!-- Carousel items would go here -->
-          </div>
+      <div id="printing-carousel" class="overflow-hidden">
+        <div class="flex transition-transform duration-500 ease-out" id="printing-track">
+          <!-- Carousel items would go here -->
         </div>
-
-        <div class="hidden md:flex justify-center mt-8 lg:mt-12 space-x-3" id="printing-desktop-dots"></div>
-        <div class="md:hidden flex justify-center mt-6 space-x-3" id="printing-mobile-dots"></div>
       </div>
 
-      <!-- CTA Section -->
-      <div class="text-center mt-12 md:mt-16 animate-delay-1 scroll-animate">
-        <div
-          class="bg-gradient-to-r from-white/10 to-white/5 backdrop-blur-sm rounded-2xl p-6 md:p-8 border border-white/20 shadow-2xl relative overflow-hidden">
-          <!-- CTA background elements -->
-          <div
-            class="absolute -top-10 -right-10 w-40 h-40 bg-gradient-to-bl from-rose-400/10 to-transparent rounded-full blur-xl">
-          </div>
-          <div class="absolute -bottom-10 -left-10 w-32 h-32 bg-white/5 rounded-full blur-lg"></div>
+      <div class="hidden md:flex justify-center mt-8 lg:mt-12 space-x-3" id="printing-desktop-dots"></div>
+      <div class="md:hidden flex justify-center mt-6 space-x-3" id="printing-mobile-dots"></div>
+    </div>
 
-          <h3 class="text-xl md:text-2xl font-bold text-white mb-4 relative z-10">Ready to Bring Your Designs to Life?
-          </h3>
-          <p class="text-rose-100 mb-6 max-w-2xl mx-auto text-sm md:text-base relative z-10">
-            Let's collaborate to create high-quality prints that perfectly represent your brand and make lasting
-            impressions.
-          </p>
-          <a href="#contact"
-            class="relative z-10 bg-gradient-to-r from-white to-rose-100 text-red-800 px-6 py-3 md:px-8 md:py-3 rounded-full font-bold hover:from-rose-50 hover:to-white transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl">
-            Start Your Print Project
-          </a>
-        </div>
+    <!-- CTA Section -->
+    <div class="text-center mt-12 md:mt-16 animate-delay-1 scroll-animate">
+      <div class="bg-[#e7e2e2] rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl relative overflow-hidden">
+        <h3 class="text-xl md:text-2xl font-bold text-[#7e0505] mb-4 relative z-10">
+          Ready to Bring Your Designs to Life?
+        </h3>
+
+        <p class="text-[#7e0505] mb-6 max-w-2xl mx-auto text-sm md:text-base relative z-10">
+          Let's collaborate to create high-quality prints that perfectly represent your brand and make lasting
+          impressions.
+        </p>
+
+        <a href="#contact"
+          class="relative z-10 bg-[#7e0505] text-[#e7e2e2] px-6 py-3 md:px-8 md:py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl hover:bg-[#a30707]">
+          Start Your Print Project
+        </a>
       </div>
     </div>
+  </div>
   </div>
 
   <div id="socialmedia" class="w-full bg-gradient-to-br from-white to-red-50 text-black pt-20 pb-16 px-6">
@@ -987,6 +980,59 @@
 
       </div>
 
+      <div id="image-modal"
+        class="fixed inset-0 z-[9999] hidden items-center justify-center bg-black/60 backdrop-blur-sm transition-opacity duration-300"
+        onclick="closeModal(event)">
+        <div
+          class="bg-white rounded-xl shadow-xl w-11/12 md:w-3/4 lg:w-2/3 xl:w-1/2 max-h-[90vh] overflow-hidden flex flex-col mx-4"
+          onclick="event.stopPropagation()">
+
+          <!-- Modal Header - Minimal -->
+          <div class="flex justify-between items-center p-2 md:p-4 border-b border-gray-100 flex-shrink-0">
+            <h4 id="modal-title" class="text-sm md:text-lg font-semibold text-gray-900 truncate pr-2">
+              Project Title
+            </h4>
+            <button onclick="closeModal()"
+              class="text-gray-400 hover:text-red-600 transition-all duration-300 p-2 rounded-full hover:bg-red-50 transform hover:scale-110 flex-shrink-0">
+              <svg class="w-4 md:w-5 h-4 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+              </svg>
+            </button>
+          </div>
+
+          <!-- Modal Body - Clean Layout -->
+          <div class="flex-grow overflow-hidden flex flex-col">
+            <!-- Main Image Display -->
+            <div class="relative flex-grow bg-gray-50 flex items-center justify-center h-30vh md:h-100vh">
+              <img id="modal-main-image" src="" alt="Project Main Image"
+                class="w-full h-full cover object-contain transition-opacity duration-300" />
+
+              <!-- Navigation Buttons - Minimal -->
+              <button id="prev-btn" onclick="navigateGallery(-1)"
+                class="absolute left-3 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full text-gray-700 shadow-sm border border-gray-200 transition-all duration-200 hover:shadow-md">
+                <svg class="w-3 md:w-5 h-3 md:h-w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+                </svg>
+              </button>
+              <button id="next-btn" onclick="navigateGallery(1)"
+                class="absolute right-3 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full text-gray-700 shadow-sm border border-gray-200 transition-all duration-200 hover:shadow-md">
+                <svg class="w-3 md:w-5 h-3 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                </svg>
+              </button>
+            </div>
+
+            <div id="modal-gallery-nav"
+              class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 overflow-x-auto px-3 py-2 rounded-lg shadow-xl">
+            </div>
+          </div>
+
+        </div>
+      </div>
+
       <style>
         @keyframes marquee {
           0% {
@@ -1350,7 +1396,7 @@
             const thumbnail = document.createElement('img');
             thumbnail.src = url;
             thumbnail.alt = `Thumbnail ${index + 1}`;
-            thumbnail.className = 'thumbnail-item w-16 h-16 object-cover rounded-lg border-2 border-gray-200 cursor-pointer transition-all duration-200 hover:border-red-500';
+            thumbnail.className = 'thumbnail-item w-10 md:w-16 h-10 md:h-16 object-cover rounded-lg border-2 border-gray-200 cursor-pointer transition-all duration-200 hover:border-red-500';
 
             // Set up click listener for thumbnail
             thumbnail.addEventListener('click', () => updateMainImage(index));
@@ -1385,6 +1431,7 @@
         }
 
         function closeModal(event) {
+          document.body.style.overflow = 'auto';
           if (event && event.target.id !== 'image-modal') {
             return;
           }
@@ -1742,55 +1789,3 @@
         });
       </script>
 </section>
-
-<div id="image-modal"
-  class="fixed inset-0 z-[9999] hidden items-center justify-center bg-gray-900 bg-opacity-80 transition-opacity duration-300"
-  onclick="closeModal(event)">
-  <div
-    class="bg-white rounded-3xl shadow-2xl w-11/12 md:w-3/4 lg:w-2/3 max-h-[90vh] overflow-hidden transform scale-95 transition-transform duration-300 flex flex-col"
-    onclick="event.stopPropagation()">
-
-    <!-- Modal Header -->
-    <div class="flex justify-between items-center p-4 md:p-6 border-b border-gray-200 flex-shrink-0">
-      <h4 id="modal-title" class="text-xl md:text-2xl font-bold text-red-800 truncate">
-        Project Title
-      </h4>
-      <button onclick="closeModal()"
-        class="text-gray-500 hover:text-red-600 transition duration-150 p-2 rounded-full hover:bg-red-100">
-        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-        </svg>
-      </button>
-    </div>
-
-    <!-- Modal Body - Main Image and Gallery Controls -->
-    <div class="p-4 md:p-6 flex-grow overflow-y-auto flex flex-col items-center">
-      <!-- Main Image Display -->
-      <div class="relative w-full overflow-hidden rounded-xl bg-gray-100 mb-4 flex-shrink-0" style="max-height: 50vh;">
-        <img id="modal-main-image" src="" alt="Project Main Image"
-          class="w-full h-full object-contain transition duration-500" />
-
-        <!-- Navigation Buttons -->
-        <button id="prev-btn" onclick="navigateGallery(-1)"
-          class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white/90 p-2 rounded-full text-red-800 shadow-md transition duration-300 hidden md:block">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
-          </svg>
-        </button>
-        <button id="next-btn" onclick="navigateGallery(1)"
-          class="absolute right-2 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white/90 p-2 rounded-full text-red-800 shadow-md transition duration-300 hidden md:block">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
-          </svg>
-        </button>
-      </div>
-
-      <!-- Thumbnail Gallery Navigation -->
-      <div id="modal-gallery-nav" class="w-full flex-shrink-0 flex space-x-3 overflow-x-auto pb-2 justify-center">
-        <!-- Thumbnails will be injected here by JavaScript -->
-      </div>
-
-    </div>
-
-  </div>
-</div>

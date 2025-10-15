@@ -5,11 +5,11 @@
       <source src="https://assets.mixkit.co/videos/preview/mixkit-white-sands-of-a-beach-1080p-large.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <div class="absolute inset-0 bg-black/60"></div>
+    <div class="absolute inset-0 bg-[#f7ecec]"></div>
   </div>
 
   <!-- Content -->
-  <div class="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-2 text-white">
+  <div class="relative z-10 w-full h-full grid grid-cols-1 md:grid-cols-2 text-black/80">
     <!-- Left Side -->
     <div class="flex items-center justify-center p-8 scroll-animate">
       <div class="text-center md:text-left">
@@ -66,7 +66,7 @@
 
         <div class="scroll-animate animate-delay-2 pt-4">
           <p class="text-xl font-semibold mb-2">We are Ideas Beyond Limits.</p>
-          <p class="text-lg font-medium text-red-400">Grow your business with us today.</p>
+          <p class="text-lg font-medium text-[#7e0505]">Grow your business with us today.</p>
         </div>
       </div>
     </div>
