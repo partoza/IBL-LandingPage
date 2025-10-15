@@ -774,39 +774,6 @@
     </div>
   </div>
 
-  <div id="image-modal"
-    class="fixed inset-0 z-50 hidden items-center justify-center bg-gray-900 bg-opacity-75 transition-opacity duration-300"
-    onclick="closeModal(event)">
-    <div
-      class="bg-white rounded-3xl shadow-2xl w-11/12 md:w-3/4 lg:w-2/3 max-h-[90vh] overflow-hidden transform scale-95 transition-transform duration-300"
-      onclick="event.stopPropagation()">
-      <!-- Modal Header -->
-      <div class="flex justify-between items-center p-4 md:p-6 border-b border-gray-200">
-        <h4 id="modal-title" class="text-xl md:text-2xl font-bold text-red-800 truncate">
-          Project Title
-        </h4>
-        <button onclick="closeModal()"
-          class="text-gray-500 hover:text-red-600 transition duration-150 p-2 rounded-full hover:bg-gray-100">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-          </svg>
-        </button>
-      </div>
-
-      <!-- Modal Body -->
-      <div class="p-4 md:p-6 overflow-y-auto max-h-[calc(90vh-70px)]">
-        <div class="w-full h-auto overflow-hidden rounded-2xl">
-          <img id="modal-image" src="" alt="Project Image"
-            class="w-full h-full object-contain transition duration-500 hover:scale-[1.01]">
-        </div>
-        <!-- You can add more details here if needed -->
-        <p id="modal-image-caption" class="mt-4 text-gray-600 text-sm italic hidden">Full view of the project.</p>
-      </div>
-
-    </div>
-  </div>
-
-
   <div class="w-full bg-red-900 text-white py-10 relative overflow-hidden">
 
     <div
@@ -1101,67 +1068,336 @@
             transition: none;
           }
         }
+
+        #image-modal {
+          position: fixed;
+          top: 0;
+          left: 0;
+          width: 100vw;
+          height: 100vh;
+          z-index: 9999;
+          /* Very high z-index */
+          background: rgba(0, 0, 0, 0.8);
+          display: none;
+          /* Start hidden */
+          align-items: center;
+          justify-content: center;
+          padding: 20px;
+          box-sizing: border-box;
+        }
+
+        #image-modal.flex {
+          display: flex;
+        }
+
+        #image-modal>div {
+          position: relative;
+          z-index: 10000;
+          max-width: 90vw;
+          max-height: 90vh;
+        }
       </style>
-      <script>
+      <script type="text/javascript">
+        let currentGalleryImages = [];
+        let currentImageIndex = 0;
 
-        document.querySelectorAll('a.scroll-link').forEach(link => {
-          link.addEventListener('click', function (e) {
-            e.preventDefault(); // stop the URL from changing
-            const targetId = this.getAttribute('href').substring(1);
-            const target = document.getElementById(targetId);
-
-            if (target) {
-              target.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-              });
-            }
-          });
-        });
-        // Data for all sections
+        // --- UPDATED DATA STRUCTURES with Related Images ---
+        // NOTE: Added placeholder images for related pictures, as only one source was provided per project.
         const fabricationWorks = [
-          { src: "./assets/fabrication/fabricationImg1.jpg", label: "REX Education Booth at Manila International Book Fair 2024" },
-          { src: "./assets/fabrication/fabricationImg2.jpg", label: "REX Education Booth at Manila International Book Fair 2025" },
-          { src: "./assets/fabrication/fabricationImg3.jpg", label: "Hotel and Spa Essentials Booth at Hotel & Foodservice Suppliers Show" },
-          { src: "./assets/fabrication/fabricationImg4.jpg", label: "Watsons HWB Awards 2025 Booth" },
-          { src: "./assets/fabrication/fabricationImg5.jpg", label: "Watsons HWB Awards 2024 Booth" },
-          { src: "./assets/fabrication/fabricationImg6.jpg", label: "Dazzle Me Ambassador Launch at Robinsons Antipolo" },
-          { src: "./assets/fabrication/fabricationImg7.jpg", label: "GAC Motor Outdoor Booth at Autofocus Test Drive Festival" },
-          { src: "./assets/fabrication/fabricationImg8.jpg", label: "Watsons Skin Solutions Booth" },
-          { src: "./assets/fabrication/fabricationImg9.jpg", label: "Nustar Resort & Casino Booth in Cebu" },
-          { src: "./assets/fabrication/fabricationImg10.jpg", label: "Nutrafinity Booth at MAFBEX 2024" },
-          { src: "./assets/fabrication/fabricationImg12.jpg", label: "Watsons Get That K-Glow Campaign Booth" },
-          { src: "./assets/fabrication/fabricationImg13.jpg", label: "AXA Nationwide Booths" },
-          { src: "./assets/fabrication/fabricationImg15.jpg", label: "BBC Virtual Golf Signage Booth" }
+          {
+            src: "./assets/fabrication/fabricationImg1.jpg",
+            label: "REX Education Booth at Manila International Book Fair 2024",
+            images: [
+              "./assets/fabrication/fabricationImg1.jpg",
+              "https://placehold.co/800x600/FEE2E2/B91C1C?text=Booth+Detail+2",
+              "https://placehold.co/800x600/FEE2E2/B91C1C?text=Booth+Detail+3"
+            ]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg2.jpg",
+            label: "REX Education Booth at Manila International Book Fair 2025",
+            images: [
+              "./assets/fabrication/fabricationImg2.jpg",
+              "https://placehold.co/800x600/FEE2E2/B91C1C?text=Booth+Side+View",
+            ]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg3.jpg",
+            label: "Hotel and Spa Essentials Booth at Hotel & Foodservice Suppliers Show",
+            images: [
+              "./assets/fabrication/fabricationImg3.jpg",
+              "https://placehold.co/800x600/FEE2E2/B91C1C?text=Hotel+Essentials+Detail",
+            ]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg4.jpg",
+            label: "Watsons HWB Awards 2025 Booth",
+            images: ["./assets/fabrication/fabricationImg4.jpg"]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg5.jpg",
+            label: "Watsons HWB Awards 2024 Booth",
+            images: ["./assets/fabrication/fabricationImg5.jpg"]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg6.jpg",
+            label: "Dazzle Me Ambassador Launch at Robinsons Antipolo",
+            images: ["./assets/fabrication/fabricationImg6.jpg"]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg7.jpg",
+            label: "GAC Motor Outdoor Booth at Autofocus Test Drive Festival",
+            images: ["./assets/fabrication/fabricationImg7.jpg"]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg8.jpg",
+            label: "Watsons Skin Solutions Booth",
+            images: ["./assets/fabrication/fabricationImg8.jpg"]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg9.jpg",
+            label: "Nustar Resort & Casino Booth in Cebu",
+            images: ["./assets/fabrication/fabricationImg9.jpg"]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg10.jpg",
+            label: "Nutrafinity Booth at MAFBEX 2024",
+            images: ["./assets/fabrication/fabricationImg10.jpg"]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg12.jpg",
+            label: "Watsons Get That K-Glow Campaign Booth",
+            images: ["./assets/fabrication/fabricationImg12.jpg"]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg13.jpg",
+            label: "AXA Nationwide Booths",
+            images: ["./assets/fabrication/fabricationImg13.jpg"]
+          },
+          {
+            src: "./assets/fabrication/fabricationImg15.jpg",
+            label: "BBC Virtual Golf Signage Booth",
+            images: ["./assets/fabrication/fabricationImg15.jpg"]
+          }
         ];
 
         const eventWorks = [
-          { src: "./assets/event/eventImg1.jpg", label: "Jetour Dealer Exclusive Preview 2023 at Okada Manila" },
-          { src: "./assets/event/eventImg2.jpg", label: "AC Motors Centrale in BGC Inauguration" },
-          { src: "./assets/event/eventImg3.jpg", label: "BYD Manila Bay Grand Opening at Aseana City" },
-          { src: "./assets/event/eventImg4.jpg", label: "KIA at Manila International Auto Show 2019" },
-          { src: "./assets/event/eventImg5.jpg", label: "Maxus T60 Launch at Arcovia" },
-          { src: "./assets/event/eventImg6.jpg", label: "Success Academy" },
-          { src: "./assets/event/eventImg7.jpg", label: "Jetour Dashing Media Launch" },
-          { src: "./assets/event/eventImg8.jpg", label: "BJ Mercantile Inc. 50th Anniversary" },
-          { src: "./assets/event/eventImg9.jpg", label: "Bayer 2024 Sales Excellence Awards" },
-          { src: "./assets/event/eventImg10.jpg", label: "Isuzu and Volkswagen at Philippine International Motor Show 2018" },
-          { src: "./assets/event/eventImg11.jpg", label: "Menarini Philippines 2025 National Sales Conference" },
-          { src: "./assets/event/eventImg12.jpg", label: "KIA National Skills Cup 2022" }
+          {
+            src: "./assets/event/eventImg1.jpg",
+            label: "Jetour Dealer Exclusive Preview 2023 at Okada Manila",
+            images: [
+              "./assets/event/eventImg1.jpg",
+              "https://placehold.co/800x600/D1FAE5/047857?text=Event+Angle+2"
+            ]
+          },
+          {
+            src: "./assets/event/eventImg2.jpg",
+            label: "AC Motors Centrale in BGC Inauguration",
+            images: ["./assets/event/eventImg2.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg3.jpg",
+            label: "BYD Manila Bay Grand Opening at Aseana City",
+            images: ["./assets/event/eventImg3.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg4.jpg",
+            label: "KIA at Manila International Auto Show 2019",
+            images: ["./assets/event/eventImg4.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg5.jpg",
+            label: "Maxus T60 Launch at Arcovia",
+            images: ["./assets/event/eventImg5.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg6.jpg",
+            label: "Success Academy",
+            images: ["./assets/event/eventImg6.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg7.jpg",
+            label: "Jetour Dashing Media Launch",
+            images: ["./assets/event/eventImg7.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg8.jpg",
+            label: "BJ Mercantile Inc. 50th Anniversary",
+            images: ["./assets/event/eventImg8.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg9.jpg",
+            label: "Bayer 2024 Sales Excellence Awards",
+            images: ["./assets/event/eventImg9.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg10.jpg",
+            label: "Isuzu and Volkswagen at Philippine International Motor Show 2018",
+            images: ["./assets/event/eventImg10.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg11.jpg",
+            label: "Menarini Philippines 2025 National Sales Conference",
+            images: ["./assets/event/eventImg11.jpg"]
+          },
+          {
+            src: "./assets/event/eventImg12.jpg",
+            label: "KIA National Skills Cup 2022",
+            images: ["./assets/event/eventImg12.jpg"]
+          }
         ];
 
         const printingWorks = [
-          { src: "./assets/printing/printingImg1.jpg", label: "Wall Mural Sticker at a Medical Clinic" },
-          { src: "./assets/printing/printingImg3.jpg", label: "Wall Tarp Printing & Installation for a Fitness Gym" },
-          { src: "./assets/printing/printingImg4.jpg", label: "Sticker Printing & Installation for SM Beauty at SM North Edsa" },
-          { src: "./assets/printing/printingImg6.jpg", label: "Vehicle Sticker Printing and Installation" },
-          { src: "./assets/printing/printingImg7.jpg", label: "Large Format Prints" },
-          { src: "./assets/printing/printingImg8.jpg", label: "Pull Up Banners for GX International Pharma" },
-          { src: "./assets/printing/printingImg9.jpg", label: "Abi Marquez Booth at Philippine Food Expo 2025" },
-          { src: "./assets/printing/printingImg10.jpg", label: "SM Cinema Murals" },
+          {
+            src: "./assets/printing/printingImg1.jpg",
+            label: "Wall Mural Sticker at a Medical Clinic",
+            images: [
+              "./assets/printing/printingImg1.jpg",
+              "https://placehold.co/800x600/DBEAFE/1D4ED8?text=Wall+Mural+Close-up"
+            ]
+          },
+          {
+            src: "./assets/printing/printingImg3.jpg",
+            label: "Wall Tarp Printing & Installation for a Fitness Gym",
+            images: ["./assets/printing/printingImg3.jpg"]
+          },
+          {
+            src: "./assets/printing/printingImg4.jpg",
+            label: "Sticker Printing & Installation for SM Beauty at SM North Edsa",
+            images: ["./assets/printing/printingImg4.jpg"]
+          },
+          {
+            src: "./assets/printing/printingImg6.jpg",
+            label: "Vehicle Sticker Printing and Installation",
+            images: ["./assets/printing/printingImg6.jpg"]
+          },
+          {
+            src: "./assets/printing/printingImg7.jpg",
+            label: "Large Format Prints",
+            images: ["./assets/printing/printingImg7.jpg"]
+          },
+          {
+            src: "./assets/printing/printingImg8.jpg",
+            label: "Pull Up Banners for GX International Pharma",
+            images: ["./assets/printing/printingImg8.jpg"]
+          },
+          {
+            src: "./assets/printing/printingImg9.jpg",
+            label: "Abi Marquez Booth at Philippine Food Expo 2025",
+            images: ["./assets/printing/printingImg9.jpg"]
+          },
+          {
+            src: "./assets/printing/printingImg10.jpg",
+            label: "SM Cinema Murals",
+            images: ["./assets/printing/printingImg10.jpg"]
+          },
         ];
 
-        // Reusable Carousel Implementation
+        // --- MODAL & GALLERY FUNCTIONS ---
+
+        /**
+         * Updates the main image displayed in the modal gallery and highlights the corresponding thumbnail.
+         * @param {number} index - The index of the image to display.
+         */
+        function updateMainImage(index) {
+          if (index >= 0 && index < currentGalleryImages.length) {
+            currentImageIndex = index;
+            const mainImage = document.getElementById('modal-main-image');
+            mainImage.src = currentGalleryImages[index];
+
+            // Highlight the active thumbnail
+            document.querySelectorAll('#modal-gallery-nav .thumbnail-item').forEach((thumb, i) => {
+              if (i === index) {
+                thumb.classList.add('border-red-600', 'ring-2', 'ring-red-300');
+              } else {
+                thumb.classList.remove('border-red-600', 'ring-2', 'ring-red-300');
+              }
+            });
+
+            // Toggle navigation buttons visibility
+            document.getElementById('prev-btn').classList.toggle('hidden', currentGalleryImages.length <= 1);
+            document.getElementById('next-btn').classList.toggle('hidden', currentGalleryImages.length <= 1);
+          }
+        }
+
+        /**
+         * Navigates the modal gallery (Next/Previous).
+         * @param {number} direction - 1 for next, -1 for previous.
+         */
+        function navigateGallery(direction) {
+          let newIndex = currentImageIndex + direction;
+          if (newIndex < 0) {
+            newIndex = currentGalleryImages.length - 1; // Loop back to the end
+          } else if (newIndex >= currentGalleryImages.length) {
+            newIndex = 0; // Loop back to the start
+          }
+          updateMainImage(newIndex);
+        }
+
+        /**
+         * Renders the thumbnails for the related images inside the modal.
+         * @param {Array<string>} images - Array of image URLs.
+         */
+        function renderModalGallery(images) {
+          const navContainer = document.getElementById('modal-gallery-nav');
+          navContainer.innerHTML = '';
+          currentGalleryImages = images;
+
+          // If there's only one image, hide the thumbnail area slightly
+          navContainer.classList.toggle('hidden', images.length <= 1);
+
+          images.forEach((url, index) => {
+            const thumbnail = document.createElement('img');
+            thumbnail.src = url;
+            thumbnail.alt = `Thumbnail ${index + 1}`;
+            thumbnail.className = 'thumbnail-item w-16 h-16 object-cover rounded-lg border-2 border-gray-200 cursor-pointer transition-all duration-200 hover:border-red-500';
+
+            // Set up click listener for thumbnail
+            thumbnail.addEventListener('click', () => updateMainImage(index));
+
+            navContainer.appendChild(thumbnail);
+          });
+
+          // Initialize display to the first image
+          updateMainImage(0);
+        }
+
+
+        /**
+         * Opens the modal with the specified project data.
+         * @param {Object} work - The work object containing label (title) and images array.
+         */
+        function showModal(work) {
+          let modal = document.getElementById('image-modal');
+
+          // If modal doesn't exist in body, move it there
+          if (modal.parentNode !== document.body) {
+            document.body.appendChild(modal);
+          }
+
+          // Rest of your modal code...
+          document.getElementById('modal-title').textContent = work.label;
+          renderModalGallery(work.images);
+
+          modal.classList.remove('hidden');
+          modal.classList.add('flex');
+          document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal(event) {
+          if (event && event.target.id !== 'image-modal') {
+            return;
+          }
+
+          const modal = document.getElementById('image-modal');
+
+          // Hide the modal
+          modal.classList.remove('flex');
+          modal.classList.add('hidden');
+        }
+        // --- CAROUSEL IMPLEMENTATION (Modified) ---
+
+        // Reusable Carousel Implementation (Kept from your original script)
         function initializeCarousel(carouselId, works) {
           const carousel = document.getElementById(`${carouselId}-carousel`);
           const track = document.getElementById(`${carouselId}-track`);
@@ -1251,57 +1487,63 @@
             const workDiv = document.createElement('div');
             // Base card styling (responsive rounding/shadow, hover scale effect)
             workDiv.className = `
-        group relative 
-        bg-white 
-        ${isMobile ? 'rounded-xl shadow-lg' : 'rounded-2xl shadow-2xl'} 
-        overflow-hidden 
-        transform transition-all duration-500 hover:scale-[1.03]
-        cursor-pointer
-    `;
+                group relative 
+                bg-white 
+                ${isMobile ? 'rounded-xl shadow-lg' : 'rounded-2xl shadow-2xl'} 
+                overflow-hidden 
+                transform transition-all duration-500 hover:scale-[1.03]
+                cursor-pointer
+            `;
+
+            // *** ADD CLICK HANDLER TO OPEN MODAL ***
+            workDiv.addEventListener('click', () => {
+              showModal(work);
+            });
 
             workDiv.innerHTML = `
-        <div class="relative overflow-hidden">
-            <img 
-                src="${work.src}" 
-                alt="${work.label}" 
-                class="w-full ${isMobile ? 'h-48' : 'h-64'} object-cover 
-                       transition-transform duration-700 group-hover:scale-110"
-                loading="lazy"
-            >
-            
-            <div class="absolute inset-0 
+                <div class="relative overflow-hidden">
+                    <img 
+                        src="${work.src}" 
+                        alt="${work.label}" 
+                        class="w-full ${isMobile ? 'h-48' : 'h-64'} object-cover 
+                            transition-transform duration-700 group-hover:scale-110"
+                        loading="lazy"
+                        onerror="this.onerror=null;this.src='https://placehold.co/600x400/CCCCCC/333333?text=Image+Not+Found'" 
+                    >
+                    
+                    <div class="absolute inset-0 
                         bg-gradient-to-t from-red-800/80 via-red-700/60 to-transparent 
                         flex items-end ${isMobile ? 'p-4' : 'p-6'} 
                         opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                
-                <div class="relative w-full">
-                    <h3 class="text-white font-bold 
-                               ${isMobile ? 'text-base max-w-[90%]' : 'text-xl max-w-sm'} 
-                               leading-tight break-words mb-1"> ${work.label}
-                    </h3>
-                    
-                    <p class="text-white/80 ${isMobile ? 'text-xs' : 'text-sm'} font-medium">
-                        Premium Service Detail
-                    </p>
-                </div>
-            </div>
+                        
+                        <div class="relative w-full">
+                            <h3 class="text-white font-bold 
+                                ${isMobile ? 'text-base max-w-[90%]' : 'text-xl max-w-sm'} 
+                                leading-tight break-words mb-1"> ${work.label}
+                            </h3>
+                            
+                            <p class="text-white/80 ${isMobile ? 'text-xs' : 'text-sm'} font-medium">
+                                Premium Service Detail
+                            </p>
+                        </div>
+                    </div>
 
-            <div class="absolute 
+                    <div class="absolute 
                         ${isMobile ? 'top-3 right-3' : 'top-4 right-4'} 
                         opacity-0 group-hover:opacity-100 transition-opacity duration-300 
                         z-10"> <div class="bg-red-600 text-white 
                             ${isMobile ? 'w-8 h-8' : 'w-10 h-10'} 
                             rounded-full flex items-center justify-center 
                             font-bold shadow-lg">
-                    <svg class="${isMobile ? 'w-4 h-4' : 'w-5 h-5'}" 
-                         fill="none" stroke="currentColor" viewBox="0 0 24 24" 
-                         xmlns="http://www.w3.org/2000/svg">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                    </svg>
+                        <svg class="${isMobile ? 'w-4 h-4' : 'w-5 h-5'}" 
+                                fill="none" stroke="currentColor" viewBox="0 0 24 24" 
+                                xmlns="http://www.w3.org/2000/svg">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                        </svg>
+                    </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    `;
+            `;
 
             return workDiv;
           }
@@ -1464,7 +1706,7 @@
           initializeAllCarousels();
 
           // Enhanced hover effect for CTA buttons
-          document.querySelectorAll('#fabrication button.bg-white, #event-management button.bg-gray-800, #printing button.bg-white').forEach(button => {
+          document.querySelectorAll('#fabrication button.bg-white, #event-management button.bg-gray-800, #printing button.bg-white, a.bg-red-800').forEach(button => {
             button.addEventListener('mouseenter', function () {
               this.style.transform = 'scale(1.05)';
             });
@@ -1474,19 +1716,81 @@
           });
 
           // Smooth scrolling for navigation
-          document.querySelectorAll('a.scroll-link').forEach(link => {
+          document.querySelectorAll('a.scroll-link, a[href^="#"]').forEach(link => {
             link.addEventListener('click', function (e) {
-              e.preventDefault();
-              const targetId = this.getAttribute('href').substring(1);
-              const target = document.getElementById(targetId);
-              if (target) {
-                target.scrollIntoView({
-                  behavior: 'smooth',
-                  block: 'start'
-                });
+              const href = this.getAttribute('href');
+              if (href.startsWith('#') && href.length > 1) { // Only handle internal links
+                e.preventDefault();
+                const targetId = href.substring(1);
+                const target = document.getElementById(targetId);
+                if (target) {
+                  target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                  });
+                }
               }
             });
+          });
+
+          // Keyboard event listener for accessibility (close modal with Esc key)
+          document.addEventListener('keydown', function (e) {
+            if (e.key === 'Escape' && document.getElementById('image-modal').classList.contains('flex')) {
+              closeModal();
+            }
           });
         });
       </script>
 </section>
+
+<div id="image-modal"
+  class="fixed inset-0 z-[9999] hidden items-center justify-center bg-gray-900 bg-opacity-80 transition-opacity duration-300"
+  onclick="closeModal(event)">
+  <div
+    class="bg-white rounded-3xl shadow-2xl w-11/12 md:w-3/4 lg:w-2/3 max-h-[90vh] overflow-hidden transform scale-95 transition-transform duration-300 flex flex-col"
+    onclick="event.stopPropagation()">
+
+    <!-- Modal Header -->
+    <div class="flex justify-between items-center p-4 md:p-6 border-b border-gray-200 flex-shrink-0">
+      <h4 id="modal-title" class="text-xl md:text-2xl font-bold text-red-800 truncate">
+        Project Title
+      </h4>
+      <button onclick="closeModal()"
+        class="text-gray-500 hover:text-red-600 transition duration-150 p-2 rounded-full hover:bg-red-100">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Modal Body - Main Image and Gallery Controls -->
+    <div class="p-4 md:p-6 flex-grow overflow-y-auto flex flex-col items-center">
+      <!-- Main Image Display -->
+      <div class="relative w-full overflow-hidden rounded-xl bg-gray-100 mb-4 flex-shrink-0" style="max-height: 50vh;">
+        <img id="modal-main-image" src="" alt="Project Main Image"
+          class="w-full h-full object-contain transition duration-500" />
+
+        <!-- Navigation Buttons -->
+        <button id="prev-btn" onclick="navigateGallery(-1)"
+          class="absolute left-2 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white/90 p-2 rounded-full text-red-800 shadow-md transition duration-300 hidden md:block">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+        </button>
+        <button id="next-btn" onclick="navigateGallery(1)"
+          class="absolute right-2 top-1/2 -translate-y-1/2 bg-white/50 hover:bg-white/90 p-2 rounded-full text-red-800 shadow-md transition duration-300 hidden md:block">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Thumbnail Gallery Navigation -->
+      <div id="modal-gallery-nav" class="w-full flex-shrink-0 flex space-x-3 overflow-x-auto pb-2 justify-center">
+        <!-- Thumbnails will be injected here by JavaScript -->
+      </div>
+
+    </div>
+
+  </div>
+</div>
