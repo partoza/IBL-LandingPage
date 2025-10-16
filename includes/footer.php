@@ -32,7 +32,7 @@
 
             <div class="space-y-4 text-left">
                 <h3 class="text-md font-bold uppercase tracking-wide text-gray-700 mb-2">
-                    Quic Links
+                    Quick Links
                 </h3>
                 <a href="#home" class="block text-sm text-gray-600 **hover:text-red-600** transition-colors duration-300">
                     Home

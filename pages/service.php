@@ -314,7 +314,7 @@
           </p>
 
           <a href="#contact"
-            class="relative z-10 bg-gradient-to-r from-red-700 to-red-600 text-[#e7e2e2] px-6 py-3 md:px-8 md:py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl hover:bg-[#a30707]">
+            class="relative z-10 bg-[#7e0505] text-[#e7e2e2] px-6 py-3 md:px-8 md:py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl hover:bg-[#a30707]">
             Start Your Project Today
           </a>
         </div>
@@ -454,9 +454,10 @@
             Let's collaborate to create something extraordinary. Your event deserves to be memorable, seamless, and
             truly remarkable.
           </p>
+
           <a href="#contact"
-            class="relative z-10 bg-[#7e0505] text-[#e7e2e2] px-6 py-3 md:px-8 md:py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl hover:bg-[#a30707]"></a>
-          Plan Your Event Today
+            class="relative z-10 bg-gradient-to-r from-red-700 to-red-600 text-[#e7e2e2] px-6 py-3 md:px-8 md:py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl hover:bg-[#a30707]">
+            Plan Your Event Today
           </a>
         </div>
       </div>
@@ -1004,14 +1005,15 @@
           <!-- Modal Body - Clean Layout -->
           <div class="flex-grow overflow-hidden flex flex-col">
             <!-- Main Image Display -->
-            <div class="relative flex-grow bg-gray-50 flex items-center justify-center h-30vh md:h-100vh">
+            <div
+              class="relative flex items-center justify-center bg-gray-100 border border-white/10 shadow-lg w-full max-w-4xl mx-auto aspect-[18/13] overflow-hidden">
               <img id="modal-main-image" src="" alt="Project Main Image"
-                class="w-full h-full cover object-contain transition-opacity duration-300" />
+                class="w-full h-full object-cover transition-opacity duration-300" />
 
               <!-- Navigation Buttons - Minimal -->
               <button id="prev-btn" onclick="navigateGallery(-1)"
                 class="absolute left-3 top-1/2 -translate-y-1/2 bg-white/80 hover:bg-white p-2 rounded-full text-gray-700 shadow-sm border border-gray-200 transition-all duration-200 hover:shadow-md">
-                <svg class="w-3 md:w-5 h-3 md:h-w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                <svg class="w-3 md:w-5 h-3 md:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
                 </svg>
@@ -1026,7 +1028,7 @@
             </div>
 
             <div id="modal-gallery-nav"
-              class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2 overflow-x-auto px-3 py-2 rounded-lg shadow-xl">
+              class="hidden absolute bottom-1 left-1/2 transform -translate-x-1/2 flex space-x-2 overflow-x-auto px-3 py-2 rounded-lg shadow-xl">
             </div>
           </div>
 
@@ -1155,16 +1157,29 @@
             label: "REX Education Booth at Manila International Book Fair 2024",
             images: [
               "./assets/fabrication/fabricationImg1.jpg",
-              "https://placehold.co/800x600/FEE2E2/B91C1C?text=Booth+Detail+2",
-              "https://placehold.co/800x600/FEE2E2/B91C1C?text=Booth+Detail+3"
+              "./assets/fabrication/fabrication1/1.jpg",
+              "./assets/fabrication/fabrication1/2.jpg",
+              "./assets/fabrication/fabrication1/3.jpg",
+              "./assets/fabrication/fabrication1/4.jpg",
+              "./assets/fabrication/fabrication1/5.jpg",
+              "./assets/fabrication/fabrication1/6.jpg",
+              "./assets/fabrication/fabrication1/7.jpg",
             ]
           },
           {
             src: "./assets/fabrication/fabricationImg2.jpg",
             label: "REX Education Booth at Manila International Book Fair 2025",
             images: [
-              "./assets/fabrication/fabricationImg2.jpg",
-              "https://placehold.co/800x600/FEE2E2/B91C1C?text=Booth+Side+View",
+              "./assets/fabrication/fabricationImg1.jpg",
+              "./assets/fabrication/fabrication2/1.jpg",
+              "./assets/fabrication/fabrication2/2.jpg",
+              "./assets/fabrication/fabrication2/3.jpg",
+              "./assets/fabrication/fabrication2/4.jpg",
+              "./assets/fabrication/fabrication2/5.jpg",
+              "./assets/fabrication/fabrication2/7.jpg",
+              "./assets/fabrication/fabrication2/8.jpg",
+              "./assets/fabrication/fabrication2/9.jpg",
+              "./assets/fabrication/fabrication2/10.jpg"
             ]
           },
           {
@@ -1172,38 +1187,67 @@
             label: "Hotel and Spa Essentials Booth at Hotel & Foodservice Suppliers Show",
             images: [
               "./assets/fabrication/fabricationImg3.jpg",
-              "https://placehold.co/800x600/FEE2E2/B91C1C?text=Hotel+Essentials+Detail",
+              "./assets/fabrication/fabrication3/1.jpg",
+              "./assets/fabrication/fabrication3/2.jpg",
             ]
           },
           {
             src: "./assets/fabrication/fabricationImg4.jpg",
             label: "Watsons HWB Awards 2025 Booth",
-            images: ["./assets/fabrication/fabricationImg4.jpg"]
+            images: ["./assets/fabrication/fabricationImg4.jpg",
+              "./assets/fabrication/fabrication4/1.jpg",
+              "./assets/fabrication/fabrication4/2.jpg",
+              "./assets/fabrication/fabrication4/3.jpg",
+              "./assets/fabrication/fabrication4/4.jpg",
+              "./assets/fabrication/fabrication4/5.jpg",
+              "./assets/fabrication/fabrication4/6.jpg",
+            ]
           },
           {
             src: "./assets/fabrication/fabricationImg5.jpg",
             label: "Watsons HWB Awards 2024 Booth",
-            images: ["./assets/fabrication/fabricationImg5.jpg"]
+            images: ["./assets/fabrication/fabricationImg5.jpg",
+              "./assets/fabrication/fabrication5/1.jpg",
+              "./assets/fabrication/fabrication5/2.jpg",
+              "./assets/fabrication/fabrication5/3.jpg",
+              "./assets/fabrication/fabrication5/4.jpg",
+              "./assets/fabrication/fabrication5/5.jpg",
+              "./assets/fabrication/fabrication5/6.jpg",
+            ]
           },
           {
             src: "./assets/fabrication/fabricationImg6.jpg",
             label: "Dazzle Me Ambassador Launch at Robinsons Antipolo",
-            images: ["./assets/fabrication/fabricationImg6.jpg"]
+            images: ["./assets/fabrication/fabricationImg6.jpg",
+              "./assets/fabrication/fabrication6/1.jpg",
+              "./assets/fabrication/fabrication6/2.jpg",
+              "./assets/fabrication/fabrication6/3.jpg",
+              "./assets/fabrication/fabrication6/4.jpg",
+            ]
           },
           {
             src: "./assets/fabrication/fabricationImg7.jpg",
             label: "GAC Motor Outdoor Booth at Autofocus Test Drive Festival",
-            images: ["./assets/fabrication/fabricationImg7.jpg"]
+            images: ["./assets/fabrication/fabricationImg7.jpg",
+              "./assets/fabrication/fabrication7/1.jpg",
+              "./assets/fabrication/fabrication7/2.jpg",
+            ]
           },
           {
             src: "./assets/fabrication/fabricationImg8.jpg",
             label: "Watsons Skin Solutions Booth",
-            images: ["./assets/fabrication/fabricationImg8.jpg"]
+            images: ["./assets/fabrication/fabricationImg8.jpg",
+              "./assets/fabrication/fabrication8/1.jpg",
+              "./assets/fabrication/fabrication8/2.jpg",
+              "./assets/fabrication/fabrication8/3.jpg",
+            ]
           },
           {
             src: "./assets/fabrication/fabricationImg9.jpg",
             label: "Nustar Resort & Casino Booth in Cebu",
-            images: ["./assets/fabrication/fabricationImg9.jpg"]
+            images: ["./assets/fabrication/fabricationImg9.jpg",
+              "./assets/fabrication/fabrication9/1.jpg"
+            ]
           },
           {
             src: "./assets/fabrication/fabricationImg10.jpg",
@@ -1213,17 +1257,25 @@
           {
             src: "./assets/fabrication/fabricationImg12.jpg",
             label: "Watsons Get That K-Glow Campaign Booth",
-            images: ["./assets/fabrication/fabricationImg12.jpg"]
+            images: ["./assets/fabrication/fabricationImg12.jpg",
+              "./assets/fabrication/fabrication12/2.jpg",
+              "./assets/fabrication/fabrication12/3.jpg"
+            ]
           },
-          {
-            src: "./assets/fabrication/fabricationImg13.jpg",
-            label: "AXA Nationwide Booths",
-            images: ["./assets/fabrication/fabricationImg13.jpg"]
-          },
+          // {
+          //   src: "./assets/fabrication/fabricationImg13.jpg",
+          //   label: "AXA Nationwide Booths",
+          //   images: ["./assets/fabrication/fabricationImg13.jpg"]
+          // },
           {
             src: "./assets/fabrication/fabricationImg15.jpg",
             label: "BBC Virtual Golf Signage Booth",
-            images: ["./assets/fabrication/fabricationImg15.jpg"]
+            images: ["./assets/fabrication/fabricationImg15.jpg",
+              "./assets/fabrication/fabrication15/1.jpg",
+              "./assets/fabrication/fabrication15/2.jpg",
+              "./assets/fabrication/fabrication15/3.jpg",
+              "./assets/fabrication/fabrication15/4.jpg"
+            ]
           }
         ];
 
