@@ -1436,7 +1436,10 @@
           {
             src: "./assets/printing/printingImg8.jpg",
             label: "Pull Up Banners for GX International Pharma",
-            images: ["./assets/printing/printingImg8.jpg"]
+            images: ["./assets/printing/printingImg8.jpg",
+              "./assets/printing/printing8/2.jpg",
+              "./assets/printing/printing8/3.jpg",
+            ]
           },
           {
             src: "./assets/printing/printingImg1.jpg",
