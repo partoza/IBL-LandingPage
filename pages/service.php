@@ -1285,18 +1285,30 @@
             label: "Jetour Dealer Exclusive Preview 2023 at Okada Manila",
             images: [
               "./assets/event/eventImg1.jpg",
-              "https://placehold.co/800x600/D1FAE5/047857?text=Event+Angle+2"
+              "./assets/event/event1/1.jpg",
+              "./assets/event/event1/2.jpg",
+              "./assets/event/event1/3.jpg",
+              "./assets/event/event1/4.jpg",
+              "./assets/event/event1/5.jpg",
+              "./assets/event/event1/6.jpg"
             ]
           },
           {
             src: "./assets/event/eventImg2.jpg",
             label: "AC Motors Centrale in BGC Inauguration",
-            images: ["./assets/event/eventImg2.jpg"]
+            images: ["./assets/event/eventImg2.jpg",
+              "./assets/event/event2/1.jpg",
+              "./assets/event/event2/2.jpg",
+              "./assets/event/event2/3.jpg",
+            ]
           },
           {
             src: "./assets/event/eventImg3.jpg",
             label: "BYD Manila Bay Grand Opening at Aseana City",
-            images: ["./assets/event/eventImg3.jpg"]
+            images: ["./assets/event/eventImg3.jpg",
+              "./assets/event/event3/1.jpg",
+              "./assets/event/event3/2.jpg",
+            ]
           },
           {
             src: "./assets/event/eventImg4.jpg",
@@ -1306,52 +1318,88 @@
           {
             src: "./assets/event/eventImg5.jpg",
             label: "Maxus T60 Launch at Arcovia",
-            images: ["./assets/event/eventImg5.jpg"]
+            images: ["./assets/event/eventImg5.jpg",
+              "./assets/event/event5/1.jpg",
+              "./assets/event/event5/2.jpg",
+              "./assets/event/event5/3.jpg",
+              "./assets/event/event5/4.jpg",
+              "./assets/event/event5/5.jpg",
+              "./assets/event/event5/6.jpg",
+            ]
           },
           {
             src: "./assets/event/eventImg6.jpg",
             label: "Success Academy",
-            images: ["./assets/event/eventImg6.jpg"]
+            images: ["./assets/event/eventImg6.jpg",
+              "./assets/event/event6/1.jpg",
+            ]
           },
           {
             src: "./assets/event/eventImg7.jpg",
             label: "Jetour Dashing Media Launch",
-            images: ["./assets/event/eventImg7.jpg"]
+            images: ["./assets/event/eventImg7.jpg",
+              "./assets/event/event7/1.jpg",
+              "./assets/event/event7/2.jpg",
+              "./assets/event/event7/3.jpg",
+              "./assets/event/event7/4.jpg",
+              "./assets/event/event7/5.jpg",
+            ]
           },
           {
             src: "./assets/event/eventImg8.jpg",
             label: "BJ Mercantile Inc. 50th Anniversary",
-            images: ["./assets/event/eventImg8.jpg"]
+            images: ["./assets/event/eventImg8.jpg",
+              "./assets/event/event8/1.jpg",
+              "./assets/event/event8/2.jpg",
+              "./assets/event/event8/3.jpg",
+            ]
           },
           {
             src: "./assets/event/eventImg9.jpg",
             label: "Bayer 2024 Sales Excellence Awards",
-            images: ["./assets/event/eventImg9.jpg"]
+            images: ["./assets/event/eventImg9.jpg",
+              "./assets/event/event9/1.jpg",
+              "./assets/event/event9/2.jpg",
+              "./assets/event/event9/3.jpg",
+              "./assets/event/event9/4.jpg",
+              "./assets/event/event9/5.jpg",
+            ]
           },
           {
             src: "./assets/event/eventImg10.jpg",
             label: "Isuzu and Volkswagen at Philippine International Motor Show 2018",
-            images: ["./assets/event/eventImg10.jpg"]
+            images: ["./assets/event/eventImg10.jpg"
+            ]
           },
           {
             src: "./assets/event/eventImg11.jpg",
             label: "Menarini Philippines 2025 National Sales Conference",
-            images: ["./assets/event/eventImg11.jpg"]
+            images: ["./assets/event/eventImg11.jpg",
+              "./assets/event/event11/1.jpg",
+              "./assets/event/event11/2.jpg",
+              "./assets/event/event11/3.jpg",
+              "./assets/event/event11/4.jpg",
+            ]
           },
           {
             src: "./assets/event/eventImg12.jpg",
             label: "KIA National Skills Cup 2022",
-            images: ["./assets/event/eventImg12.jpg"]
+            images: ["./assets/event/eventImg12.jpg",
+              "./assets/event/event12/1.jpg",
+              "./assets/event/event12/2.jpg",
+              "./assets/event/event12/3.jpg",
+            ]
           }
         ];
 
         const printingWorks = [
           {
-            src: "./assets/printing/printingImg1.jpg",
-            label: "Wall Mural Sticker at a Medical Clinic",
-            images: [
-              "./assets/printing/printingImg1.jpg",
-              "https://placehold.co/800x600/DBEAFE/1D4ED8?text=Wall+Mural+Close-up"
+            src: "./assets/printing/printingImg9.jpg",
+            label: "Abi Marquez Booth at Philippine Food Expo 2025",
+            images: ["./assets/printing/printingImg9.jpg",
+              "./assets/printing/printing9/1.jpg",
+              "./assets/printing/printing9/2.jpg",
+              "./assets/printing/printing9/3.jpg",
             ]
           },
           {
@@ -1362,17 +1410,28 @@
           {
             src: "./assets/printing/printingImg4.jpg",
             label: "Sticker Printing & Installation for SM Beauty at SM North Edsa",
-            images: ["./assets/printing/printingImg4.jpg"]
+            images: ["./assets/printing/printingImg4.jpg",
+              "./assets/printing/printing4/1.jpg",
+              "./assets/printing/printing4/2.jpg",
+            ]
           },
           {
             src: "./assets/printing/printingImg6.jpg",
             label: "Vehicle Sticker Printing and Installation",
-            images: ["./assets/printing/printingImg6.jpg"]
+            images: ["./assets/printing/printingImg6.jpg",
+              "./assets/printing/printing7/1.jpg",
+              "./assets/printing/printing7/2.jpg"
+            ]
           },
           {
             src: "./assets/printing/printingImg7.jpg",
             label: "Large Format Prints",
-            images: ["./assets/printing/printingImg7.jpg"]
+            images: ["./assets/printing/printingImg7.jpg",
+              "./assets/printing/printing7/1.jpg",
+              "./assets/printing/printing7/2.jpg",
+              "./assets/printing/printing7/3.jpg",
+              "./assets/printing/printing7/4.jpg",
+            ]
           },
           {
             src: "./assets/printing/printingImg8.jpg",
@@ -1380,15 +1439,17 @@
             images: ["./assets/printing/printingImg8.jpg"]
           },
           {
-            src: "./assets/printing/printingImg9.jpg",
-            label: "Abi Marquez Booth at Philippine Food Expo 2025",
-            images: ["./assets/printing/printingImg9.jpg"]
+            src: "./assets/printing/printingImg1.jpg",
+            label: "Wall Mural Sticker at a Medical Clinic",
+            images: [
+              "./assets/printing/printingImg1.jpg",
+            ]
           },
-          {
-            src: "./assets/printing/printingImg10.jpg",
-            label: "SM Cinema Murals",
-            images: ["./assets/printing/printingImg10.jpg"]
-          },
+          // {
+          //   src: "./assets/printing/printingImg10.jpg",
+          //   label: "SM Cinema Murals",
+          //   images: ["./assets/printing/printingImg10.jpg"]
+          // },
         ];
 
         // --- MODAL & GALLERY FUNCTIONS ---
