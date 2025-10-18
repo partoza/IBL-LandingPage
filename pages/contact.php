@@ -5,7 +5,8 @@
 
       <!-- Header -->
       <div class="text-center">
-        <h2 class="text-4xl md:text-5xl font-extrabold text-red-800 tracking-wider uppercase animate-delay-1 scroll-animate">
+        <h2
+          class="text-4xl md:text-5xl font-extrabold text-red-800 tracking-wider uppercase animate-delay-1 scroll-animate">
           Contact Us
         </h2>
         <p class="mt-4 text-lg text-gray-600 max-w-2xl mx-auto animate-delay-1 scroll-animate">
@@ -18,64 +19,33 @@
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
 
         <!-- Contact Form - Uses modern-card class -->
-        <div class="bg-white p-8 sm:p-10 rounded-2xl border border-gray-100 text-left modern-card animate-delay-2 scroll-animate">
+        <div
+          class="bg-white p-8 sm:p-10 rounded-2xl border border-gray-100 text-left modern-card animate-delay-2 scroll-animate">
 
           <h3 class="text-2xl font-bold text-red-800 border-b border-gray-200 pb-4 mb-8 text-center">
             Send Us a Message
           </h3>
 
-          <!-- The form action is conceptual as email sending requires a server -->
-          <form id="contactForm" onsubmit="handleFormSubmission(event)">
-            <!-- Name Field -->
-            <div class="mb-5">
-              <label for="name" class="block text-sm font-medium text-gray-700 mb-2">Your Name*</label>
-              <input type="text" id="name" name="name" required
-                class="input-field w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none"
-                placeholder="John Doe">
+          <!-- Simplified form as requested by user -->
+          <form action="mail.php" method="post">
+            <div class="input-box mb-4">
+              <input type="text" name="name" placeholder="Your name" class="w-full px-4 py-3 border rounded-lg" required>
+            </div>
+            <div class="input-box mb-4">
+              <input type="email" name="email" placeholder="Email Address" class="w-full px-4 py-3 border rounded-lg" required>
+            </div>
+            <div class="input-box mb-4">
+              <textarea name="message" cols="25" rows="7" placeholder="Type your message" class="w-full px-4 py-3 border rounded-lg" required></textarea>
             </div>
 
-            <!-- Email Field -->
-            <div class="mb-5">
-              <label for="email" class="block text-sm font-medium text-gray-700 mb-2">Email Address*</label>
-              <input type="email" id="email" name="email" required
-                class="input-field w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none"
-                placeholder="you@example.com">
+            <!-- Hidden / collapsible message box used to show server-side status -->
+            <div id="submissionMessage" class="p-4 rounded-lg hidden text-sm mb-4 transition duration-300" role="alert" aria-live="polite">
+              <!-- Server-side success or error messages will be injected here -->
             </div>
 
-            <!-- Mobile Number Field (Optional) -->
-            <div class="mb-5">
-              <label for="phone" class="block text-sm font-medium text-gray-700 mb-2">Mobile Number (Optional)</label>
-              <input type="tel" id="phone" name="phone"
-                class="input-field w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none"
-                placeholder="+63 9xx xxxxxxx">
+            <div class="submit-btn">
+              <input type="submit" name="send" value="Send Message" class="w-full bg-red-800 text-white font-semibold py-3 rounded-xl hover:bg-red-700 cursor-pointer">
             </div>
-
-            <!-- Subject/How can we help? Field -->
-            <div class="mb-5">
-              <label for="subject" class="block text-sm font-medium text-gray-700 mb-2">Subject</label>
-              <input type="text" id="subject" name="subject"
-                class="input-field w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none"
-                placeholder="Inquiry about new project">
-            </div>
-
-            <!-- Message Field -->
-            <div class="mb-8">
-              <label for="message" class="block text-sm font-medium text-gray-700 mb-2">How can we help?*</label>
-              <textarea id="message" name="message" rows="4" required
-                class="input-field w-full px-4 py-3 border border-gray-300 rounded-lg shadow-sm focus:outline-none resize-y"
-                placeholder="Your detailed message..."></textarea>
-            </div>
-
-            <!-- Error/Success Message Box -->
-            <div id="submissionMessage" class="p-4 rounded-lg hidden text-sm mb-4 transition duration-300" role="alert">
-              <!-- Validation errors or success message will be inserted here -->
-            </div>
-
-            <!-- Submit Button - Uses rounded-xl -->
-            <button type="submit"
-              class="submit-btn w-full bg-red-800 text-white font-semibold py-3 shadow-lg hover:bg-red-700 focus:outline-none focus:ring-4 focus:ring-red-300 transition duration-150 ease-in-out">
-              Inquire Now
-            </button>
           </form>
         </div>
 
@@ -83,7 +53,8 @@
         <!-- Google Map - Uses modern-card class for consistency -->
         <div class="rounded-2xl overflow-hidden border border-gray-100 modern-card animate-delay-2 scroll-animate">
           <iframe class="w-full h-full min-h-[400px] lg:min-h-[600px]"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.04488470428!2d120.9887664!3d14.42822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d1af45de74d5%3A0x445b1e23389a2843!2sIdeas%20Beyond%20Limits%20Enterprises%20Inc!5e1!3m2!1sen!2sph!4v1760237822563!5m2!1sen!2sph" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></src=>           
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3713.04488470428!2d120.9887664!3d14.42822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d1af45de74d5%3A0x445b1e23389a2843!2sIdeas%20Beyond%20Limits%20Enterprises%20Inc!5e1!3m2!1sen!2sph!4v1760237822563!5m2!1sen!2sph"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></src=>
           </iframe>
         </div>
       </div>
@@ -151,60 +122,66 @@
 
 
   <script>
-    const form = document.getElementById('contactForm');
-    const submissionMessageBox = document.getElementById('submissionMessage');
-    const submitButton = form.querySelector('button[type="submit"]');
+    (function () {
+      const form = document.getElementById('contactForm');
+      const box = document.getElementById('submissionMessage');
 
-    function resetMessageBox() {
-      submissionMessageBox.classList.add('hidden');
-      submissionMessageBox.classList.remove('bg-red-100', 'text-red-800', 'bg-green-100', 'text-green-800');
-      submissionMessageBox.textContent = '';
-    }
-
-    function showMessage(type, message) {
-      resetMessageBox();
-      submissionMessageBox.textContent = message;
-      submissionMessageBox.classList.remove('hidden');
-
-      if (type === 'error') {
-        submissionMessageBox.classList.add('bg-red-100', 'text-red-800');
-      } else if (type === 'success') {
-        submissionMessageBox.classList.add('bg-green-100', 'text-green-800');
-      }
-    }
-
-    function handleFormSubmission(event) {
-      event.preventDefault();
-      resetMessageBox();
-
-      // 1. Client-side Validation Check
-      if (!form.checkValidity()) {
-        showMessage('error', 'Please fill out all required fields marked with an asterisk (*).');
-        return;
+      function showMessage(type, text) {
+        box.textContent = text;
+        box.classList.remove('hidden', 'bg-red-100', 'text-red-800', 'bg-green-100', 'text-green-800');
+        if (type === 'success') box.classList.add('bg-green-100', 'text-green-800');
+        else box.classList.add('bg-red-100', 'text-red-800');
       }
 
-      const name = document.getElementById('name').value;
+      if (!form) return;
 
-      submitButton.disabled = true;
-      submitButton.textContent = 'Sending...';
+      form.addEventListener('submit', async function (e) {
+        e.preventDefault();
 
-      // --- CONCEPTUAL SERVER CALL START ---
-      // Simulate server response delay and success
-      setTimeout(() => {
-        submitButton.disabled = false;
-        submitButton.textContent = 'Inquire Now';
+        const fd = new FormData(form);
 
-        const successMessage = `Thank you, ${name}! Your inquiry has been received. We will respond within one business day.`;
-        showMessage('success', successMessage);
+        // basic client validation
+        if (!fd.get('name') || !fd.get('email') || !fd.get('message')) {
+          showMessage('error', 'Please fill in your name, email, and message.');
+          return;
+        }
 
-        form.reset(); // Reset the form after successful submission
+        // disable submit
+        const submit = form.querySelector('input[type="submit"]');
+        if (submit) {
+          submit.disabled = true;
+          submit.value = 'Sending...';
+        }
 
-        // Optionally hide the success message after a few seconds
-        setTimeout(() => {
-          resetMessageBox();
-        }, 8000);
+        try {
+          const resp = await fetch(form.action, {
+            method: 'POST',
+            headers: { 'Accept': 'application/json' },
+            body: fd,
+          });
 
-      }, 1500); // 1.5 second delay
-    }
+          const text = await resp.text();
+          let data = null;
+          try { data = JSON.parse(text); } catch (e) { /* not JSON */ }
+
+          if (!resp.ok) {
+            showMessage('error', (data && data.message) ? data.message : `Server error (${resp.status}): ${text}`);
+          } else if (data && data.success) {
+            showMessage('success', data.message || 'Message sent successfully.');
+            form.reset();
+          } else {
+            showMessage('error', (data && data.message) ? data.message : 'Unexpected response from server.');
+          }
+        } catch (err) {
+          console.error('Fetch threw:', err);
+          showMessage('error', 'Network error. ' + (err.message || ''));
+        } finally {
+          if (submit) {
+            submit.disabled = false;
+            submit.value = 'Send Message';
+          }
+        }
+      });
+    })();
   </script>
 </section>
