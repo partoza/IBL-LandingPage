@@ -1417,8 +1417,8 @@
             src: "./assets/printing/printingImg6.jpg",
             label: "Vehicle Sticker Printing and Installation",
             images: ["./assets/printing/printingImg6.jpg",
-              "./assets/printing/printing7/1.jpg",
-              "./assets/printing/printing7/2.jpg"
+              "./assets/printing/printing6/1.jpg",
+              "./assets/printing/printing6/2.jpg"
             ]
           },
           {

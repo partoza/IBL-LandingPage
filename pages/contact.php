@@ -27,15 +27,22 @@
           </h3>
 
           <!-- Simplified form as requested by user -->
-          <form action="mail.php" method="post">
+          <form id="contactForm" action="/mail.php" method="post">
             <div class="input-box mb-4">
-              <input type="text" name="name" placeholder="Your name" class="w-full px-4 py-3 border rounded-lg" required>
+              <label for="contact_name" class="block text-sm font-medium text-gray-700 mb-1">Your name</label>
+              <input id="contact_name" type="text" name="name" placeholder="Your name" class="w-full px-4 py-3 border rounded-lg" required>
             </div>
             <div class="input-box mb-4">
-              <input type="email" name="email" placeholder="Email Address" class="w-full px-4 py-3 border rounded-lg" required>
+              <label for="contact_email" class="block text-sm font-medium text-gray-700 mb-1">Email address</label>
+              <input id="contact_email" type="email" name="email" placeholder="Email Address" class="w-full px-4 py-3 border rounded-lg" required>
             </div>
             <div class="input-box mb-4">
-              <textarea name="message" cols="25" rows="7" placeholder="Type your message" class="w-full px-4 py-3 border rounded-lg" required></textarea>
+              <label for="contact_subject" class="block text-sm font-medium text-gray-700 mb-1">Subject / Title</label>
+              <input id="contact_subject" type="text" name="subject" placeholder="Subject / Title (e.g. Project inquiry)" class="w-full px-4 py-3 border rounded-lg" required>
+            </div>
+            <div class="input-box mb-4">
+              <label for="contact_message" class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+              <textarea id="contact_message" name="message" cols="25" rows="7" placeholder="Type your message" class="w-full px-4 py-3 border rounded-lg" required></textarea>
             </div>
 
             <!-- Hidden / collapsible message box used to show server-side status -->

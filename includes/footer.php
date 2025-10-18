@@ -53,19 +53,15 @@
                     Connect
                 </h3>
                 <div class="flex flex-wrap gap-3">
-                    <a href="#" title="LinkedIn"
-                        class="w-10 h-10 flex items-center justify-center text-gray-600 bg-gray-200 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 shadow-md flex-shrink-0">
-                        <i class="bi bi-linkedin text-xl"></i>
-                    </a>
-                    <a href="#" title="Facebook"
+                    <a href="https://www.facebook.com/ideasbeyondlimitsinc" title="Facebook" target="_blank" rel="noopener noreferrer"
                         class="w-10 h-10 flex items-center justify-center text-gray-600 bg-gray-200 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 shadow-md flex-shrink-0">
                         <i class="bi bi-facebook text-xl"></i>
                     </a>
-                    <a href="#" title="Instagram"
+                    <a href="https://www.instagram.com/ideasbeyondlimitsinc/" title="Instagram" target="_blank" rel="noopener noreferrer"
                         class="w-10 h-10 flex items-center justify-center text-gray-600 bg-gray-200 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 shadow-md flex-shrink-0">
                         <i class="bi bi-instagram text-xl"></i>
                     </a>
-                    <a href="#" title="YouTube"
+                    <a href="https://www.youtube.com/@ideasbeyondlimitsinc377" title="YouTube" target="_blank" rel="noopener noreferrer"
                         class="w-10 h-10 flex items-center justify-center text-gray-600 bg-gray-200 rounded-full hover:bg-red-600 hover:text-white transition-all duration-300 shadow-md flex-shrink-0">
                         <i class="bi bi-youtube text-xl"></i>
                     </a>
