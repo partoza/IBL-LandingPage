@@ -547,68 +547,66 @@
           </div>
         </div>
       </div>
-    </div>
+      <div class="relative animate-delay-1 scroll-animate">
+        <!-- Desktop Navigation Arrows -->
+        <button id="printing-prev"
+          class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
+          <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
 
-    <div class="relative animate-delay-1 scroll-animate">
-      <!-- Desktop Navigation Arrows -->
-      <button id="printing-prev"
-        class="hidden md:flex absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 lg:-translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
-        <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
-      </button>
+        <button id="printing-next"
+          class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
+          <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
 
-      <button id="printing-next"
-        class="hidden md:flex absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 lg:translate-x-6 z-20 bg-gradient-to-r from-white/20 to-white/10 hover:from-white/30 hover:to-white/20 text-white w-10 h-10 lg:w-12 lg:h-12 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center backdrop-blur-sm border border-white/30">
-        <svg class="w-5 h-5 lg:w-6 lg:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-        </svg>
-      </button>
+        <!-- Mobile Navigation Arrows -->
+        <button id="printing-prev-mobile"
+          class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
 
-      <!-- Mobile Navigation Arrows -->
-      <button id="printing-prev-mobile"
-        class="md:hidden flex absolute left-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7" />
-        </svg>
-      </button>
+        <button id="printing-next-mobile"
+          class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
 
-      <button id="printing-next-mobile"
-        class="md:hidden flex absolute right-2 top-1/2 -translate-y-1/2 z-20 bg-gradient-to-r from-white/90 to-white/80 hover:from-white hover:to-white text-red-600 w-8 h-8 rounded-full shadow-lg transition-all duration-300 hover:scale-110 items-center justify-center border border-red-500/70">
-        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-        </svg>
-      </button>
+        <div id="printing-carousel" class="overflow-hidden">
+          <div class="flex transition-transform duration-500 ease-out" id="printing-track">
+            <!-- Carousel items would go here -->
+          </div>
+        </div>
 
-      <div id="printing-carousel" class="overflow-hidden">
-        <div class="flex transition-transform duration-500 ease-out" id="printing-track">
-          <!-- Carousel items would go here -->
+        <div class="hidden md:flex justify-center mt-8 lg:mt-12 space-x-3" id="printing-desktop-dots"></div>
+        <div class="md:hidden flex justify-center mt-6 space-x-3" id="printing-mobile-dots"></div>
+      </div>
+
+      <!-- CTA Section -->
+      <div class="text-center mt-12 md:mt-16 animate-delay-1 scroll-animate">
+        <div class="bg-[#e7e2e2] rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl relative overflow-hidden">
+          <h3 class="text-xl md:text-2xl font-bold text-[#7e0505] mb-4 relative z-10">
+            Ready to Bring Your Designs to Life?
+          </h3>
+
+          <p class="text-[#7e0505] mb-6 max-w-2xl mx-auto text-sm md:text-base relative z-10">
+            Let's collaborate to create high-quality prints that perfectly represent your brand and make lasting
+            impressions.
+          </p>
+
+          <a href="#contact"
+            class="relative z-10 bg-[#7e0505] text-[#e7e2e2] px-6 py-3 md:px-8 md:py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl hover:bg-[#a30707]">
+            Start Your Print Project
+          </a>
         </div>
       </div>
-
-      <div class="hidden md:flex justify-center mt-8 lg:mt-12 space-x-3" id="printing-desktop-dots"></div>
-      <div class="md:hidden flex justify-center mt-6 space-x-3" id="printing-mobile-dots"></div>
     </div>
-
-    <!-- CTA Section -->
-    <div class="text-center mt-12 md:mt-16 animate-delay-1 scroll-animate">
-      <div class="bg-[#e7e2e2] rounded-2xl p-6 md:p-8 border border-gray-200 shadow-2xl relative overflow-hidden">
-        <h3 class="text-xl md:text-2xl font-bold text-[#7e0505] mb-4 relative z-10">
-          Ready to Bring Your Designs to Life?
-        </h3>
-
-        <p class="text-[#7e0505] mb-6 max-w-2xl mx-auto text-sm md:text-base relative z-10">
-          Let's collaborate to create high-quality prints that perfectly represent your brand and make lasting
-          impressions.
-        </p>
-
-        <a href="#contact"
-          class="relative z-10 bg-[#7e0505] text-[#e7e2e2] px-6 py-3 md:px-8 md:py-3 rounded-full font-bold transition-all duration-300 transform hover:scale-105 shadow-lg text-sm md:text-base hover:shadow-xl hover:bg-[#a30707]">
-          Start Your Print Project
-        </a>
-      </div>
-    </div>
-  </div>
   </div>
 
   <div id="socialmedia" class="w-full bg-gradient-to-br from-white to-red-50 text-black pt-20 pb-16 px-6">
